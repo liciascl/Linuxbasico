@@ -1,5 +1,7 @@
 # Guia Linux básico
-A ideia deste guia é de auxiliar com os primeiros passos. 
+A idéia deste guia é de apenas auxiliar com os primeiros passos. 
+
+Linux já é utilizado amplamente por empresas de tecnologia tanto para infraestrura como para desenvolvimento de sistemas e nos ultimos vem crescendo tambem os usuarios . Durante a gradução e vida profissional na area de computação, vamos sempre nos deparar com um terminal do linux. 
 
 # Linux 
 
@@ -8,14 +10,21 @@ Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsa
 ![GitHub Logo](/img/Kernel_basic.png)
 Fonte:https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/
 
-Uma definição mais tecnica e formal pode ser encontrada nos links abaixo:
+A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Existem diversas distribuições mas não será o nosso foco no momento.
+
+Informações técnicas são encontradas de forma vasta na internet, abaixo deixo apenas alguns links, não se restrinja apenas a eles:
+link1: https://www.linuxfoundation.org/
+link2: https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux#/media/Ficheiro:Linux_Distribution_Timeline.svg
+link3: https://boilingsteam.com/arch-manjaro-still-going-strong/
 
 
-# Terminal ou Shell
 
-O terminal do linux ou **Shell** é para os iniciantes no linux, uma coisa de outra mundo e causa um pouco de expanto. Não tem nada disso, o terminal nada mais é que uma ferramenta que interpreta os comandos digitados pelo usuario e executa em baixo nivel no sistema operacional. A ideia deste guia é passar é passarmos pelos comandos basicos e mais utilizados por quem utiliza o linux diariamente. 
+# Terminal ou Shell 
 
-Vale ressaltar que durante a gradução e vida profissional na area de engenharia de computação, vamos nos deparar com um terminal do linux. 
+O terminal do linux ou **Shell** é para os iniciantes no linux, uma coisa de outra mundo e causa um pouco de expanto. Não tem nada disso, o terminal nada mais é que uma ferramenta que interpreta os comandos digitados pelo usuario e executa em baixo nivel no sistema operacional. 
+
+A ideia deste guia é passarmos por comandos básicos e mais utilizados por quem utiliza o linux diariamente. 
+
 
 # Abrindo o terminal
 
@@ -117,7 +126,7 @@ instalar e remover programas.
 pacotes
 - apt-get moo - Invoca os poderes da vaca Gerenciador de pacotes: yum
 
-
+Comando Sudo: No Linux por razões de segurança, o sistema operacional trabalha com permissões de usuários e, por com disso, determinados arquivos ou até mesmo comandos são só permitidos para o próprio administrador (root). O comando Sudo ajuda o usuário para que não tenha que ficar trocando de conta a todo instante, e assim, ele garante a credencial de usuário administrador temporariamente mediante a informação de uma senha. Para executar o atalho Linux Sudo, é só digitar no terminal sudo ls/root e depois que você informar a senha do seu usuário o comando será executado normalmente.
 
 
 
