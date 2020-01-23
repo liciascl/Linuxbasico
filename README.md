@@ -3,7 +3,10 @@ A ideia deste guia é de auxiliar com os primeiros passos.
 
 # Linux 
 
-Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software. 
+Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
+
+![GitHub Logo](/img/Kernel_basic.png)
+Fonte:https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/
 
 
 # Terminal ou Shell
