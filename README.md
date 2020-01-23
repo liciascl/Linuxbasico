@@ -106,3 +106,10 @@ instalar e remover programas.
 - apt-get dist-upgrade - Atualiza a versão da distribuição e todos seus
 pacotes
 - apt-get moo - Invoca os poderes da vaca Gerenciador de pacotes: yum
+
+
+
+
+
+
+
