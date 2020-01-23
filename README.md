@@ -19,16 +19,16 @@ A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Exi
 >>
 
 
-# Terminal ou Shell 
+# Conhecendo e utilizando o Terminal 
 
-O terminal do linux ou **Shell** é para os iniciantes no linux, uma coisa de outra mundo e causa um pouco de expanto. Não tem nada disso, o terminal nada mais é que uma ferramenta que interpreta os comandos digitados pelo usuario e executa em baixo nivel no sistema operacional. 
+O terminal do linux ou **Shell** é para os iniciantes no linux algo de outro mundo e causa um pouco de expanto. Não tem nada disso, o terminal nada mais é que um software que interpreta os comandos digitados pelo usuario e executa em baixo nivel no hardware. 
 
-A ideia deste guia é passarmos por comandos básicos e mais utilizados por quem utiliza o linux diariamente. 
+Vamos tratar apenas de comandos básicos e mais utilizados por quem utiliza o linux diariamente. 
 
 
 # Abrindo o terminal
 
-O atalho para acessar o terminal é:
+A forma mais facil de abrir o terminal é atraves do atalho:
 
  > Crtl+Alt+T
  
