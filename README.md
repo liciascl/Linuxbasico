@@ -11,12 +11,13 @@ Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsa
 Fonte:https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/
 
 A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Existem diversas distribuições mas não será o nosso foco no momento.
+>
+>Informações técnicas são encontradas de forma vasta na internet, abaixo deixo apenas alguns links, não se restrinja apenas a eles:
 
-Informações técnicas são encontradas de forma vasta na internet, abaixo deixo apenas alguns links, não se restrinja apenas a eles:
-link1: https://www.linuxfoundation.org/
-link2: https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux#/media/Ficheiro:Linux_Distribution_Timeline.svg
-link3: https://boilingsteam.com/arch-manjaro-still-going-strong/
-
+>[link1](https://www.linuxfoundation.org/)
+>[link2](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux#/media/Ficheiro:Linux_Distribution_Timeline.svg)
+>[link3](https://boilingsteam.com/arch-manjaro-still-going-strong/)
+>>
 
 
 # Terminal ou Shell 
