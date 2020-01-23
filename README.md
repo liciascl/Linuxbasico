@@ -3,7 +3,7 @@ A idéia deste guia é de apenas auxiliar com os primeiros passos.
 
 Linux já é utilizado amplamente por empresas de tecnologia tanto para infraestrura como para desenvolvimento de sistemas e nos ultimos vem crescendo tambem os usuarios . Durante a gradução e vida profissional na area de computação, vamos sempre nos deparar com um terminal do linux. 
 
-# Linux 
+## Linux 
 
 Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
 
@@ -26,7 +26,7 @@ O terminal do linux ou **Shell** é para os iniciantes no linux algo de outro mu
 Vamos tratar apenas de comandos básicos e mais utilizados por quem utiliza o linux diariamente. 
 
 
-# Abrindo o terminal
+## Abrindo o terminal
 
 A forma mais facil de abrir o terminal é atraves do atalho:
 
@@ -41,8 +41,6 @@ A forma mais facil de abrir o terminal é atraves do atalho:
  
  Completar uma palavra
  preciona o tab
-insper
-# reebrepsni 
 
 como navegar entre diretorios e arquivos e arquivos
 
