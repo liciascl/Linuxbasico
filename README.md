@@ -1,15 +1,29 @@
 # Linux básico
-Algumas dicas para os primeiros passos com o linux. 
+A ideia deste guia é de auxiliar com os primeiros passos no Linux. 
 
-## Terminal
+# Terminal ou Shell
+
+O terminal do linux ou **Shell** é para os iniciantes no linux, uma coisa de outra mundo e causa um pouco de expanto. Não tem nada disso, o terminal nada mais é que uma ferramenta que interpreta os comandos digitados pelo usuario e executa em baixo nivel no sistema operacional. A ideia deste guia é passar é passarmos pelos comandos basicos e mais utilizados por quem utiliza o linux diariamente. 
+
+Vale ressaltar que durante a gradução e vida profissional na area de engenharia de computação, vamos nos deparar com um terminal do linux. 
+
+#Abrindo o terminal
 
 O atalho para acessar o terminal é:
 
-  Crtl+Alt+T 
---
+ > Crtl+Alt+T
+ 
+ neste momento vamos nos deparar a janela do terminal aberta pronta para receber os primeiros comandos.
+ 
+ > engecorp@engecorp:~$ 
+
+ 
+ 
+ 
  Completar uma palavra
  preciona o tab
-
+insper
+# reebrepsni 
 
 como navegar entre diretorios e arquivos e arquivos
 
