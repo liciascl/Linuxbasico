@@ -1,5 +1,10 @@
-# Linux básico
-A ideia deste guia é de auxiliar com os primeiros passos no Linux. 
+# Guia Linux básico
+A ideia deste guia é de auxiliar com os primeiros passos. 
+
+# Linux 
+
+Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software. 
+
 
 # Terminal ou Shell
 
