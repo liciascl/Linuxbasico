@@ -7,13 +7,12 @@ Linux já é utilizado amplamente por empresas de tecnologia tanto para infraest
 
 Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
 
-![GitHub Logo](/img/Kernel_basic.png)
-Fonte:https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/
+![Kernel logo](/img/Kernel_basic.png)
+[Fonte](https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/)
 
 A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Existem diversas distribuições mas não será o nosso foco no momento.
 >
 >Informações técnicas são encontradas de forma vasta na internet, abaixo deixo apenas alguns links, não se restrinja apenas a eles:
-
 >[link1](https://www.linuxfoundation.org/)
 >[link2](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux#/media/Ficheiro:Linux_Distribution_Timeline.svg)
 >[link3](https://boilingsteam.com/arch-manjaro-still-going-strong/)
