@@ -7,13 +7,13 @@ O terminal do linux ou **Shell** é para os iniciantes no linux, uma coisa de ou
 
 Vale ressaltar que durante a gradução e vida profissional na area de engenharia de computação, vamos nos deparar com um terminal do linux. 
 
-#Abrindo o terminal
+# Abrindo o terminal
 
 O atalho para acessar o terminal é:
 
  > Crtl+Alt+T
  
- neste momento vamos nos deparar a janela do terminal aberta pronta para receber os primeiros comandos.
+ Neste momento nos deparamos com a janela do terminal aberta pronta para receber os primeiros comandos.
  
  > engecorp@engecorp:~$ 
 
