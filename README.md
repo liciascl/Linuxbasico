@@ -8,6 +8,8 @@ Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsa
 ![GitHub Logo](/img/Kernel_basic.png)
 Fonte:https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/
 
+Uma definição mais tecnica e formal pode ser encontrada nos links abaixo:
+
 
 # Terminal ou Shell
 
