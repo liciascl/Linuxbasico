@@ -58,8 +58,14 @@ O comando **cd** é um dos comandos mais utilizados no terminal do Linux isso po
 ```bash
 cd Linuxbasico/pasta1/subpasta2/subpasta3/ 
 ```
- 
-Este comando nos leva para o diretório chamado **subpasta3** passando pelos diretorios: Linuxbasico, pasta1 e subpasta2. 
+Este comando nos leva direto para o diretório chamado **subpasta3** passando pelos diretorios: Linuxbasico, pasta1 e subpasta2. Mas podemos navegar de diretorio em diretório, um por um. 
+
+```bash
+cd Linuxbasico
+cd pasta1
+cd subpasta2
+cd subpasta3 
+```
 
 Para voltar subir um nivel e acessar o diretório chamado **subpasta2** podemos digitar:
 
@@ -121,6 +127,7 @@ mkdir minhapasta
 ```bash
 mkdir ~/Linuxbasico/pasta1/minhapasta 
 ```
+> Dica:. Se estiver com preguiça de digitar o caminho completo, use a tecla TAB para dar auto-completar.
 
 # Criando arquivos
 
