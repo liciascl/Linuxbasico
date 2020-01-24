@@ -35,58 +35,73 @@ A forma mais facil de abrir o terminal é atraves do atalho:
 
 O nosso primeiro passo será clonar o repositório no GitHub desta aula, para isso digite no terminal os comandos abaixo:
 
-> git clone https://github.com/arnaldojr/Linuxbasico.git
-
+```bash
+git clone https://github.com/arnaldojr/Linuxbasico.git
+```
 
 ## Navegando entre diretorios e arquivos
 
 De forma bem simplificada, podemos dizer que o sistema Linux possui 2 elementos principais: pastas e arquivos. Os arquivos armazenam dados (txt, py...) e as pastas tambem chamadas de diretórios, armazenam e organizam os arquivos. 
 Sabendo disso é importante saber navegar entre os diretórios para encontrar os nossos arquivos.
 
+
+![pasta logo](/img/FilesAndFolders.png)
+[Fonte](https://commons.wikimedia.org/wiki/File:FilesAndFolders.png)
+
+
 ## Comando "cd"
 
 O comando **cd** é um dos comandos mais utilizados no terminal do Linux isso porque ele permite que acessemos um diretório especifico. Vamos acessar uma pasta do repositório que acabamos de clonar. 
 
-> cd Linuxbasico/pasta1/subpasta2/subpasta3/ 
-
+```bash
+cd Linuxbasico/pasta1/subpasta2/subpasta3/ 
+```
+ 
 Este comando nos leva para o diretório chamado **subpasta3** passando pelos diretorios: Linuxbasico, pasta1 e subpasta2. 
 
 Para voltar subir um nivel e acessar o diretório chamado **subpasta2** podemos digitar:
 
-> cd ..
-
+```bash
+cd ..
+```
 Para acessar a home do nosso usuario podemos fazer isso "voltando" as pastas repitindo o comando acima, ou simplismente digitando o comando: 
 
-> cd ~
-
+```bash
+cd ~
+```
 ## Comanod "pwd"
 
 Podemos verificar o diretório que estamos digitanto:
 
-> pwd
-
+```bash
+pwd
+```
 
 ## Comando "ls"
 
 O comando **ls** é utilizado par exibir (listar) o conteudo de um diretório. 
-
-> ls
+```bash
+ls
+```
 
 ## Visualização de arquivos e pastas ocultos
 
 O comando "ls" sozinho não exibe arquivos ocultos, que são arquivos e pastas que começam com ".". Para listar esses aquivos:
 
-> ls -a
-
+```bash
+ls -a
+```
 ou para listar informações mais detalhadas:
 
-> ls -la
-
+```bash
+ls -la
+```
 Durante as aulas de robotica teremos que editar um arquivo oculto chamado ".bashrc", no momento precisamos apenas saber que este arquivo se encontra na home do usuario. digite:
 
-> cd ~
-> ls -la
-
+```bash
+cd ~
+ls -la
+```
 
 
 
