@@ -96,7 +96,7 @@ ou para listar informações mais detalhadas:
 ```bash
 ls -la
 ```
-Durante as aulas de robotica teremos que editar um arquivo oculto chamado ".bashrc", no momento precisamos apenas saber que este arquivo se encontra na home do usuario. digite:
+Durante as aulas de robotica teremos que editar um arquivo oculto chamado "**.bashrc**", no momento precisamos apenas saber que este arquivo se encontra na home do usuario. digite:
 
 ```bash
 cd ~
