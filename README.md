@@ -41,7 +41,7 @@ O nosso primeiro passo será clonar o repositório no GitHub desta aula, para is
 git clone https://github.com/arnaldojr/Linuxbasico.git
 ```
 
-## Navegando entre diretorios e arquivos
+# Navegando entre diretorios e arquivos
 
 De forma bem simplificada, podemos dizer que o sistema Linux possui 2 elementos principais: pastas e arquivos. Os arquivos armazenam dados (txt, py...) e as pastas tambem chamadas de diretórios, armazenam e organizam os arquivos. 
 Sabendo disso é importante saber navegar entre os diretórios para encontrar os nossos arquivos.
@@ -105,7 +105,9 @@ ou simplismente:
 ll
 ```
 
-## Criando diretórios
+# Criando diretórios
+
+## Comando "mkdir"
 
 Vamos criar um diretório chamado **minhapasta** dentro do diretório **pasta1**. Podemos fazer essa tarefa de algumas formas:
 
@@ -120,9 +122,11 @@ mkdir minhapasta
 mkdir ~/Linuxbasico/pasta1/minhapasta 
 ```
 
-## Criando arquivos
+# Criando arquivos
 
-Vamos criar um arquivo python chamado **meuarquivo.py** dentro da pasta que criamos. Podemos criar o arquivo acessando o diretório minhapasta previamente ou passando o caminho completo, a escolha é sua.
+## Comando "touch" e ">"
+
+Vamos criar um arquivo python chamado **meuarquivo.py** dentro da pasta que criamos. Podemos criar o arquivo acessando o diretório "minhapasta" previamente ou passando o caminho completo, a escolha é sua.
 
 1. Usando o comando **touch**:
 ```bash
@@ -133,20 +137,27 @@ touch meuarquivo.py
 ```bash
 > meuarquivo.py
 ```
-## Movendo e Copiando diretórios e arquivos
+# Movendo e Copiando diretórios e arquivos
+
+## Comando "cp"
 
 Para copiar arquivos e diretorios, o famoso CTRL+C + CTRL+V, basta  digitar:
 
 ```bash
-> cp meuarquivo.py 
-mv nome1.py /home/user/Linuxbasico/pasta1/
+> meuarquivo.py 
+cp meuarquivo.py /home/user/Linuxbasico/pasta1/
 ```
-Neste exemplo
+No exemplo acima foi criado uma copia do arquivo "nome1.py" dentro do diretório pasta1. 
 
-Podemos utilizar o **..** para  
-mv
-cp
+## Comando "mv"
 
+Para mover arquivos e diretorios, o famoso CTRL+x + CTRL+V, basta  digitar:
+
+```bash
+> meuarquivo.py 
+mv meuarquivo.py /home/user/Linuxbasico/pasta1/
+```
+No exemplo acima o arquivo "nome1.py" foi movido para dentro do diretório pasta1 (recortado e colado).
 
 ## Renomeando diretórios e arquivos
 
@@ -156,13 +167,19 @@ O comando **mv** tambem serve para renomear arquivos e diretorios:
 > nome1.py
 mv nome1.py nome2.py
 ```
-> Atenção!! Cuidado com esse comando pois se já existir no diretorio um arquivo com o novo nome (nome2.py nesse exemplo) o arquivo será sobreescrito.
+> Atenção!! Cuidado para não sobrescrever arquivos e pastas atuais na hora de executar estes comandos.
 
-## Excluindo diretórios e arquivos
+# Excluindo diretórios e arquivos
 
-rm -rf asdf.txt
+## Comando "rm"
 
+Para excluir arquivos e diretórios, o famoso Shift+Del, basta digitar:
 
+```bash
+rm -rf nome1.py
+rm -rf minhapasta
+```
+> Atenção!! Cuidado!!!! Arquivos e pastas são apagados permanentemente, ou seja, não vão para lixeira,.
 
 ## Editando arquivos
 nano 
