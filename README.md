@@ -1,5 +1,6 @@
 # Guia Linux básico
-A idéia deste guia é de apenas auxiliar com os primeiros passos. 
+
+Este não é um curso regular de Linux, neste curso queremos ensinar conceitos básicos do Linux como navegar pelo sistema de arquivos, etc... e mostrar alguns exemplos básicos, mas com foco nas matérias de Robótica Computacional e Elementos de Sistemas apenas auxilia-los com os primeiros passos. 
 
 Linux já é utilizado amplamente por empresas de tecnologia tanto para infraestrura como para desenvolvimento de sistemas e nos ultimos vem crescendo tambem os usuarios . Durante a gradução e vida profissional na area de computação, vamos sempre nos deparar com um terminal do linux. 
 
@@ -18,7 +19,6 @@ A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Exi
 >[link3](https://boilingsteam.com/arch-manjaro-still-going-strong/)
 >>
 
-
 # Conhecendo e utilizando o Terminal 
 
 O terminal do linux ou **Shell** é para os iniciantes no linux algo de outro mundo e causa um pouco de expanto. Não tem nada disso, o terminal nada mais é que um software que interpreta os comandos digitados pelo usuario e executa em baixo nivel no hardware. 
@@ -36,13 +36,30 @@ A forma mais facil de abrir o terminal é atraves do atalho:
  
  > engecorp@engecorp:~$ 
 
- 
- 
- 
- Completar uma palavra
- preciona o tab
+O nosso primeiro passo será clonar o repositório no GitHub desta aula, para isso digite no terminal os comandos abaixo:
 
-como navegar entre diretorios e arquivos e arquivos
+> git clone https://github.com/arnaldojr/Linuxbasico.git
+
+
+## Navegando entre diretorios e arquivos e arquivos
+
+De forma bem simplificada, podemos dizer que o sistema Linux possui 2 elementos principais: pastas e arquivos. Os arquivos armazenam dados (txt, py...) e as pastas tambem chamadas de diretórios, armazenam e organizam os arquivos. 
+Sabendo disso é importante saber navegar entre os diretórios para encontrar os nossos arquivos.
+
+## Comando "cd"
+
+O comando **cd** é um dos comandos mais utilizados no terminal do Linux isso porque ele permite que acessemos um diretório especifico. Vamos acessar uma pasta do repositório que acabamos de clonar. 
+
+> cd Linuxbasico/pasta1/diretorio1/subpasta3/ 
+
+Este comando nos leva para a pasta chamada subpasta3 passando pelos diretorios: Linuxbasico, pasta1 e diretorio1. 
+
+## Comando "ls"
+
+O comando **ls** é utilizado par exibir (listar) o conteudo de um diretório. 
+
+> ls
+
 
 Comando de navegação
 pwd
