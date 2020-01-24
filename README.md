@@ -122,26 +122,23 @@ mkdir Linuxbasico/pasta1/minhapasta
 
 ## Criando arquivos
 
-Vamos criar um arquivo python chamado **meuarquivo.py** dentro da pasta que criamos. Podemos fazer essa tarefa de algumas formas diferentes:
+Vamos criar um arquivo python chamado **meuarquivo.py** dentro da pasta que criamos. Podemos criar o arquivo acessando o diretório minhapasta previamente ou passando o caminho completo, a escolha é sua.
 
-1. Usando o comando touch:
+1. Usando o comando **touch**:
 ```bash
 touch meuarquivo.py
 ```
 
-2. Usando o comando >:
+2. Usando o comando **>**:
 ```bash
 > meuarquivo.py
 ```
 
+## Excluindo diretórios e arquivos
+
+
 
 source .bashrc
-
-criação de pasta
-mkdir
-criação de arquivos
-> asdf.py
-touch asdf.txt
 
 Renomeando, movendo e copiando arquivos
 rm -rf asdf.txt
