@@ -117,7 +117,7 @@ mkdir minhapasta
 2. Criamos a pasta passando o caminho completo:
 
 ```bash
-mkdir Linuxbasico/pasta1/minhapasta 
+mkdir ~/Linuxbasico/pasta1/minhapasta 
 ```
 
 ## Criando arquivos
@@ -134,39 +134,39 @@ touch meuarquivo.py
 > meuarquivo.py
 ```
 
-## Excluindo diretórios e arquivos
 
-
-
-source .bashrc
-
-Renomeando, movendo e copiando arquivos
-rm -rf asdf.txt
+## Movendo e Copiando diretórios e arquivos
 mv
 cp
 
 
-ln - Cria links entre arquivos
-ln -s file1 link1
+## Renomeando diretórios e arquivos
 
-dar so uma espiada no conteudo de um arquivo
-cat - Exibe o conteúdo de um arquivo
-head, tail - Mostra o começo e fim de um arquivo
 
-editor de texto nano e gedit
-editar e salvar alteração
-nano adf.txt
+## Excluindo diretórios e arquivos
 
-Mostra os formatos básicos de arquivos compactados e como lidar com
-eles no Linux.
-- tar - Agrupando arquivos
-- gzip, bzip2 - Compactando arquivos
-- zip, rar - Outros formatos de arquivos compactados Comandos de
-Tratamento de Texto
+rm -rf asdf.txt
+
+
+
+## Editando arquivos
+nano 
+gedit
+vscode
+
+source .bashrc
+export
+grep
 
 travou a tela 
 xkill - mata a tela
 kill, killall
+
+
+
+
+Comando Sudo: No Linux por razões de segurança, o sistema operacional trabalha com permissões de usuários e, por com disso, determinados arquivos ou até mesmo comandos são só permitidos para o próprio administrador (root). O comando Sudo ajuda o usuário para que não tenha que ficar trocando de conta a todo instante, e assim, ele garante a credencial de usuário administrador temporariamente mediante a informação de uma senha. Para executar o atalho Linux Sudo, é só digitar no terminal sudo ls/root e depois que você informar a senha do seu usuário o comando será executado normalmente.
+
 
 sudo apt-get update = Atualiza a "lista de pacotes"
 sudo apt-get upgrade = Atualiza pacotes "já instalados"
@@ -175,12 +175,19 @@ sudo apt-get install speedtest-cli htop nmap = Instala pacotes speedtest, htop e
 sudo apt-get remove = Remove pacotes instalados (necessário informar o nome do pacote desejado, conforme exemplo abaixo)
 sudo apt-get remove speedtest-cli = remove pacote speedtest
 
- grep – Procura texto e expressões dentro de um arquivo
  
  Além de mostrar como funcionam as permissões dos arquivos no Linux,
 ensina a utilizar os comandos que tratam das permissões.
 - chown - Modifica os donos de arquivos e diretórios
 - chmod - Modifica as permissões dos arquivos e diretórios
+
+
+Mostra os formatos básicos de arquivos compactados e como lidar com
+eles no Linux.
+- tar - Agrupando arquivos
+- gzip, bzip2 - Compactando arquivos
+- zip, rar - Outros formatos de arquivos compactados Comandos de
+Tratamento de Texto
 
 
 informaçes do sistema
@@ -192,21 +199,6 @@ cat /etc/lsb-release
 - lsusb - Mostra informações sobre dispositivos USB
 dmesg -  Mensagens de inicialização
 man - Ajuda sobre algum comando, assunto ou arquivo de configuração
-
-Utilizado em distribuições Debian, Ubuntu e seus derivados para
-instalar e remover programas.
-- apt-get update - Atualiza a lista de pacotes dos repositórios
-- apt-cache search - Procura um pacote por palavras
-- apt-get install - Instala pacotes de programas
-- apt-get remove - Remove pacotes de programas do sistema
-- apt-get upgrade - Atualiza todos os pacotes do sistema
-- apt-get dist-upgrade - Atualiza a versão da distribuição e todos seus
-pacotes
-- apt-get moo - Invoca os poderes da vaca Gerenciador de pacotes: yum
-
-Comando Sudo: No Linux por razões de segurança, o sistema operacional trabalha com permissões de usuários e, por com disso, determinados arquivos ou até mesmo comandos são só permitidos para o próprio administrador (root). O comando Sudo ajuda o usuário para que não tenha que ficar trocando de conta a todo instante, e assim, ele garante a credencial de usuário administrador temporariamente mediante a informação de uma senha. Para executar o atalho Linux Sudo, é só digitar no terminal sudo ls/root e depois que você informar a senha do seu usuário o comando será executado normalmente.
-
-
 
 
 
