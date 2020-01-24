@@ -179,9 +179,11 @@ Para excluir arquivos e diretórios, o famoso Shift+Del, basta digitar:
 rm -rf nome1.py
 rm -rf minhapasta
 ```
-> Atenção!! Cuidado!!!! Arquivos e pastas são apagados permanentemente, ou seja, não vão para lixeira,.
+> Atenção!! Cuidado!!!! Arquivos e pastas são apagados permanentemente, não vão para lixeira. No caso de diretórios, apaga o diretório e tudo que está dentro dele.
 
-## Editando arquivos
+# Editando arquivos
+
+
 nano 
 gedit
 vscode
