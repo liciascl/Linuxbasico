@@ -135,14 +135,28 @@ touch meuarquivo.py
 ```
 ## Movendo e Copiando diretórios e arquivos
 
+Para copiar arquivos e diretorios, o famoso CTRL+C + CTRL+V, basta  digitar:
 
+```bash
+> cp meuarquivo.py 
+mv nome1.py /home/user/Linuxbasico/pasta1/
+```
+Neste exemplo
+
+Podemos utilizar o **..** para  
 mv
 cp
 
 
 ## Renomeando diretórios e arquivos
 
-O comando **mv** serve para renomear arquivos e diret
+O comando **mv** tambem serve para renomear arquivos e diretorios:
+
+```bash
+> nome1.py
+mv nome1.py nome2.py
+```
+> Atenção!! Cuidado com esse comando pois se já existir no diretorio um arquivo com o novo nome (nome2.py nesse exemplo) o arquivo será sobreescrito.
 
 ## Excluindo diretórios e arquivos
 
