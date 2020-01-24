@@ -257,9 +257,14 @@ Para fazer uma busca no texto pressione Ctrl+F, digite a palavra e tecle Enter.
 Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair Alt+F4.
 
 
+# Modificando as permissões dos arquivos e diretórios
 
+Antes de modificar as permissões de usuarios 
 
-
+ Além de mostrar como funcionam as permissões dos arquivos no Linux,
+ensina a utilizar os comandos que tratam das permissões.
+- chown - Modifica os donos de arquivos e diretórios
+- chmod - Modifica as permissões dos arquivos e diretórios
 
 
 
@@ -273,35 +278,43 @@ travou a tela
 xkill - mata a tela
 kill, killall
 
+# Super Usuário
 
+## Comando "sudo"
+Por questões de seguraça, o Linux trabalha com permissões de usuários e para determinados arquivos ou comandos apenas o usuario administrador (root) pode executar. A titulo de curiosidade, "sudo" significa **S**uper **U**ser **DO**. Quando executar comandos com sudo, será necessário informar a senha.
 
+# Atualizações de Sistema e instalação de pacotes 
 
-Comando Sudo: No Linux por razões de segurança, o sistema operacional trabalha com permissões de usuários e, por com disso, determinados arquivos ou até mesmo comandos são só permitidos para o próprio administrador (root). O comando Sudo ajuda o usuário para que não tenha que ficar trocando de conta a todo instante, e assim, ele garante a credencial de usuário administrador temporariamente mediante a informação de uma senha. Para executar o atalho Linux Sudo, é só digitar no terminal sudo ls/root e depois que você informar a senha do seu usuário o comando será executado normalmente.
+## Comando "apt" ou "apt-get"
 
+### Atualizar a "lista de pacotes"
+```bash
+sudo apt-get update 
+```
+### Atualiza pacotes "já instalados"
+```bash
+sudo apt-get upgrade 
+```
+### Instalar pacotes
 
-sudo apt-get update = Atualiza a "lista de pacotes"
-sudo apt-get upgrade = Atualiza pacotes "já instalados"
-sudo apt-get install = Instala pacotes (necesário informar o nome do pacote desejado, conforme exemplo abaixo)
-sudo apt-get install speedtest-cli htop nmap = Instala pacotes speedtest, htop e nmap
-sudo apt-get remove = Remove pacotes instalados (necessário informar o nome do pacote desejado, conforme exemplo abaixo)
-sudo apt-get remove speedtest-cli = remove pacote speedtest
+```bash
+sudo apt-get install bastet
+```
+> instalação do jogo bastet. Para jogar, digite bastet no terminal. 
 
- 
- Além de mostrar como funcionam as permissões dos arquivos no Linux,
-ensina a utilizar os comandos que tratam das permissões.
-- chown - Modifica os donos de arquivos e diretórios
-- chmod - Modifica as permissões dos arquivos e diretórios
+### Remover pacotes
 
-
-Mostra os formatos básicos de arquivos compactados e como lidar com
-eles no Linux.
+```bash
+sudo apt-get remove bastet
+```
+# Mostra os formatos básicos de arquivos compactados e como lidar com eles no Linux.
 - tar - Agrupando arquivos
 - gzip, bzip2 - Compactando arquivos
 - zip, rar - Outros formatos de arquivos compactados Comandos de
 Tratamento de Texto
 
 
-informaçes do sistema
+# informaçes do sistema
 ps 
 cat /proc/cpuinfo - Informações sobre o processador
 cat /etc/lsb-release 
