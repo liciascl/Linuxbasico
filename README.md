@@ -190,10 +190,80 @@ rm -rf minhapasta
 
 # Editando arquivos
 
+Existem muitas editores de texto, cada um com seus pros e contras, com o tempo cada desenvolvedor acaba se apegando a um editor especifico, mas podemos dizer que existem 2 tipos de editoes de texto.
+Modo console, que abre no proprio terminal e o com interface grafica. 
 
-nano 
-gedit
-vscode
+## Editor nano 
+O nano é um editor do modo console, ou seja, abre no proprio terminal. Vamos ver alguns comandos basicos, mas na parte inferior do editor são exibidos comandos que o nano entende.  
+
+![nano logo](/img/main-nano-window.png)
+
+### Abrir
+Digite no terminal **nano** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
+
+```bash
+nano novoarquivo.py
+nano novoarquivo.txt
+```
+
+### Localizar palavra
+Para fazer uma busca no texto pressione Ctrl+W, digite a palavra e tecle Enter.
+
+### Salvar e Sair
+
+Para salvar e sair, precione Ctrl+S para salvar e para sair Ctrl+X.
+Para sair sem salvar alteraçes, Ctrl+X e "n".
+
+## Editor gedit
+Muito parecido com o famoso bloco de notas do Windows.
+
+![nano logo](/img/gedit3-screenshot.png)
+
+### Abrir
+Digite no terminal **gedit** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
+
+```bash
+gedit novoarquivo.py
+gedit novoarquivo.txt
+```
+### Localizar palavra
+
+Para fazer uma busca no texto pressione Ctrl+F, digite a palavra e tecle Enter.
+
+### Salvar e Sair
+
+Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair Alt+F4.
+
+## Editor vscode
+
+O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.
+
+![vscode logo](/img/vscode-ui-in-container.png)
+
+### Abrir
+
+Digite no terminal **code** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
+
+```bash
+code novoarquivo.py
+code novoarquivo.txt
+```
+### Localizar palavra
+
+Para fazer uma busca no texto pressione Ctrl+F, digite a palavra e tecle Enter.
+
+### Salvar e Sair
+
+Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair Alt+F4.
+
+
+
+
+
+
+
+
+
 
 source .bashrc
 export
