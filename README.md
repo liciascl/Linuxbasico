@@ -86,9 +86,10 @@ ls
 
 ## Visualização de arquivos e pastas ocultos
 
-O comando "ls" sozinho não exibe arquivos ocultos, que são arquivos e pastas que começam com ".". Para listar esses aquivos:
+O comando "ls" sozinho não exibe arquivos ocultos, que são arquivos e pastas que começam com ".". Durante as aulas de robotica teremos que editar um arquivo oculto chamado "**.bashrc**", no momento precisamos apenas saber que este arquivo se encontra na home do usuario. digite:
 
 ```bash
+cd ~
 ls -a
 ```
 ou para listar informações mais detalhadas:
@@ -96,21 +97,42 @@ ou para listar informações mais detalhadas:
 ```bash
 ls -la
 ```
-Durante as aulas de robotica teremos que editar um arquivo oculto chamado "**.bashrc**", no momento precisamos apenas saber que este arquivo se encontra na home do usuario. digite:
+ou simplismente:
 
 ```bash
-cd ~
-ls -la
+ll
+```
+
+## Criando diretórios
+
+Vamos criar um diretório chamado **minhapasta** dentro do diretório **pasta1**. Podemos fazer essa tarefa de algumas formas:
+
+1. Navegamos até o diretório pasta1 e criamos o minhapasta:
+```bash
+cd Linuxbasico/pasta1
+mkdir minhapasta
+```
+2. Criamos a pasta passando o caminho completo:
+
+```bash
+mkdir Linuxbasico/pasta1/minhapasta 
+```
+
+## Criando arquivos
+
+Vamos criar um arquivo python chamado **meuarquivo.py** dentro da pasta que criamos. Podemos fazer essa tarefa de algumas formas diferentes:
+
+1. Usando o comando touch:
+```bash
+touch meuarquivo.py
+```
+
+2. Usando o comando >:
+```bash
+> meuarquivo.py
 ```
 
 
-
-Agora que estamos em nossa home podemos 
-
-
-arquivos ocultos
-ls -la
-.bashrc
 source .bashrc
 
 criação de pasta
