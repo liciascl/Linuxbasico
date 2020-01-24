@@ -30,8 +30,10 @@ A forma mais facil de abrir o terminal é atraves do atalho:
  > Crtl+Alt+T
  
  Neste momento nos deparamos com a janela do terminal aberta na home do usuario pronta para receber os primeiros comandos.
- 
- > engecorp@engecorp:~$ 
+
+```bash
+engcomp@borg:~$ 
+```
 
 O nosso primeiro passo será clonar o repositório no GitHub desta aula, para isso digite no terminal os comandos abaixo:
 
