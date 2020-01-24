@@ -29,7 +29,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
 
  > Crtl+Alt+T
  
- Neste momento nos deparamos com a janela do terminal aberta pronta para receber os primeiros comandos.
+ Neste momento nos deparamos com a janela do terminal aberta na home do usuario pronta para receber os primeiros comandos.
  
  > engecorp@engecorp:~$ 
 
