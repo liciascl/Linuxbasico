@@ -133,15 +133,16 @@ touch meuarquivo.py
 ```bash
 > meuarquivo.py
 ```
-
-
 ## Movendo e Copiando diretórios e arquivos
+
+
 mv
 cp
 
 
 ## Renomeando diretórios e arquivos
 
+O comando **mv** serve para renomear arquivos e diret
 
 ## Excluindo diretórios e arquivos
 
