@@ -9,8 +9,7 @@ A infra necessária para este curso já está instalada no SSD disponibilizada p
 <img src="/img/ssd.jpeg" width="400" height="400">
 
 ## Linux 
-
-![ssd](/img/ilovelinux.png)
+<img src="/img/ilovelinux.png" width="700" height="300">
 
 Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
 
@@ -41,7 +40,21 @@ A forma mais facil de abrir o terminal é atraves do atalho:
 
 ![ssd](/img/terminal.png)
 
-O nosso primeiro passo será clonar o repositório no GitHub desta aula, para isso digite no terminal os comandos abaixo:
+## Configurando o Git
+
+Antes de comeaçar vamos configurar o nosso Git, para isso digite no terminal os comandos abaixo:
+
+```bash
+git config --global user.name "Seu Nome"
+git config --global user.email "seunome@email.com"
+```
+Para verificar se foi atualizado com sucesso digite:
+
+```bash
+git config user.name
+git config user.email
+```
+Vamos clonar o repositório desta aula. 
 
 ```bash
 git clone https://github.com/arnaldojr/Linuxbasico.git
