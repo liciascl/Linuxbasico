@@ -278,27 +278,13 @@ Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair
 
 # Modificando as permissões dos arquivos e diretórios
 
-Antes de modificar as permissões de usuarios,vamos entender basicamente como que funciona. 
+As permissões servem para determinar se um usuario ou grupo terá permissões para ler, gravar, executar. 
 
-chmod 
+Para permitir a execução de um codigo python temos que mudar as permissões do arquivo.
 
- Além de mostrar como funcionam as permissões dos arquivos no Linux,
-ensina a utilizar os comandos que tratam das permissões.
-- chown - Modifica os donos de arquivos e diretórios
-- chmod - Modifica as permissões dos arquivos e diretórios
-
-
-
-
-
-source .bashrc
-export
-grep
-
-travou a tela 
-xkill - mata a tela
-kill, killall
-
+```bash
+chmod a+x meuprograma.py
+```
 # Super Usuário
 
 ## Comando "sudo"
@@ -345,5 +331,11 @@ cat /etc/lsb-release
 dmesg -  Mensagens de inicialização
 man - Ajuda sobre algum comando, assunto ou arquivo de configuração
 
+source .bashrc
+export
+grep
 
+travou a tela 
+xkill - mata a tela
+kill, killall
 
