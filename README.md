@@ -6,7 +6,7 @@ Este não é um curso regular de Linux, neste curso queremos ensinar conceitos b
 
 A infra necessária para este curso já está instalada no SSD disponibilizada para os alunos do terceiro semestre de engenharia de computação. 
 
-![ssd](/img/ssd.jpeg)
+![ssd](/img/ssd.jpeg | width=48)
 
 ## Linux 
 
