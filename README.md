@@ -1,5 +1,8 @@
 # Guia Linux básico
 
+[![asciicast](https://asciinema.org/a/170142.png)](https://asciinema.org/a/170142)
+
+
 Este não é um curso regular de Linux, neste curso queremos ensinar conceitos básicos do Linux como navegar pelo sistema de arquivos, etc... e mostrar alguns exemplos básicos, mas com foco nas matérias de Robótica Computacional e Elementos de Sistemas para auxilia-los com os primeiros passos. 
 
 ## Infraestrutura
