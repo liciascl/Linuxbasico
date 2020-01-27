@@ -259,7 +259,9 @@ Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair
 
 # Modificando as permissões dos arquivos e diretórios
 
-Antes de modificar as permissões de usuarios 
+Antes de modificar as permissões de usuarios,vamos entender basicamente como que funciona. 
+
+chmod 
 
  Além de mostrar como funcionam as permissões dos arquivos no Linux,
 ensina a utilizar os comandos que tratam das permissões.
