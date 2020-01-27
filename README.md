@@ -2,11 +2,19 @@
 
 Este não é um curso regular de Linux, neste curso queremos ensinar conceitos básicos do Linux como navegar pelo sistema de arquivos, etc... e mostrar alguns exemplos básicos, mas com foco nas matérias de Robótica Computacional e Elementos de Sistemas para auxilia-los com os primeiros passos. 
 
-Linux já é utilizado amplamente por empresas de tecnologia tanto para infraestrura como para desenvolvimento de sistemas e nos ultimos vem crescendo tambem os usuarios domesticos. Durante a gradução e vida profissional na area de computação, vamos sempre nos deparar com um terminal do linux. 
+## Infraestrutura
+
+A infra necessária para este curso já está instalada no SSD disponibilizada para os alunos do terceiro semestre de engenharia de computação. 
+
+![ssd](/img/ssd.jpeg)
 
 ## Linux 
 
+![ssd](/img/ilovelinux.png)
+
 Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
+
+Linux já é utilizado amplamente por empresas de tecnologia tanto para infraestrura como para desenvolvimento de sistemas e nos ultimos vem crescendo tambem os usuarios domesticos. Durante a gradução e vida profissional na area de computação, vamos sempre nos deparar com um terminal do linux. 
 
 ![Kernel logo](/img/Kernel_basic.png)
 [Fonte](https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/)
@@ -31,9 +39,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
  
  Neste momento nos deparamos com a janela do terminal aberta na home do usuario pronta para receber os primeiros comandos.
 
-```bash
-engcomp@borg:~$ 
-```
+![ssd](/img/terminal.png)
 
 O nosso primeiro passo será clonar o repositório no GitHub desta aula, para isso digite no terminal os comandos abaixo:
 
