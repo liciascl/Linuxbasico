@@ -10,7 +10,6 @@ A infra necessária para este curso já está instalada no SSD disponibilizada p
 
 ## Linux 
 <img src="/img/ilovelinux.png" width="700" height="300">
-
 Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
 
 Linux já é utilizado amplamente por empresas de tecnologia tanto para infraestrura como para desenvolvimento de sistemas e nos ultimos vem crescendo tambem os usuarios domesticos. Durante a gradução e vida profissional na area de computação, vamos sempre nos deparar com um terminal do linux. 
