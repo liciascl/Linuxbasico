@@ -9,7 +9,8 @@ A infra necessária para este curso já está instalada no SSD disponibilizada p
 <img src="/img/ssd.jpeg" width="400" height="400">
 
 ## Linux 
-<img src="/img/ilovelinux.png" width="700" height="300">
+<img src="/img/ilovelinux.png" width="700" height="250">
+
 Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
 
 Linux já é utilizado amplamente por empresas de tecnologia tanto para infraestrura como para desenvolvimento de sistemas e nos ultimos vem crescendo tambem os usuarios domesticos. Durante a gradução e vida profissional na area de computação, vamos sempre nos deparar com um terminal do linux. 
@@ -41,7 +42,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
 
 ## Configurando o Git
 
-Antes de comeaçar vamos configurar o nosso Git, para isso digite no terminal os comandos abaixo:
+Antes começar a falar dos comandos do terminal, vamos configurar o nosso Git, para isso digite no terminal os comandos abaixo:
 
 ```bash
 git config --global user.name "Seu Nome"
@@ -53,7 +54,7 @@ Para verificar se foi atualizado com sucesso digite:
 git config user.name
 git config user.email
 ```
-Vamos clonar o repositório desta aula. 
+Agora, vamos aproveitar para clonar o repositório desta aula. 
 
 ```bash
 git clone https://github.com/arnaldojr/Linuxbasico.git
