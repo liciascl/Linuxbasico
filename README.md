@@ -2,11 +2,15 @@
 
 Este não é um curso regular de Linux, neste curso queremos ensinar conceitos básicos do Linux como navegar pelo sistema de arquivos, etc... e mostrar alguns exemplos básicos, mas com foco nas matérias de Robótica Computacional e Elementos de Sistemas para auxilia-los com os primeiros passos. 
 
+Afim de não ser algo chato e sem graça, vamos ao final desta aula 
+
 ## Infraestrutura
 
 A infra necessária para este curso já está instalada no SSD disponibilizada para os alunos do terceiro semestre de engenharia de computação. 
 
 <img src="/img/ssd.jpeg" width="400" height="400">
+
+
 
 ## Linux 
 <img src="/img/ilovelinux.png" width="700" height="250">
@@ -278,13 +282,15 @@ Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair
 
 # Modificando as permissões dos arquivos e diretórios
 
-As permissões servem para determinar se um usuario ou grupo terá permissões para ler, gravar, executar. 
-
-Para permitir a execução de um codigo python temos que mudar as permissões do arquivo.
+## Comando "chmod"
+As permissões servem para determinar se um usuario ou grupo terá permissões para ler, gravar, executar. Existem diversas configurações possiveis e não falar de todas elas. Precisamos permitir a execução de um codigo python logo, temos que mudar as permissões do arquivo.
 
 ```bash
 chmod a+x meuprograma.py
 ```
+A concatenação de a+x significa que estamos permitindo para todos (a = all) usuarios e grupos que executem (x = execution) o meuprograma.py
+
+
 # Super Usuário
 
 ## Comando "sudo"
