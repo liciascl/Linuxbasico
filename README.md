@@ -320,20 +320,24 @@ sudo apt-get install bastet
 ```bash
 sudo apt-get remove bastet
 ```
-# Mostra os formatos básicos de arquivos compactados e como lidar com eles no Linux.
-- tar - Agrupando arquivos
-- gzip, bzip2 - Compactando arquivos
-- zip, rar - Outros formatos de arquivos compactados Comandos de
-Tratamento de Texto
-
 
 # informaçes do sistema
+
+Comandos menos utilizados no dia dia mas que sempre aparecem. 
+
+## Informações dos dispositivos conectados na USB e na PCI
+
+```bash
+lsusb
+lspci
+```
+## Mensagens do inicializa
+
 ps 
 cat /proc/cpuinfo - Informações sobre o processador
 cat /etc/lsb-release 
 - uname -a ou -r - Informações de versão do kernel, arquitetura e outros
-  - lspci - Mostra informações sobre dispositivos PCI
-- lsusb - Mostra informações sobre dispositivos USB
+
 dmesg -  Mensagens de inicialização
 man - Ajuda sobre algum comando, assunto ou arquivo de configuração
 
