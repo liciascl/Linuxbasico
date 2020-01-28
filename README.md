@@ -13,7 +13,7 @@ A infra necessária para este curso já está instalada no SSD disponibilizada p
 
 
 ## Linux 
-<img src="/img/ilovelinux.png" width="700" height="250">
+<img src="/img/ilovelinux.png" width="500" height="250">
 
 Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
 
