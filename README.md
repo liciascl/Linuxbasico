@@ -117,7 +117,7 @@ ls
 
 ## Visualização de arquivos e pastas ocultos
 
-O comando "ls" sozinho não exibe arquivos ocultos, que são arquivos e pastas que começam com ".". Durante as aulas de robotica teremos que editar um arquivo oculto chamado "**.bashrc**", no momento precisamos apenas saber que este arquivo se encontra na home do usuario. digite:
+O comando "ls" sozinho não exibe arquivos ocultos, que são arquivos e pastas que começam com ".". Durante as aulas de robotica teremos que editar um arquivo oculto chamado "**.bashrc**", no momento precisamos apenas saber que este arquivo se encontra na home do usuario `~` e que após editado precisamos executar o `source ~/.bashrc` para recarregar as atualizações do arquivo. digite:
 
 ```bash
 cd ~
@@ -132,6 +132,11 @@ ou simplismente:
 
 ```bash
 ll
+```
+```bash
+cd ~
+code .bashrc
+source .bashrc
 ```
 
 # Criando diretórios
@@ -331,21 +336,27 @@ Comandos menos utilizados no dia dia mas que sempre aparecem.
 lsusb
 lspci
 ```
-## Mensagens do inicializa
+## Mensagens do inicialização e do sistema
 
+```bash
 ps 
-cat /proc/cpuinfo - Informações sobre o processador
+dmesg
+htop
+tree -L 3
 cat /etc/lsb-release 
-- uname -a ou -r - Informações de versão do kernel, arquitetura e outros
+uname -a
+```
+## Como destravar o sistema
 
-dmesg -  Mensagens de inicialização
-man - Ajuda sobre algum comando, assunto ou arquivo de configuração
+Para destravar uma tela, use "xkill" e clique na tela com o mouse.
+```bash
+xkill
+```
+Durante as aulas de Elementos pode ocorrer alguma falha no gravador. Para corrigir desconecte e conecte o cabo usb se não funcionar execute os comandos:
 
-source .bashrc
-export
-grep
 
-travou a tela 
-xkill - mata a tela
-kill, killall
-
+```bash
+sudo killall -9 jtagd
+sudo killall -9 jtagd
+jtagconfig
+```
