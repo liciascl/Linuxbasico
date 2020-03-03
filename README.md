@@ -417,11 +417,11 @@ Para utilizar o Simulador Gazebo precisamos nos certificar de que as configuraç
 Passo 1:
     Edite o arquivo `.bashrc`;
     Comente com `#` as linhas;
-        export ROS_MASTER_URI="http://"$IPBerry":11311" 
-        export ROS_IP=`hostname -I`  
-        export TURTLEBOT3_MODEL=burger
+>        export ROS_MASTER_URI="http://"$IPBerry":11311" 
+>        export ROS_IP=`hostname -I`  
+>        export TURTLEBOT3_MODEL=burger
     Descomente a linha:
-        export TURTLEBOT3_MODEL=waffle_pi     
+>        export TURTLEBOT3_MODEL=waffle_pi     
    
 Passo 2:
     Execute os comandos abaixo, abra novos terminais se necessário:
@@ -532,6 +532,8 @@ Faça as configurações do bashrc e abra o simulador e então execute o comando
 ```bash
 rosrun meu_projeto rodateste.py 
 ```
+
+# Parte 3
 
 # Atualizações de Sistema e instalação de pacotes 
 
