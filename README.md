@@ -222,7 +222,7 @@ Por questões de seguraça, o Linux trabalha com permissões de usuários e para
 
 Agora que conhecemos alguns comandos temos base suficiente para fazer a uma correção na inicialização do SSD. Os alunos que tem os SSD com numeração `0xB__` ja perceberam que aparece uma msg de erro na inicialização do sistema. 
 
-![boot SSD](/img/bootSSD.png)
+![boot SSD](/img/bootSSD.jpeg)
 
 Para corrigir, é necessário realizar a copia de uma pasta de uma pasta especifica para outro diretorio.
 
