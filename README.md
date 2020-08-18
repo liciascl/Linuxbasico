@@ -6,7 +6,7 @@
 
 
 
-## Guia de como configurar o seu computador para subir o SSD 
+## [Guia de como configurar o seu computador para subir o SSD ](https://github.com/Insper/404/tree/master/tutoriais/Boot_SSD_Config_BIOS)
 
 
 
@@ -16,7 +16,7 @@ Neste [link](https://github.com/Insper/404/tree/master/tutoriais/Boot_SSD_Config
 
 
 
-## Atividade Complementar - Introdução ao Linux
+## [Atividade Complementar - Introdução ao Linux](https://github.com/liciascl/Linuxbasico/blob/master/atividade_complementar.md)
 
 
 
@@ -27,7 +27,7 @@ Neste [link](https://github.com/liciascl/Linuxbasico/blob/master/atividade_compl
 
 
 
-## DESAFIO - Introdução ao Linux 
+## [DESAFIO - Introdução ao Linux](https://github.com/liciascl/Linuxbasico/blob/master/desafio.md)
 
 
 Após aprender os comandos básico, temos um desafio pra você, clique [aqui](https://github.com/liciascl/Linuxbasico/blob/master/desafio.md) e divirta-se!
