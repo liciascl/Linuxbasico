@@ -2,29 +2,22 @@
 
 Agora que conhecemos alguns comandos, e configuramos o nosso `.bashrc`, vamos brincar com a tartaruga do ROS!
 
-
 ![TutleSim](/img/turtlesim.png)
 
-Abra um terminal novo, usando o atalho <kbd>Ctrl</kbd> + <kbd>T </kbd> , neste terminal, execute o comando a seguir para criar uma "Rede ROS"
+Abra um terminal novo, usando o atalho <kbd>Crtl<kbd> + <kbd>T<kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"
 
-```bash
+``` bash
 roscore
-
 ```
 
-Seu resultado deve ser algo parecido com isso;
+Seu resultado deve ser algo parecido com isso:
 
 ![roscore](/img/roscore.png)
 
+Em uma nova aba do terminal (<kbd>Crtl<kbd> + <kbd>Shift<kbd> + <kbd>T<kbd>), vamos chamar a tartaruga com o comando abaixo:
 
-Em uma nova aba do terminal (<kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>), vamos chamar a tartaruga com o comando abaixo;
-
-
-```bash
-
+``` bash
 rosrun turtlesim turtlesim_node 
-
-
 ```
 
 Seu resultado deve ser algo parecido com isso;
@@ -34,10 +27,8 @@ Seu resultado deve ser algo parecido com isso;
 
 Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de Robótica Computacional, mas é legal saber, que podemos acessar os sensores dos nossos robôs, tanto dos virtuais como dos reais, com o comando abaixo;
 
-```bash
-
+``` bash
 rostopic list
-
 ```
 
 ![rostopic_list](/img/rostopic_list.png)
@@ -49,39 +40,26 @@ Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para 
 - */turtle1/cmd_vel*, para publicar novos valores de relocidade angular e velocidade linear em nossa tartaruga;
 
 
-Digite o comando abaixo em uma nova aba do seu terminal (<kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>), para acessar os sensores de velocidade e de posição da tartaruga
+Digite o comando abaixo em uma nova aba do seu terminal Crtl + Shift + T), para acessar os sensores de velocidade e de posição da tartaruga
 
-```bash
-
+``` bash
 rostopic echo /turtle1/pose 
-
-
 ```
 
-Depois, em um terminal novo (<kbd>Ctrl</kbd> + <kbd>T</kbd>), digite o comando a seguir, use as setas do seu teclado para mover a tartaruga, e observe os valores de velocidade e de posição, alternarem no terminal aberto no passo anterior.
+Depois, em um terminal novo (Crtl + T), digite o comando a seguir, use as setas do seu teclado para mover a tartaruga, e observe os valores de velocidade e de posição, alternarem no terminal aberto no passo anterior.
 
-```bash
-
+``` bash
 rosrun turtlesim turtle_teleop_key 
-
-
 ```
-
-
 
 Seu resultado deve ser algo parecido com isso;
 
 ![teleop](/img/teleop.gif)
 
-
-
 Com o comando abaixo, podemos publicar valores de velocidade angular e linear na nossa tartaruga, só tome cuidado pra não bater ela na parede, ela reclama!
 
-```bash
-
+``` bash
 rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist '[4.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
-
-
 ```
 
 Durante a disciplina de Robótica, esses comandos serão vistos em maiores detalhes, mas é importante saber, que estamos enviando um vetor contendo
@@ -91,24 +69,19 @@ Durante a disciplina de Robótica, esses comandos serão vistos em maiores detal
 
 A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valores publicados, perceba como ele altera o comportamento da tartaruga
 
-
 ![cmd_vel](/img/cmd_vel.gif)
-
-
-
-
 
 # Atividade 3 - Vamos programar!
 
-Abra o arquivo `roda_tartaruga.py` criado com muito carinho, na atividade anterior;
+Abra o arquivo *roda_tartaruga.py* criado com muito carinho, na atividade anterior;
 
 ```bash
 code roda_tartaruga.py
 ```
 
-Cole o codigo abaixo dentro do seu arquivo
+Cole o codigo abaixo dentro do seu arquivo:
 
-```bash
+``` python
 #!/usr/bin/env python
 
 import rospy
@@ -117,8 +90,6 @@ import sys
 ja_rodou=0
 
 def move_turtle(lin_vel,ang_vel,sleep):
-
-
     rospy.init_node('move_turtle', anonymous=True)
     pub = rospy.Publisher('/turtle1/cmd_vel', Twist, queue_size=3)
 
@@ -142,46 +113,35 @@ if __name__ == '__main__':
 
      while not rospy.is_shutdown():
         move_turtle(6.5,6.5,1.0)
-
-
 ```
 
-Com o *roscore* aberto em um terminal;
+Com o `roscore` aberto em um terminal:
 
-```bash
+``` bash
 roscore
-
 ```
 
-E a sua tartaruga aberta em outro;
+E a sua tartaruga aberta em outro:
 
-```bash
+``` bash
 rosrun turtlesim turtlesim_node 
-
 ```
 
-Execute o seu programa `roda_tartaruga.py`;
+Execute o seu programa roda_tartaruga.py;
 
-```bash
-
+``` bash
 ./roda_tartaruga.py
-
+```
 ou
 
+``` bash
 python roda_tartaruga.py
-
 ```
+
 Funcionou!???
 
 # Hora do desafio!
 
 Analise o código disponibilizado, altere os comandos e faça a nossa bela tartarugra desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
 
-
-
 ![roda_roda](/img/roda_roda.gif)
-
-
-
-
-
