@@ -35,3 +35,8 @@ Após aprender os comandos básico, temos um desafio pra você, clique [aqui](ht
 
 
 ![roda_roda](/img/roda_roda.gif)
+
+
+## [Listamos aqui os comandos mais utilizados pra você consultar](https://github.com/liciascl/Linuxbasico/blob/master/colinha.md)
+
+
