@@ -10,17 +10,15 @@ Listamos aqui os comandos mais utilizados pra você consultar
 
 
 Abra um terminal novo, usando o atalho Crtl + T
-```
-Crtl+Alt+T
 
-```
+<kbd>Ctrl</kbd> + <kbd>T</kbd>
+
+
 
 Abra uma aba no terminal que ja existe, Crtl + Shift + T
 
-```
-Crtl+Alt+ Shift + T
+<kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>
 
-```
 
 Para entrar numa pasta
 
