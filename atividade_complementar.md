@@ -4,7 +4,7 @@
 
 A infra necessária para este curso já está instalada no SSD disponibilizada para os alunos do terceiro semestre de engenharia de computação do Insper. 
 
-<img src="/img/capa.png" width="400" height="400">
+<img src="/img/ssd.png" width="400" height="400">
 
 # Parte 1
 
