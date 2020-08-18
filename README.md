@@ -40,3 +40,5 @@ Após aprender os comandos básico, temos um desafio pra você, clique [aqui](ht
 ## [Listamos aqui os comandos mais utilizados pra você consultar](https://github.com/liciascl/Linuxbasico/blob/master/colinha.md)
 
 
+<img src="/img/atalhos.png" width="400" height="400">
+
