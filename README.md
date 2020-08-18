@@ -23,7 +23,7 @@ Neste [link](https://github.com/Insper/404/tree/master/tutoriais/Boot_SSD_Config
 
 Neste [link](https://github.com/liciascl/Linuxbasico/blob/master/atividade_complementar.md) temos a parte teórica da *Atividade complementar - introdução ao Linux*
 
-![aula](/img/aula.gif)
+<img src="img/aula.gif" width="460" height="400">  
 
 
 
@@ -34,11 +34,12 @@ Após aprender os comandos básico, temos um desafio pra você, clique [aqui](ht
 
 
 
-![roda_roda](/img/roda_roda.gif)
+<img src="/img/roda_roda.gif" width="460" height="400">  
+
 
 
 ## [Listamos aqui os comandos mais utilizados pra você consultar](https://github.com/liciascl/Linuxbasico/blob/master/colinha.md)
 
 
-<img src="/img/atalhos.png" width="400" height="400">
+<img src="/img/atalhos.png" width="460" height="460">
 
