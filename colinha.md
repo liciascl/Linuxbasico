@@ -9,15 +9,11 @@ Listamos aqui os comandos mais utilizados pra você consultar
 <img src="/img/atalhos.png" width="200" height="200">
 
 
-Abra um terminal novo, usando o atalho Crtl + T
-
-<kbd>Ctrl</kbd> + <kbd>T</kbd>
+Abra um terminal novo, usando o atalho <kbd>Ctrl</kbd> + <kbd>T</kbd>
 
 
 
-Abra uma aba no terminal que ja existe, Crtl + Shift + T
-
-<kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>
+Abra uma aba no terminal que ja existe, <kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>
 
 
 Para entrar numa pasta
