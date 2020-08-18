@@ -21,7 +21,7 @@ Neste [link](https://github.com/Insper/404/tree/master/tutoriais/Boot_SSD_Config
 
 
 
-Neste [link](https://github.com/liciascl/Linuxbasico/blob/master/atividade_complementar.md) temos a parte teórica da atividade complementar - introdução ao Linux
+Neste [link](https://github.com/liciascl/Linuxbasico/blob/master/atividade_complementar.md) temos a parte teórica da *Atividade complementar - introdução ao Linux*
 
 ![aula](/img/aula.gif)
 
