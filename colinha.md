@@ -128,7 +128,7 @@ gedit socorro.py
 
 ```
 
-Para recarregar o .bashrc
+Para recarregar o  `.bashrc `
 
 ```bash
 
