@@ -1,5 +1,5 @@
-  
-# [linux]("/img/linuxs.png") Guia Linux básico 
+<img src="/img/linuxs.png" width="100" height="100">
+#  Guia Linux básico 
 
 
 
