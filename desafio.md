@@ -5,7 +5,7 @@ Agora que conhecemos alguns comandos, e configuramos o nosso *.bashrc*, vamos br
 
 ![TutleSim](/img/turtlesim.png)
 
-Abra um terminal novo, usando o atalho Crtl + T, neste terminal, execute o comando a seguir para criar uma "Rede ROS"
+Abra um terminal novo, usando o atalho <kbd>Ctrl</kbd> + <kbd>T </kbd> , neste terminal, execute o comando a seguir para criar uma "Rede ROS"
 
 ```
 roscore
@@ -17,7 +17,7 @@ Seu resultado deve ser algo parecido com isso;
 ![roscore](/img/roscore.png)
 
 
-Em uma nova aba do terminal (Crtl + Shift + T), vamos chamar a tartaruga com o comando abaixo;
+Em uma nova aba do terminal (<kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>), vamos chamar a tartaruga com o comando abaixo;
 
 
 ```
@@ -49,7 +49,7 @@ Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para 
 - */turtle1/cmd_vel*, para publicar novos valores de relocidade angular e velocidade linear em nossa tartaruga;
 
 
-Digite o comando abaixo em uma nova aba do seu terminal Crtl + Shift + T), para acessar os sensores de velocidade e de posição da tartaruga
+Digite o comando abaixo em uma nova aba do seu terminal (<kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>), para acessar os sensores de velocidade e de posição da tartaruga
 
 ```
 
@@ -58,7 +58,7 @@ rostopic echo /turtle1/pose
 
 ```
 
-Depois, em um terminal novo (Crtl + T), digite o comando a seguir, use as setas do seu teclado para mover a tartaruga, e observe os valores de velocidade e de posição, alternarem no terminal aberto no passo anterior.
+Depois, em um terminal novo (<kbd>Ctrl</kbd> + <kbd>T</kbd>), digite o comando a seguir, use as setas do seu teclado para mover a tartaruga, e observe os valores de velocidade e de posição, alternarem no terminal aberto no passo anterior.
 
 ```
 
