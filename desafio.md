@@ -4,7 +4,7 @@ Agora que conhecemos alguns comandos, e configuramos o nosso `.bashrc`, vamos br
 
 ![TutleSim](/img/turtlesim.png)
 
-Abra um terminal novo, usando o atalho <kbd>Crtl<kbd> + <kbd>T<kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"
+Abra um terminal novo, usando o atalho <kbd>Crtl</kbd> + <kbd>T</kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"
 
 ``` bash
 roscore
@@ -14,7 +14,7 @@ Seu resultado deve ser algo parecido com isso:
 
 ![roscore](/img/roscore.png)
 
-Em uma nova aba do terminal (<kbd>Crtl<kbd> + <kbd>Shift<kbd> + <kbd>T<kbd>), vamos chamar a tartaruga com o comando abaixo:
+Em uma nova aba do terminal (<kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>), vamos chamar a tartaruga com o comando abaixo:
 
 ``` bash
 rosrun turtlesim turtlesim_node 
