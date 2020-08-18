@@ -35,18 +35,18 @@ rostopic list
 
 Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para visualizar, como para publicar novos valores nos sensores disponíveis, usaremos dois tópicos nesta atividade;
 
-- */turtle1/pose*, para visualizar aonde nossa tartaruga está no mapa;
+- `/turtle1/pose`, para visualizar aonde nossa tartaruga está no mapa;
 
-- */turtle1/cmd_vel*, para publicar novos valores de relocidade angular e velocidade linear em nossa tartaruga;
+- `/turtle1/cmd_vel`, para publicar novos valores de relocidade angular e velocidade linear em nossa tartaruga;
 
 
-Digite o comando abaixo em uma nova aba do seu terminal Crtl + Shift + T), para acessar os sensores de velocidade e de posição da tartaruga
+Digite o comando abaixo em uma nova aba do seu terminal <kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>), para acessar os sensores de velocidade e de posição da tartaruga
 
 ``` bash
 rostopic echo /turtle1/pose 
 ```
 
-Depois, em um terminal novo (Crtl + T), digite o comando a seguir, use as setas do seu teclado para mover a tartaruga, e observe os valores de velocidade e de posição, alternarem no terminal aberto no passo anterior.
+Depois, em um terminal novo (<kbd>Crtl</kbd> + <kbd>T</kbd>), digite o comando a seguir, use as setas do seu teclado para mover a tartaruga, e observe os valores de velocidade e de posição, alternarem no terminal aberto no passo anterior.
 
 ``` bash
 rosrun turtlesim turtle_teleop_key 
@@ -64,8 +64,8 @@ rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist '[4.0, 0.0, 0.0]' '[0.0, 0.
 
 Durante a disciplina de Robótica, esses comandos serão vistos em maiores detalhes, mas é importante saber, que estamos enviando um vetor contendo
 
-- Velocidade Linear em X, Y, Z ;
-- Velocidade Angular em X, Y, Z ;
+- Velocidade Linear em X, Y, Z;
+- Velocidade Angular em X, Y, Z;
 
 A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valores publicados, perceba como ele altera o comportamento da tartaruga
 
@@ -73,9 +73,9 @@ A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valo
 
 # Atividade 3 - Vamos programar!
 
-Abra o arquivo *roda_tartaruga.py* criado com muito carinho, na atividade anterior;
+Abra o arquivo `roda_tartaruga.py` criado com muito carinho, na atividade anterior;
 
-```bash
+``` bash
 code roda_tartaruga.py
 ```
 
@@ -127,7 +127,7 @@ E a sua tartaruga aberta em outro:
 rosrun turtlesim turtlesim_node 
 ```
 
-Execute o seu programa roda_tartaruga.py;
+Execute o seu programa `roda_tartaruga.py`;
 
 ``` bash
 ./roda_tartaruga.py
