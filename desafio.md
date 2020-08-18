@@ -1,13 +1,13 @@
 # DESAFIO - Introdução ao Linux 
 
-Agora que conhecemos alguns comandos, e configuramos o nosso *.bashrc*, vamos brincar com a tartaruga do ROS!
+Agora que conhecemos alguns comandos, e configuramos o nosso `.bashrc`, vamos brincar com a tartaruga do ROS!
 
 
 ![TutleSim](/img/turtlesim.png)
 
 Abra um terminal novo, usando o atalho <kbd>Ctrl</kbd> + <kbd>T </kbd> , neste terminal, execute o comando a seguir para criar uma "Rede ROS"
 
-```
+```bash
 roscore
 
 ```
@@ -20,7 +20,7 @@ Seu resultado deve ser algo parecido com isso;
 Em uma nova aba do terminal (<kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>), vamos chamar a tartaruga com o comando abaixo;
 
 
-```
+```bash
 
 rosrun turtlesim turtlesim_node 
 
@@ -34,7 +34,7 @@ Seu resultado deve ser algo parecido com isso;
 
 Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de Robótica Computacional, mas é legal saber, que podemos acessar os sensores dos nossos robôs, tanto dos virtuais como dos reais, com o comando abaixo;
 
-```
+```bash
 
 rostopic list
 
@@ -51,7 +51,7 @@ Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para 
 
 Digite o comando abaixo em uma nova aba do seu terminal (<kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd>), para acessar os sensores de velocidade e de posição da tartaruga
 
-```
+```bash
 
 rostopic echo /turtle1/pose 
 
@@ -60,7 +60,7 @@ rostopic echo /turtle1/pose
 
 Depois, em um terminal novo (<kbd>Ctrl</kbd> + <kbd>T</kbd>), digite o comando a seguir, use as setas do seu teclado para mover a tartaruga, e observe os valores de velocidade e de posição, alternarem no terminal aberto no passo anterior.
 
-```
+```bash
 
 rosrun turtlesim turtle_teleop_key 
 
@@ -77,7 +77,7 @@ Seu resultado deve ser algo parecido com isso;
 
 Com o comando abaixo, podemos publicar valores de velocidade angular e linear na nossa tartaruga, só tome cuidado pra não bater ela na parede, ela reclama!
 
-```
+```bash
 
 rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist '[4.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
 
@@ -100,7 +100,7 @@ A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valo
 
 # Atividade 3 - Vamos programar!
 
-Abra o arquivo *roda_tartaruga.py* criado com muito carinho, na atividade anterior;
+Abra o arquivo `roda_tartaruga.py` criado com muito carinho, na atividade anterior;
 
 ```bash
 code roda_tartaruga.py
@@ -108,7 +108,7 @@ code roda_tartaruga.py
 
 Cole o codigo abaixo dentro do seu arquivo
 
-```
+```bash
 #!/usr/bin/env python
 
 import rospy
@@ -148,21 +148,21 @@ if __name__ == '__main__':
 
 Com o *roscore* aberto em um terminal;
 
-```
+```bash
 roscore
 
 ```
 
 E a sua tartaruga aberta em outro;
 
-```
+```bash
 rosrun turtlesim turtlesim_node 
 
 ```
 
-Execute o seu programa roda_tartaruga.py;
+Execute o seu programa `roda_tartaruga.py`;
 
-```
+```bash
 
 ./roda_tartaruga.py
 
