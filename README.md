@@ -15,9 +15,9 @@ A infra necessária para este curso já está instalada no SSD disponibilizada p
 ## Linux 
 <img src="/img/ilovelinux.png" width="500" height="250">
 
-Basicamente, o Linux nada mais é que um Kernel, ou seja, é o software responsavel por conectar o hardware (computador, dispositivo embarcado) com o software (Sistema Operacional). 
+O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
-Linux já é utilizado amplamente por empresas de tecnologia tanto para infraestrura como para desenvolvimento de sistemas e nos ultimos vem crescendo tambem os usuarios domesticos. Durante a gradução e vida profissional na area de computação, vamos sempre nos deparar com um terminal do linux. 
+Normalmente, o Linux é utilizado como plataforma de desenvolvimento em sistemas embarcados
 
 ![Kernel logo](/img/Kernel_basic.png)
 [Fonte](https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/)
@@ -32,7 +32,7 @@ A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Exi
 
 # Conhecendo e utilizando o Terminal 
 
-O terminal do linux ou **Shell** é para os iniciantes no linux algo de outro mundo e causa um pouco de expanto. Não tem nada disso, o terminal nada mais é que um software que interpreta os comandos digitados pelo usuario e executa em baixo nivel no hardware. 
+O Terminal do Linux pode causar espanto, mas é apenas uma ferramenta que facilita a manipulação do sistema, interpretando os comandos do usuário, fazendo a ponte com o hardware
 
 ## Abrindo o terminal
 
@@ -40,8 +40,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
 
  > Crtl+Alt+T
  
- Neste momento nos deparamos com a janela do terminal aberta na home do usuario pronta para receber os primeiros comandos.
-
+Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
 ![ssd](/img/terminal.png)
 
 ## Configurando o Git
@@ -55,7 +54,7 @@ git config --global user.email "seunome@email.com"
 > Se você está tentou usar Crtr+C no texto e Crtr+V no terminal, talvez não tenha dado muito certo. 
 > Para copiar e colar no ## terminal ##  use:
 > Ctrl+Shift+C (Copiar) e Ctrl+Shift+V (Colar). 
-> Sabendo disso, faça atualização do git copiano e colando o comando no terminal.
+> Sabendo disso, faça atualização do git copiando e colando o comando no terminal.
 
 Para verificar se foi atualizado com sucesso digite:
 
@@ -128,7 +127,7 @@ Para voltar, subir um nivel, e acessar o diretório anterior podemos digitar:
 ```bash
 cd ..
 ```
-## Comanod "pwd"
+## Comando "pwd"
 
 Podemos verificar o diretório que estamos digitanto:
 
@@ -143,12 +142,12 @@ O comando **ls** é utilizado par exibir (listar) o conteudo de um diretório.
 ls
 ```
 ## home
-Para acessar a home do nosso usuario podemos fazer isso "voltando" as pastas repitindo o comando acima, ou simplismente digitando o comando: 
+Para acessar a home do nosso usuario podemos fazer isso "voltando" as pastas repetindo o comando acima, ou simplismente digitando o comando: 
 
 ```bash
 cd ~
 ```
-> Toda a vez que abrimos um novo terminal, ele é inicializado na home do usuário. 
+> Toda vez em que abrimos um novo terminal, ele é inicializado na home do usuário. 
 
 # Criando diretórios
 
@@ -445,7 +444,7 @@ adicione no arquivo .bashrc o alias de parada do robo.
 > #Pararobo
 > alias pararobo="rostopic pub -1 /cmd_vel geometry_msgs/Twist -- '[0.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'"
 
-Toda a vez que for executado o comando paraboro, um comando de parada será publicado no robo.
+Toda a vez que for executado o comando pararboro, um comando de parada será publicado no robo.
 
 Execute o comando e verifique atraves do simulador se esta funcionando.
 
@@ -453,7 +452,7 @@ Execute o comando e verifique atraves do simulador se esta funcionando.
 # Modificando as permissões dos arquivos e diretórios
 
 ## Comando "chmod"
-As permissões servem para determinar se um usuario ou grupo terá permissões para ler, gravar, executar. Existem diversas configurações possiveis e não falar de todas elas. Precisamos permitir a execução de um codigo python logo, temos que mudar as permissões do arquivo.
+As permissões servem para determinar se um usuario ou grupo terá permissões para ler, gravar, executar. Existem diversas configurações possiveis e a que mais utilizamos dá a permissão de execução a um codigo qualquer, como um python, por exemplo;
 
 ```bash
 chmod a+x meuprograma.py
@@ -562,7 +561,7 @@ sudo apt-get remove geogebra
 
 # informaçes do sistema
 
-Comandos menos utilizados no dia dia mas que sempre aparecem. 
+Comandos menos utilizados no dia a dia mas que sempre aparecem. 
 
 ## Informações dos dispositivos conectados na USB e na PCI
 
@@ -586,7 +585,7 @@ Para destravar uma tela, use "xkill" e clique na tela com o mouse.
 ```bash
 xkill
 ```
-Durante as aulas de Elementos pode ocorrer alguma falha no gravador. Para corrigir desconecte e conecte o cabo usb se não funcionar execute os comandos:
+Durante as atividades práticas de elementos, podemos ter problemas com a gravação da placa, para resolver basta reconectar a placa ao computador e executar o comando abaixo;
 
 
 ```bash
@@ -594,3 +593,5 @@ sudo killall -9 jtagd
 sudo killall -9 jtagd
 jtagconfig
 ```
+
+
