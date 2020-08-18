@@ -1,4 +1,7 @@
-# Guia Linux básico <img src="/img/linux.png" width="100" height="100">
+  
+# [linux]("/img/linuxs.png") Guia Linux básico 
+
+
 
 Este não é um curso regular de Linux, neste curso queremos ensinar conceitos básicos do Linux como navegar pelo sistema de arquivos e mostrar alguns exemplos básicos, mas com foco nas matérias de Robótica Computacional e Elementos de Sistemas para auxilia-los com os primeiros passos. 
 
