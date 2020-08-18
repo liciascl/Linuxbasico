@@ -33,7 +33,7 @@ rostopic list
 ```
 
 
-<img src="/img/rostopic_list.png" width="840" height="400">   
+<img src="/img/rostopic_list.png" width="400" height="400">   
 
 Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para visualizar, como para publicar novos valores nos sensores disponíveis, usaremos dois tópicos nesta atividade;
 
