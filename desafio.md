@@ -2,7 +2,8 @@
 
 Agora que conhecemos alguns comandos, e configuramos o nosso `.bashrc`, vamos brincar com a tartaruga do ROS!
 
-![TutleSim](/img/turtlesim.png)
+<img src="/img/turtlesim.png" width="400" height="400">   
+
 
 Abra um terminal novo, usando o atalho <kbd>Crtl</kbd> + <kbd>T</kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"
 
@@ -12,7 +13,7 @@ roscore
 
 Seu resultado deve ser algo parecido com isso:
 
-![roscore](/img/roscore.png)
+<img src="/img/roscore.png" width="640" height="400">   
 
 Em uma nova aba do terminal (<kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>), vamos chamar a tartaruga com o comando abaixo:
 
@@ -31,7 +32,8 @@ Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de
 rostopic list
 ```
 
-![rostopic_list](/img/rostopic_list.png)
+
+<img src="/img/rostopic_list.png" width="840" height="400">   
 
 Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para visualizar, como para publicar novos valores nos sensores disponíveis, usaremos dois tópicos nesta atividade;
 
