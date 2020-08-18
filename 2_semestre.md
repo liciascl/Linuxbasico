@@ -494,7 +494,7 @@ rosrun turtlesim turtle_teleop_key
 
 Seu resultado deve ser algo parecido com isso;
 
-![teleop](/img/teleop.mp4)
+![teleop](/img/teleop.gif)
 
 
 
@@ -515,7 +515,7 @@ Durante a disciplina de Robótica, esses comandos serão vistos em maiores detal
 A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valores publicados, perceba como ele altera o comportamento da tartaruga
 
 
-![cmd_vel](/img/cmd_vel.mp4)
+![cmd_vel](/img/cmd_vel.gif)
 
 
 
@@ -602,7 +602,7 @@ Analise o código disponibilizado, altere os comandos e faça a nossa bela tarta
 
 
 
-![roda_roda](/img/roda_roda.mp4)
+![roda_roda](/img/roda_roda.gif)
 
 
 
