@@ -6,7 +6,7 @@ Este não é um curso regular de Linux, neste curso queremos ensinar conceitos b
 
 | Tópico        | Sobre          |
 | ------------- |---------------|
-|  [Guia de como configurar o seu computador para subir o SSD](https://github.com/Insper/404/tree/master/tutoriais/Boot_SSD_Config_BIOS)    | Passo a passo de como configurar o seu computador para subir o Sistema Operacional gravado no SSD externo disponibilizado pelos técnicos do laboratório |  
-| [Introdução ao Linux](https://github.com/liciascl/Linuxbasico/blob/master/atividade_complementar.md) | Parte teórica da *Atividade complementar - introdução ao Linux* |
-|  [DESAFIO - Introdução ao Linux](https://github.com/liciascl/Linuxbasico/blob/master/desafio.md) | Após aprender os comandos básico, temos um desafio pra você |
-| [Comandos mais utilizados pra você consultar](https://github.com/liciascl/Linuxbasico/blob/master/colinha.md) | |
+|  [Guia de como configurar o seu computador para subir o SSD](https://liciascl.github.io/boot_do_ssd/)    | Passo a passo de como configurar o seu computador para subir o Sistema Operacional gravado no SSD externo disponibilizado pelos técnicos do laboratório |  
+| [Introdução ao Linux](https://liciascl.github.io/Linuxbasico/atividade_complementar/) | Parte teórica da *Atividade complementar - introdução ao Linux* |
+|  [DESAFIO - Introdução ao Linux](https://liciascl.github.io/Linuxbasico/desafio/) | Após aprender os comandos básico, temos um desafio pra você |
+| [Comandos mais utilizados pra você consultar](https://liciascl.github.io/Linuxbasico/colinha/) | |

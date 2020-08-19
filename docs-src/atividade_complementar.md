@@ -4,18 +4,18 @@
 
 A infra necessária para este curso já está instalada no SSD disponibilizada para os alunos do terceiro semestre de engenharia de computação do Insper. 
 
-<img src="/img/ssd.png" width="400" height="400">
+<img src="img/ssd.png" width="400" height="400">
 
 # Parte 1
 
 ## Linux 
-<img src="/img/ilovelinux.png" width="500" height="250">
+<img src="img/ilovelinux.png" width="500" height="250">
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
 Normalmente, o Linux é utilizado como plataforma de desenvolvimento em sistemas embarcados
 
-![Kernel logo](/img/Kernel_basic.png)
+![Kernel logo](img/Kernel_basic.png)
 [Fonte](https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/)
 
 A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Existem diversas distribuições mas não será o nosso foco.
@@ -37,7 +37,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
  > Crtl+Alt+T
  
 Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
-![ssd](/img/terminal.png)
+![ssd](img/terminal.png)
 
 ## Configurando o Git
 
@@ -64,7 +64,7 @@ De forma bem simplificada, podemos dizer que o sistema Linux possui 2 elementos 
 Sabendo disso é importante saber navegar entre os diretórios para encontrar os nossos arquivos.
 
 
-![pasta logo](/img/FilesAndFolders.png)
+![pasta logo](img/FilesAndFolders.png)
 [Fonte](https://commons.wikimedia.org/wiki/File:FilesAndFolders.png)
 
 
@@ -254,7 +254,7 @@ Modo console, que abre no proprio terminal e o com interface gráfica.
 ## Editor nano 
 O nano é um editor do modo console, ou seja, abre no proprio terminal. Vamos ver alguns comandos basicos, mas na parte inferior do editor são exibidos comandos que o nano entende.  
 
-![nano logo](/img/main-nano-window.png)
+![nano logo](img/main-nano-window.png)
 
 ### Abrir
 Digite no terminal **nano** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -277,7 +277,7 @@ Para sair sem salvar alteraçes, Ctrl+X e "n".
 ## Editor gedit
 Muito parecido com o famoso bloco de notas do Windows.
 
-![nano logo](/img/gedit3-screenshot.png)
+![nano logo](img/gedit3-screenshot.png)
 
 ### Abrir
 Digite no terminal **gedit** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -298,7 +298,7 @@ Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair
 
 O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.
 
-![vscode logo](/img/vscode-ui-in-container.png)
+![vscode logo](img/vscode-ui-in-container.png)
 
 ### Abrir
 
@@ -351,7 +351,7 @@ code ~/.bashrc
 
 Depois, procure essas linhas, e comente, conforme imagem abaixo;
 
-![bashrc](/img/bashrc.png)
+![bashrc](img/bashrc.png)
 
 
 # Atualizações de Sistema e instalação de pacotes 
