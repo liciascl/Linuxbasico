@@ -6,7 +6,7 @@ Listamos aqui os comandos mais utilizados pra você consultar
 
 
 
-<img src="/img/atalhos.png" width="400" height="400">
+<img src="img/atalhos.png" width="400" height="400">
 
 
 Abra um terminal novo, usando o atalho Crtl + T
