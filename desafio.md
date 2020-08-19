@@ -2,7 +2,7 @@
 
 Agora que conhecemos alguns comandos, e configuramos o nosso `.bashrc`, vamos brincar com a tartaruga do ROS!
 
-<img src="/img/turtlesim.png" width="400" height="400">   
+<img src="img/turtlesim.png" width="400" height="400">   
 
 
 Abra um terminal novo, usando o atalho <kbd>Crtl</kbd> + <kbd>T</kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"
@@ -13,7 +13,7 @@ roscore
 
 Seu resultado deve ser algo parecido com isso:
 
-<img src="/img/roscore.png" width="640" height="400">   
+<img src="img/roscore.png" width="640" height="400">   
 
 Em uma nova aba do terminal (<kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>), vamos chamar a tartaruga com o comando abaixo:
 
@@ -23,7 +23,7 @@ rosrun turtlesim turtlesim_node
 
 Seu resultado deve ser algo parecido com isso;
 
-![turtlesim_2](/img/turtlesim_2.png)
+![turtlesim_2](img/turtlesim_2.png)
 
 
 Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de Robótica Computacional, mas é legal saber, que podemos acessar os sensores dos nossos robôs, tanto dos virtuais como dos reais, com o comando abaixo;
@@ -33,7 +33,7 @@ rostopic list
 ```
 
 
-<img src="/img/rostopic_list.png" width="640" height="400">   
+<img src="img/rostopic_list.png" width="640" height="400">   
 
 Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para visualizar, como para publicar novos valores nos sensores disponíveis, usaremos dois tópicos nesta atividade;
 
@@ -56,7 +56,7 @@ rosrun turtlesim turtle_teleop_key
 
 Seu resultado deve ser algo parecido com isso;
 
-![teleop](/img/teleop.gif)
+![teleop](img/teleop.gif)
 
 Com o comando abaixo, podemos publicar valores de velocidade angular e linear na nossa tartaruga, só tome cuidado pra não bater ela na parede, ela reclama!
 
@@ -71,7 +71,7 @@ Durante a disciplina de Robótica, esses comandos serão vistos em maiores detal
 
 A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valores publicados, perceba como ele altera o comportamento da tartaruga
 
-![cmd_vel](/img/cmd_vel.gif)
+![cmd_vel](img/cmd_vel.gif)
 
 # Atividade 3 - Vamos programar!
 
@@ -146,4 +146,4 @@ Funcionou!???
 
 Analise o código disponibilizado, altere os comandos e faça a nossa bela tartarugra desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
 
-![roda_roda](/img/roda_roda.gif)
+![roda_roda](img/roda_roda.gif)
