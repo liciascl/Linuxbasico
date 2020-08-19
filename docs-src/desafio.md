@@ -23,7 +23,7 @@ rosrun turtlesim turtlesim_node
 
 Seu resultado deve ser algo parecido com isso;
 
-![turtlesim_2](/img/turtlesim_2.png)
+![turtlesim_2](img/turtlesim_2.png)
 
 !!!! note
 Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de Robótica Computacional, mas é legal saber, que podemos acessar os sensores dos nossos robôs, tanto dos virtuais como dos reais, com o comando abaixo;
@@ -150,4 +150,4 @@ Funcionou!???
 
 Analise o código disponibilizado, altere os comandos e faça a nossa bela tartarugra desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
 
-![roda_roda](/img/roda_roda.gif)
+![roda_roda](img/roda_roda.gif)
