@@ -1,0 +1,26 @@
+site_name: 'Linux Básico'
+theme:
+  name: 'material'
+
+repo_name: 'liciascl/Linuxbasico'
+repo_url: 'https://github.com/liciascl/Linuxbasico'
+docs_dir: docs-src
+site_dir: docs
+
+# Copyright
+copyright: 'Copyright &copy @ Insper'
+
+nav:
+- Home: index.md
+- boot_do_ssd.md
+- atividade_complementar.md
+- desafio.md
+- colinha.md
+
+#####################################################################
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite
+  - pymdownx.magiclink
+  - pymdownx.details

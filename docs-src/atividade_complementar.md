@@ -254,7 +254,7 @@ Modo console, que abre no proprio terminal e o com interface gráfica.
 ## Editor nano 
 O nano é um editor do modo console, ou seja, abre no proprio terminal. Vamos ver alguns comandos basicos, mas na parte inferior do editor são exibidos comandos que o nano entende.  
 
-![nano logo](/img/main-nano-window.png)
+![nano logo](img/main-nano-window.png)
 
 ### Abrir
 Digite no terminal **nano** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
