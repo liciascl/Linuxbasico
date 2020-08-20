@@ -6,7 +6,7 @@ Listamos aqui os comandos mais utilizados pra você consultar
 
 
 
-<img src="https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/atalhos.png" width="200" height="200">
+<img src="https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/atalhos.png"'>
 
 
 Abra um terminal novo, usando o atalho <kbd>Ctrl</kbd> + <kbd>T</kbd>
