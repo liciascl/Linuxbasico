@@ -25,8 +25,8 @@ Seu resultado deve ser algo parecido com isso;
 
 ![turtlesim_2](img/turtlesim_2.png)
 
-
-!!!! Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de Robótica Computacional, mas é legal saber, que podemos acessar os sensores dos nossos robôs, tanto dos virtuais como dos reais, com o comando abaixo;
+!!!! note
+Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de Robótica Computacional, mas é legal saber, que podemos acessar os sensores dos nossos robôs, tanto dos virtuais como dos reais, com o comando abaixo;
 
 ``` bash
 rostopic list
@@ -35,7 +35,8 @@ rostopic list
 
 <img src="img/rostopic_list.png" width="640" height="400">   
 
-!!!! Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para visualizar, como para publicar novos valores nos sensores disponíveis, usaremos dois tópicos nesta atividade;
+
+Com o *rostopic list* temos acesso a todos os tópicos disponíveis, tanto para visualizar, como para publicar novos valores nos sensores disponíveis, usaremos dois tópicos nesta atividade;
 
 
 - `/turtle1/pose`, para visualizar aonde nossa tartaruga está no mapa;
@@ -64,12 +65,14 @@ Com o comando abaixo, podemos publicar valores de velocidade angular e linear na
 ``` bash
 rostopic pub -1 /turtle1/cmd_vel geometry_msgs/Twist '[4.0, 0.0, 0.0]' '[0.0, 0.0, 0.0]'
 ```
-!!!! Durante a disciplina de Robótica, esses comandos serão vistos em maiores detalhes, mas é importante saber, que estamos enviando um vetor contendo
+
+Durante a disciplina de Robótica, esses comandos serão vistos em maiores detalhes, mas é importante saber, que estamos enviando um vetor contendo
+
 
 - Velocidade Linear em X, Y, Z;
 - Velocidade Angular em X, Y, Z;
 
-!!!! note
+
 A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valores publicados, perceba como ele altera o comportamento da tartaruga
 
 ![cmd_vel](img/cmd_vel.gif)
@@ -143,13 +146,8 @@ python roda_tartaruga.py
 
 Funcionou!???
 
-
-
-
 # Hora do desafio!
 
 Analise o código disponibilizado, altere os comandos e faça a nossa bela tartarugra desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
-
-
 
 ![roda_roda](img/roda_roda.gif)
