@@ -4,12 +4,14 @@
 
 A infra necessária para este curso já está instalada no SSD disponibilizada para os alunos do terceiro semestre de engenharia de computação do Insper. 
 
-<img src="img/ssd.png" width="400" height="400">
+![referencia](img/ssd.png)
+
 
 # Parte 1
 
 ## Linux 
-<img src="img/ilovelinux.png" width="500" height="250">
+
+![referencia](img/ilovelinux.png)
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
