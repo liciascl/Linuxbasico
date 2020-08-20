@@ -3,8 +3,7 @@
 Listamos aqui os comandos mais utilizados pra você consultar 
 
 
-
-<img src="https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/atalhos.png" width="100" height="100">  
+![referencia](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/atalhos.png)
 
 
 
