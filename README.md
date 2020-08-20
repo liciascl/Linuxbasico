@@ -1,6 +1,6 @@
 # Guia Linux básico 
 
-<img src="/img/linuxs.png" width="100" height="100">  
+<img src="https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/linuxs.png" width="100" height="100">  
 
 ### Nesta Atividade Complementar será apresentado o Sistema Operacional Linux - distribuição Ubuntu versão 18.04 LTS.
 
