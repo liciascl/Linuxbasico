@@ -24,6 +24,10 @@ rosrun turtlesim turtlesim_node
 Seu resultado deve ser algo parecido com isso;
 
 ![turtlesim_2](img/turtlesim_2.png)
+<<<<<<< HEAD:docs-src/desafio.md
+=======
+
+>>>>>>> master:desafio.md
 
 !!!! note
 Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de Robótica Computacional, mas é legal saber, que podemos acessar os sensores dos nossos robôs, tanto dos virtuais como dos reais, com o comando abaixo;
@@ -75,7 +79,7 @@ Durante a disciplina de Robótica, esses comandos serão vistos em maiores detal
 !!!! note
 A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valores publicados, perceba como ele altera o comportamento da tartaruga
 
-![cmd_vel](/img/cmd_vel.gif)
+![cmd_vel](img/cmd_vel.gif)
 
 # Atividade 3 - Vamos programar!
 

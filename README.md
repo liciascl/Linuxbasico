@@ -1,6 +1,10 @@
 # Guia Linux básico 
 
+<<<<<<< HEAD
 <img src="https://github.com/liciascl/Linuxbasico/blob/master/img/linuxs.png" width="100" height="100">   
+=======
+<img src="/img/linuxs.png" width="100" height="100">  
+>>>>>>> master
 
 ### Nesta Atividade Complementar será apresentado o Sistema Operacional Linux - distribuição Ubuntu versão 18.04 LTS.
 
@@ -9,9 +13,16 @@ Durante o 3 Semestre de Engenharia da Computação no Insper, As atividades real
 
 | Tópico        | Sobre          |
 | ------------- |---------------|
+<<<<<<< HEAD
 |  [Guia de como configurar o seu computador para subir o SSD](https://github.com/Insper/404/tree/master/tutoriais/Boot_SSD_Config_BIOS)    | Passo a passo de como configurar o seu computador para subir o Sistema Operacional gravado no SSD externo disponibilizado pelos técnicos do laboratório |  
 | [Introdução ao Linux](https://github.com/liciascl/Linuxbasico/blob/master/atividade_complementar.md) | Parte teórica da Atividade complementar - introdução ao Linux |
 |  [DESAFIO - Introdução ao Linux](https://github.com/liciascl/Linuxbasico/blob/master/desafio.md) | Após aprender os comandos básico, temos um desafio pra você |
 | [Colinha com os principais comandos](https://github.com/liciascl/Linuxbasico/blob/master/colinha.md) | Seleção com os comandos mais utilizados para facilitar a sua vida|
 
 
+=======
+|  [Guia de como configurar o seu computador para subir o SSD](https://github.com/Insper/404/tree/master/tutoriais/Boot_SSD_Config_BIOS)    | Passo a passo para configurar o seu computador para subir o Sistema Operacional gravado no SSD externo disponibilizado pelos técnicos do laboratório |  
+| [Introdução ao Linux](https://github.com/liciascl/Linuxbasico/blob/master/atividade_complementar.md) | Parte teórica da Atividade complementar - introdução ao Linux |
+|  [DESAFIO - Introdução ao Linux](https://github.com/liciascl/Linuxbasico/blob/master/desafio.md) | Após aprender os comandos básicos, temos um desafio pra você |
+| [Colinha com os principais comandos](https://github.com/liciascl/Linuxbasico/blob/master/colinha.md) | Seleção com os comandos mais utilizados para facilitar a sua vida|
+>>>>>>> master
