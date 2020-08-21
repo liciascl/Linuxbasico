@@ -1,15 +1,15 @@
 # Atividade Complementar - Introdução ao Linux
 
-## Infraestrutura
+## Infraestrutura Necessária
 
-> SSD disponibilizado 
-> laptop, desktop, com acesso a Internet
-> [Ter realizado os passos deste tutorial](https://liciascl.github.io/Linuxbasico/boot_do_ssd/)
+- SSD disponibilizado 
+- laptop, desktop, com acesso a Internet
+- [Ter realizado os passos deste tutorial](https://liciascl.github.io/Linuxbasico/boot_do_ssd/)
 
 
 ## Linux 
 
-![referencia](img/ilovelinux.png){width=350}
+![referencia](img/ilovelinux.png){width=250}
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
