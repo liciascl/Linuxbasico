@@ -3,7 +3,8 @@
 Listamos aqui os comandos mais utilizados pra você consultar 
 
 
-![referencia](img/atalhos.png)
+![referencia](img/atalhos.png){width=200}
+
 
 
 
