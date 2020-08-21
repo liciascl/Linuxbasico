@@ -2,23 +2,27 @@
 
 ## Infraestrutura
 
-- SSD disponibilizado 
-- laptop, desktop, com acesso a Internet
-- Ter realizado os passos deste [tutorial](https://liciascl.github.io/Linuxbasico/boot_do_ssd/)
+> SSD disponibilizado 
+> laptop, desktop, com acesso a Internet
+> [Ter realizado os passos deste tutorial](https://liciascl.github.io/Linuxbasico/boot_do_ssd/)
 
 
 ## Linux 
 
-![referencia](img/ilovelinux.png){width=250}
+![referencia](img/ilovelinux.png){width=350}
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
 Normalmente, o Linux é utilizado como plataforma de desenvolvimento em sistemas embarcados
 
-![Kernel logo](img/Kernel_basic.png)
+
+![Kernel logo](img/Kernel_basic.png){width=350}
 [Fonte](https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/)
 
+
+
 A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Existem diversas distribuições mas não será o nosso foco.
+
 
 >É fácil achar maiores informações online, deixamos alguns links aqui mas não se restrinja apenas a eles:
 >[link1](https://www.linuxfoundation.org/)
@@ -26,7 +30,7 @@ A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Exi
 >[link3](https://boilingsteam.com/arch-manjaro-still-going-strong/)
 >
 
-# Conhecendo e utilizando o Terminal 
+## Conhecendo e utilizando o Terminal 
 
 O Terminal do Linux é uma ferramenta que facilita a manipulação do sistema, interpretando os comandos do usuário, fazendo a ponte com o hardware do seu computador
 
@@ -37,7 +41,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>
  
 Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
-![ssd](img/terminal.png)
+![ssd](img/terminal.png){width=400}
 
 
 ## Comando "apt" 
@@ -82,28 +86,28 @@ sudo apt remove geogebra
 
 ### Instalar pacotes via Ubuntu Sftware
 
-![logo_ubuntu_software](img/ubuntu_software.jpeg){width=150}
+![logo_ubuntu_software](img/logo_ubuntu_software.png){width=100}
 
 Podemos instalar pacotes via `Ubuntu Sftware`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Sftware` na janela de busca;
 
-1 - ![show_aplication](img/show_aplication.png){width=250}
+1 - ![show_aplication](img/show_aplication.png){width=400}
 
 
-2 - ![show_aplication](img/ubuntu_software.png){width=250}
+2 - ![show_aplication](img/ubuntu_software.png){width=400}
 
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
-![find_geogebra](img/find_geogebra.png){width=250}
+![find_geogebra](img/find_geogebra.png){width=400}
 
 
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-![install_geogebra](img/install_geogebra.png){width=250}
+![install_geogebra](img/install_geogebra.png){width=400}
 
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
-![launch_geogebra](img/launch_geogebra.png){width=250}
+![launch_geogebra](img/launch_geogebra.png){width=400}
 
 
 
@@ -116,19 +120,22 @@ git config --global user.name "Seu Nome"
 git config --global user.email "seunome@email.com"
 ```
 
-> Se você está tentou usar <kbd>Ctrl</kbd> + <kbd>C</kbd> no texto e <kbd>Ctrl</kbd> + <kbd>V</kbd> no terminal, talvez não tenha dado muito certo. 
-> Para copiar e colar no ## terminal ##  use:
-> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Copiar) e <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (Colar). 
-> Sabendo disso, faça atualização do git copiando e colando o comando no terminal.
+> Se você está tentou usar <kbd>Ctrl</kbd> + <kbd>C</kbd> no texto e <kbd>Ctrl</kbd> + <kbd>V</kbd> no terminal, talvez não tenha dado muito certo.
 
-Para verificar se foi atualizado com sucesso digite:
+> Para copiar e colar no terminal use:
+
+> <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Copiar) e <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (Colar). 
+
+Sabendo disso, faça a configuração das suas credenciais no git copiando e colando o comando no terminal.
+
+Para verificar se foi funcionou, digite:
 
 ```bash
 git config user.name
 git config user.email
 ```
 
-Este comando grava as suas credenciais do GitHub, para facilitar a sua vida na hora de enviar seus arquivos locais para o repositório remoto.
+>Este comando grava as suas credenciais do GitHub, para facilitar a sua vida na hora de enviar seus arquivos locais para o repositório remoto.
 
 
 # Navegando entre diretorios e arquivos
@@ -137,8 +144,11 @@ De forma bem simplificada, podemos dizer que o sistema Linux possui 2 elementos 
 Sabendo disso é importante saber navegar entre os diretórios para encontrar os arquivos.
 
 
-![pasta logo](img/FilesAndFolders.png)
+![pasta logo](img/FilesAndFolders.png){width=400}
+
 [Fonte](https://commons.wikimedia.org/wiki/File:FilesAndFolders.png)
+
+
 
 
 ## Comando "cd"
@@ -170,7 +180,9 @@ tree -d -L 4
 Esta ferramenta é útil para te ajudar a navegar de forma mais eficiente dentro do sistema, se você não sabe aonde determinado repositório está exatamente, é possivel consultar a árvore para localizar visualmente.
 
 
-> os paramentros -d -L 2 indica que que queremos listar (-L )até o quarto (4) nível na hierarquia de pastas, apenas as pastas (-d), para listar tudo digite apenas tree.
+> os paramentros -d -L 2 indica que que queremos listar (-L )até o quarto (4) nível na hierarquia de pastas, apenas as pastas (-d)
+
+> para listar tudo digite apenas tree.
 
 Na pasta Z01.1 -> Projetos -> B-LogicaCombinacional -> src -> rtl estão os arquivos .hdl da ultima aula, vamos dar uma olhada neles. 
 
@@ -359,7 +371,7 @@ os que rodam direto no console (terminal) e os que possuem uma interface gráfic
 
 O nano é um editor do modo console, ou seja, abre no proprio terminal. 
 
-![nano logo](img/main-nano-window.png)
+![nano logo](img/main-nano-window.png){width=400}
 
 ### Abrir
 Digite no terminal **nano** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -382,7 +394,7 @@ Para sair sem salvar alteraçes,  <kbd>Ctrl</kbd> + <kbd>X</kbd> e  <kbd>N</kbd>
 ## Editor gedit
 Muito parecido com o famoso bloco de notas do Windows.
 
-![nano logo](img/gedit3-screenshot.png)
+![nano logo](img/gedit3-screenshot.png){width=400}
 
 ### Abrir
 Digite no terminal **gedit** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -403,7 +415,7 @@ Para salvar e sair, pressione  <kbd>Ctrl</kbd> + <kbd>S</kbd> ou clique em salva
 
 O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.
 
-![vscode logo](img/vscode-ui-in-container.png)
+![vscode logo](img/vscode-ui-in-container.png){width=400}
 
 ### Abrir
 
@@ -459,5 +471,10 @@ Para matar um processo, digite o comando abaixo, e o nome do software que deseja
 ```bash
 pkill terminal
 ```
+
+Preparamos um desafio para você, navega até a proxima página e divirta-se com a tartaruga do ROS
+
+![roda_roda](img/roda_roda.gif)
+
 
 

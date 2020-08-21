@@ -276,15 +276,23 @@
                 
                 
                 <h1 id="desafio-introducao-ao-linux">DESAFIO - Introdução ao Linux</h1>
-<p>Agora que conhecemos alguns comandos, e configuramos o nosso <code>.bashrc</code>, vamos brincar com a tartaruga do ROS!</p>
-<p><img alt="referencia" src="../img/turtlesim.png" /></p>
-<p>Abra um terminal novo, usando o atalho <kbd>Crtl</kbd> + <kbd>T</kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"</p>
+<p>Agora que conhecemos alguns comandos, podemos configur o nosso <code>.bashrc</code>,  para brincar com a tartaruga do ROS!</p>
+<p><img alt="referencia" src="../img/turtlesim.png" width="300" /></p>
+<p>O .bashrc carrega todas as variáveis globais do seu ambiente Linux, esse arquivo é muito importante, e muito utilizado. 
+Para subir a tartaruga do ROS, precisamos configurar o nosso <em>.barshrc</em>, primeiro, abra o arquivo, usando o comando abaixo;</p>
+<div class="codehilite"><pre><span></span><code>code ~/.bashrc
+</code></pre></div>
+
+
+<p>Depois, procure essas linhas, e comente, conforme imagem abaixo;</p>
+<p><img alt="bashrc" src="../img/bashrc.png" /></p>
+<p>Salve as alterações e abra um terminal novo, usando o atalho <kbd>Crtl</kbd> + <kbd>T</kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"</p>
 <div class="codehilite"><pre><span></span><code>roscore
 </code></pre></div>
 
 
 <p>Seu resultado deve ser algo parecido com isso:</p>
-<p><img alt="referencia" src="../img/roscore.png" /></p>
+<p><img alt="referencia" src="../img/roscore.png" width="300" /></p>
 <p>Em uma nova aba do terminal (<kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>), vamos chamar a tartaruga com o comando abaixo:</p>
 <div class="codehilite"><pre><span></span><code>rosrun turtlesim turtlesim_node 
 </code></pre></div>

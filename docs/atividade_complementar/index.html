@@ -242,6 +242,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    Linux
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -305,6 +312,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#linux" class="md-nav__link">
+    Linux
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -327,43 +341,85 @@
                 
                 <h1 id="atividade-complementar-introducao-ao-linux">Atividade Complementar - Introdução ao Linux</h1>
 <h2 id="infraestrutura">Infraestrutura</h2>
-<p>A infra necessária para este curso já está instalada no SSD disponibilizada para os alunos do terceiro semestre de engenharia de computação do Insper. </p>
-<p><img alt="referencia" src="../img/ssd.png" /> {width=300}</p>
-<h1 id="parte-1">Parte 1</h1>
+<ul>
+<li>SSD disponibilizado </li>
+<li>laptop, desktop, com acesso a Internet</li>
+<li>Ter realizado os passos deste <a href="https://liciascl.github.io/Linuxbasico/boot_do_ssd/">tutorial</a></li>
+</ul>
 <h2 id="linux">Linux</h2>
-<p><img alt="referencia" src="../img/ilovelinux.png" width="150,height" /></p>
+<p><img alt="referencia" src="../img/ilovelinux.png" width="250" /></p>
 <p>O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.</p>
 <p>Normalmente, o Linux é utilizado como plataforma de desenvolvimento em sistemas embarcados</p>
 <p><img alt="Kernel logo" src="../img/Kernel_basic.png" />
 <a href="https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/">Fonte</a></p>
 <p>A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Existem diversas distribuições mas não será o nosso foco.</p>
 <blockquote>
-<p>Informações técnicas são encontradas de forma vasta na internet, abaixo deixo apenas alguns links, não se restrinja apenas a eles:
+<p>É fácil achar maiores informações online, deixamos alguns links aqui mas não se restrinja apenas a eles:
 <a href="https://www.linuxfoundation.org/">link1</a>
 <a href="https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux#/media/Ficheiro:Linux_Distribution_Timeline.svg">link2</a>
 <a href="https://boilingsteam.com/arch-manjaro-still-going-strong/">link3</a>
 </p>
 </blockquote>
 <h1 id="conhecendo-e-utilizando-o-terminal">Conhecendo e utilizando o Terminal</h1>
-<p>O Terminal do Linux pode causar espanto, mas é apenas uma ferramenta que facilita a manipulação do sistema, interpretando os comandos do usuário, fazendo a ponte com o hardware</p>
+<p>O Terminal do Linux é uma ferramenta que facilita a manipulação do sistema, interpretando os comandos do usuário, fazendo a ponte com o hardware do seu computador</p>
 <h2 id="abrindo-o-terminal">Abrindo o terminal</h2>
 <p>A forma mais facil de abrir o terminal é atraves do atalho:</p>
-<blockquote>
-<p>Crtl+Alt+T</p>
-</blockquote>
+<p><kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd></p>
 <p>Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
 <img alt="ssd" src="../img/terminal.png" /></p>
-<h2 id="configurando-o-git">Configurando o Git</h2>
-<p>Antes começar a falar dos comandos do terminal, vamos configurar o nosso Git, para isso copie os comandos abaixo e cole no terminal:</p>
+<h2 id="comando-apt">Comando "apt"</h2>
+<p><code>APT</code> é um conjunto de ferramentas usadas pelo Linux para administrar os pacotes <code>.deb</code> de forma automática, é possível instalar, atualizar e remover programas e suas dependências via apt;</p>
+<h3 id="atualizar-a-lista-de-pacotes">Atualizar a "lista de pacotes"</h3>
+<p>Com o comando abaixo, usamos o <code>apt</code> para atualizar todos os programas instalados com essa ferramenta;</p>
+<div class="codehilite"><pre><span></span><code>sudo apt update 
+</code></pre></div>
+
+
+<h3 id="atualiza-pacotes-ja-instalados">Atualiza pacotes "já instalados"</h3>
+<p>Com o comando abaixo, é possível baixar e instalar a versão mais atual de todos os programas instalados anteriormente via <code>apt</code>;</p>
+<div class="codehilite"><pre><span></span><code>sudo apt upgrade 
+</code></pre></div>
+
+
+<h3 id="instalar-pacotes-via-apt">Instalar pacotes via apt</h3>
+<p>Com este comando, usamos o <code>apt</code> para encontrar, baixar e instalar o <code>.deb</code> do programa que queremos instalar no nosso computador;</p>
+<div class="codehilite"><pre><span></span><code>sudo apt install -y geogebra 
+</code></pre></div>
+
+
+<p>Após finalizar a instalação do programa, podemos executar a nova ferramenta, apenas digitando o nome dela no terminal.</p>
+<div class="codehilite"><pre><span></span><code>geogebra
+</code></pre></div>
+
+
+<h3 id="remover-pacotes-via-apt">Remover pacotes via apt</h3>
+<p>Tambem é possivel desinstalar um programa que foi baixado via <code>apt</code>, basta usar o comando <code>remove</code>, como no exemplo abaixo;</p>
+<div class="codehilite"><pre><span></span><code>sudo apt remove geogebra
+</code></pre></div>
+
+
+<h3 id="instalar-pacotes-via-ubuntu-sftware">Instalar pacotes via Ubuntu Sftware</h3>
+<p><img alt="logo_ubuntu_software" src="../img/ubuntu_software.jpeg" width="150" /></p>
+<p>Podemos instalar pacotes via <code>Ubuntu Sftware</code>, basta clicar em Show Applications, no canto inferior direito da tela, e digitar <code>Ubuntu Sftware</code> na janela de busca;</p>
+<p>1 - <img alt="show_aplication" src="../img/show_aplication.png" width="250" /></p>
+<p>2 - <img alt="show_aplication" src="../img/ubuntu_software.png" width="250" /></p>
+<p>Agora clique na lupinha e digite o programa que deseja instalar;</p>
+<p><img alt="find_geogebra" src="../img/find_geogebra.png" width="250" /></p>
+<p>Clique no software escolhido, e depois, clique no botão Instalar;</p>
+<p><img alt="install_geogebra" src="../img/install_geogebra.png" width="250" /></p>
+<p>Terminada a instalação, basta clicar no botão <code>Launch</code> para executar o programa, ou <code>Remove</code> para desinstalar;</p>
+<p><img alt="launch_geogebra" src="../img/launch_geogebra.png" width="250" /></p>
+<h2 id="um-poquinho-de-github">Um poquinho de GitHub</h2>
+<p>Antes começar a falar dos comandos do terminal, vamos configurar as nossas credenciais do GitHub, para isso copie os comandos abaixo e cole no terminal:</p>
 <div class="codehilite"><pre><span></span><code>git config --global user.name <span class="s2">&quot;Seu Nome&quot;</span>
 git config --global user.email <span class="s2">&quot;seunome@email.com&quot;</span>
 </code></pre></div>
 
 
 <blockquote>
-<p>Se você está tentou usar Crtr+C no texto e Crtr+V no terminal, talvez não tenha dado muito certo. 
+<p>Se você está tentou usar <kbd>Ctrl</kbd> + <kbd>C</kbd> no texto e <kbd>Ctrl</kbd> + <kbd>V</kbd> no terminal, talvez não tenha dado muito certo. 
 Para copiar e colar no ## terminal ##  use:
-Ctrl+Shift+C (Copiar) e Ctrl+Shift+V (Colar). 
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Copiar) e <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (Colar). 
 Sabendo disso, faça atualização do git copiando e colando o comando no terminal.</p>
 </blockquote>
 <p>Para verificar se foi atualizado com sucesso digite:</p>
@@ -372,44 +428,34 @@ git config user.email
 </code></pre></div>
 
 
+<p>Este comando grava as suas credenciais do GitHub, para facilitar a sua vida na hora de enviar seus arquivos locais para o repositório remoto.</p>
 <h1 id="navegando-entre-diretorios-e-arquivos">Navegando entre diretorios e arquivos</h1>
 <p>De forma bem simplificada, podemos dizer que o sistema Linux possui 2 elementos principais: pastas e arquivos. Os arquivos armazenam dados (txt, py...) e as pastas tambem chamadas de diretórios, armazenam e organizam os arquivos. 
-Sabendo disso é importante saber navegar entre os diretórios para encontrar os nossos arquivos.</p>
+Sabendo disso é importante saber navegar entre os diretórios para encontrar os arquivos.</p>
 <p><img alt="pasta logo" src="../img/FilesAndFolders.png" />
 <a href="https://commons.wikimedia.org/wiki/File:FilesAndFolders.png">Fonte</a></p>
 <h2 id="comando-cd">Comando "cd"</h2>
-<p>O comando <strong>cd</strong> é um dos comandos mais utilizados no terminal do Linux isso porque ele permite que acessemos um diretório especifico. Vamos acessar a nossa do repositorio de elementos. </p>
+<p>O comando <strong>cd</strong> é um dos comandos mais utilizados no terminal do Linux isso porque ele permite que acessemos um diretório especifico. Vamos acessar o nosso  repositorio de Elementos de Sistemas, e atualizar ele via git. </p>
 <div class="codehilite"><pre><span></span><code><span class="nb">cd</span> Z01.1
 </code></pre></div>
 
 
-<p>Vamos visualizar toda as estrutaras de arvore desta pasta. Vamos preciar instalar um modulo chamado tree, digite o comando abaixo no terminal: </p>
+<div class="codehilite"><pre><span></span><code>git pull
+</code></pre></div>
+
+
+<p>É uma boa prática manter os seus repositórios Git sempre atualizados, antes de começar a trabalhar, não esqueça de dar um <code>git pull</code>, para ter certeza de que está trabalhando com a ultima versão dos arquivos no seu repositório!</p>
+<p>Feita a atualização, vamos instalar uma ferramenta que permite visualizar toda a estrutaras de árvore da pasta, </p>
 <div class="codehilite"><pre><span></span><code>sudo apt install tree
 </code></pre></div>
 
 
-<p>Agora digite o comando:</p>
+<p>Agora digite o comando para visualizar a árvore do repositório de Elementos de Sistemas:</p>
 <div class="codehilite"><pre><span></span><code>tree -d -L <span class="m">4</span>
 </code></pre></div>
 
 
-<div class="codehilite"><pre><span></span><code>/home/borg/Z01.1
-├── Aulas
-│   └── <span class="m">01</span>-Organizacao-De-Computadores
-├── Exercicios
-└── Projetos
-    ├── A-AmbienteDesenvolvimento
-    └── B-LogicaCombinacional
-        ├── Quartus
-        ├── src
-        │   └── rtl
-        └── tests
-            └── tst
-
-<span class="m">11</span> directories
-</code></pre></div>
-
-
+<p>Esta ferramenta é útil para te ajudar a navegar de forma mais eficiente dentro do sistema, se você não sabe aonde determinado repositório está exatamente, é possivel consultar a árvore para localizar visualmente.</p>
 <blockquote>
 <p>os paramentros -d -L 2 indica que que queremos listar (-L )até o quarto (4) nível na hierarquia de pastas, apenas as pastas (-d), para listar tudo digite apenas tree.</p>
 </blockquote>
@@ -427,9 +473,9 @@ Sabendo disso é importante saber navegar entre os diretórios para encontrar os
 
 
 <blockquote>
-<p>Dica:. Se estiver com preguiça de digitar o caminho completo, digite apenas o começo do comando e use a tecla TAB para dar auto-completar.</p>
+<p>Dica:. Se estiver com preguiça de digitar o caminho completo, digite apenas o começo do comando e use a tecla <kbd>TAB</kbd> para auto-completar.</p>
 </blockquote>
-<p>Para voltar, subir um nivel, e acessar o diretório anterior podemos digitar:</p>
+<p>Para acessar o diretório anterior podemos digitar:</p>
 <div class="codehilite"><pre><span></span><code><span class="nb">cd</span> ..
 </code></pre></div>
 
@@ -440,154 +486,20 @@ Sabendo disso é importante saber navegar entre os diretórios para encontrar os
 </code></pre></div>
 
 
+<p>Para acessar o diretório home, basta digitar;</p>
+<div class="codehilite"><pre><span></span><code><span class="nb">cd</span>
+</code></pre></div>
+
+
+<blockquote>
+<p>Toda vez que abrimos um novo terminal, ele é inicializado na home do usuário. </p>
+</blockquote>
 <h2 id="comando-ls">Comando "ls"</h2>
-<p>O comando <strong>ls</strong> é utilizado par exibir (listar) o conteudo de um diretório. </p>
+<p>O comando <strong>ls</strong> é utilizado pra visualizar o conteúdo de um diretório. </p>
 <div class="codehilite"><pre><span></span><code>ls
 </code></pre></div>
 
 
-<h2 id="home">home</h2>
-<p>Para acessar a home do nosso usuario podemos fazer isso "voltando" as pastas repetindo o comando acima, ou simplismente digitando o comando: </p>
-<div class="codehilite"><pre><span></span><code><span class="nb">cd</span> ~
-</code></pre></div>
-
-
-<blockquote>
-<p>Toda vez em que abrimos um novo terminal, ele é inicializado na home do usuário. </p>
-</blockquote>
-<h1 id="criando-diretorios">Criando diretórios</h1>
-<h2 id="comando-mkdir">Comando "mkdir"</h2>
-<p>Vamos criar um diretório chamado <strong>minhapasta</strong> dentro do diretório <strong>pasta1</strong>. Podemos fazer essa tarefa de algumas formas:</p>
-<ol>
-<li>Navegamos até o diretório pasta1 e criamos o minhapasta:</li>
-</ol>
-<div class="codehilite"><pre><span></span><code><span class="nb">cd</span> Linuxbasico/pasta1
-mkdir minhapasta
-</code></pre></div>
-
-
-<ol>
-<li>Criamos a pasta passando o caminho completo:</li>
-</ol>
-<div class="codehilite"><pre><span></span><code>mkdir ~/Linuxbasico/pasta1/minhapasta 
-</code></pre></div>
-
-
-<blockquote>
-<p>Dica:. Se estiver com preguiça de digitar o caminho completo, use a tecla TAB para dar auto-completar.</p>
-</blockquote>
-<h1 id="movendo-e-copiando-diretorios-e-arquivos">Movendo e Copiando diretórios e arquivos</h1>
-<h2 id="comando-cp">Comando "cp"</h2>
-<p>Para copiar arquivos e diretorios, o famoso CTRL+C + CTRL+V, basta  digitar:</p>
-<div class="codehilite"><pre><span></span><code>&gt; meuarquivo.py 
-cp -R meuarquivo.py /home/user/Linuxbasico/pasta1/
-</code></pre></div>
-
-
-<p>No exemplo acima foi criado uma copia do arquivo "nome1.py" dentro do diretório pasta1. </p>
-<h2 id="comando-mv">Comando "mv"</h2>
-<p>Para mover arquivos e diretorios, o famoso CTRL+x + CTRL+V, basta  digitar:</p>
-<div class="codehilite"><pre><span></span><code>&gt; meuarquivo.py 
-mv meuarquivo.py /home/user/Linuxbasico/pasta1/
-</code></pre></div>
-
-
-<p>No exemplo acima o arquivo "nome1.py" foi movido para dentro do diretório pasta1 (recortado e colado).</p>
-<h2 id="renomeando-diretorios-e-arquivos">Renomeando diretórios e arquivos</h2>
-<p>O comando <strong>mv</strong> tambem serve para renomear arquivos e diretorios:</p>
-<div class="codehilite"><pre><span></span><code>&gt; nome1.py
-mv nome1.py nome2.py
-</code></pre></div>
-
-
-<blockquote>
-<p>Atenção!! Cuidado para não sobrescrever arquivos e pastas atuais na hora de executar estes comandos.</p>
-</blockquote>
-<h1 id="excluindo-diretorios-e-arquivos">Excluindo diretórios e arquivos</h1>
-<h2 id="comando-rm">Comando "rm"</h2>
-<p>Para excluir arquivos e diretórios, o famoso Shift+Del, basta digitar:</p>
-<div class="codehilite"><pre><span></span><code>rm -rf nome1.py
-rm -rf minhapasta
-</code></pre></div>
-
-
-<blockquote>
-<p>Atenção!! Cuidado!!!! Arquivos e pastas são apagados permanentemente, não vão para lixeira. No caso de diretórios, apaga o diretório e tudo que está dentro dele.</p>
-</blockquote>
-<h1 id="super-usuario">Super Usuário</h1>
-<h2 id="comando-sudo">Comando "sudo"</h2>
-<p>Por questões de seguraça, o Linux trabalha com permissões de usuários e para determinados arquivos ou comandos apenas o usuario administrador (root) pode executar. A titulo de curiosidade, "sudo" significa <strong>S</strong>uper <strong>U</strong>ser <strong>DO</strong>. Quando executar comandos com sudo, será necessário informar a senha.</p>
-<h1 id="atividade-1-criando-arquivos">Atividade 1 - Criando arquivos</h1>
-<h2 id="comando-touch-e">Comando "touch" e "&gt;"</h2>
-<p>Podemos criar arquivos de algumas formas, os mais clássicos são:</p>
-<ol>
-<li>Usando o comando <strong>touch</strong>:</li>
-</ol>
-<div class="codehilite"><pre><span></span><code>touch teste.py
-</code></pre></div>
-
-
-<ol>
-<li>Usando o comando <strong>&gt;</strong>:</li>
-</ol>
-<div class="codehilite"><pre><span></span><code>&gt; outro_teste.py
-</code></pre></div>
-
-
-<ol>
-<li>Usando editor de texto, vamos falar deles jaja...</li>
-</ol>
-<div class="codehilite"><pre><span></span><code>nano mais_um_teste.py
-code esta_acabando_a_criatividade.py
-gedit socorro.py
-</code></pre></div>
-
-
-<h1 id="editando-arquivos">Editando arquivos</h1>
-<p>Existem muitas editores de texto, cada um com seus pros e contras, com o tempo cada desenvolvedor acaba se apegando a um editor especifico, mas podemos dizer que existem 2 tipos de editoes de texto.
-Modo console, que abre no proprio terminal e o com interface gráfica. </p>
-<h2 id="editor-nano">Editor nano</h2>
-<p>O nano é um editor do modo console, ou seja, abre no proprio terminal. Vamos ver alguns comandos basicos, mas na parte inferior do editor são exibidos comandos que o nano entende.  </p>
-<p><img alt="nano logo" src="../img/main-nano-window.png" /></p>
-<h3 id="abrir">Abrir</h3>
-<p>Digite no terminal <strong>nano</strong> e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.</p>
-<div class="codehilite"><pre><span></span><code>nano nano.py
-nano nano.txt
-</code></pre></div>
-
-
-<h3 id="localizar-palavra">Localizar palavra</h3>
-<p>Para fazer uma busca no texto pressione Ctrl+W, digite a palavra e tecle Enter.</p>
-<h3 id="salvar-e-sair">Salvar e Sair</h3>
-<p>Para salvar e sair, precione Ctrl+S para salvar e para sair Ctrl+X.
-Para sair sem salvar alteraçes, Ctrl+X e "n".</p>
-<h2 id="editor-gedit">Editor gedit</h2>
-<p>Muito parecido com o famoso bloco de notas do Windows.</p>
-<p><img alt="nano logo" src="../img/gedit3-screenshot.png" /></p>
-<h3 id="abrir_1">Abrir</h3>
-<p>Digite no terminal <strong>gedit</strong> e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.</p>
-<div class="codehilite"><pre><span></span><code>gedit roda_tartaruga.py
-gedit roda_tartaruga.txt
-</code></pre></div>
-
-
-<h3 id="localizar-palavra_1">Localizar palavra</h3>
-<p>Para fazer uma busca no texto pressione Ctrl+F, digite a palavra e tecle Enter.</p>
-<h3 id="salvar-e-sair_1">Salvar e Sair</h3>
-<p>Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair Alt+F4.</p>
-<h2 id="editor-vscode">Editor vscode</h2>
-<p>O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.</p>
-<p><img alt="vscode logo" src="../img/vscode-ui-in-container.png" /></p>
-<h3 id="abrir_2">Abrir</h3>
-<p>Digite no terminal <strong>code</strong> e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.</p>
-<div class="codehilite"><pre><span></span><code>code roda_tartaruga.py
-</code></pre></div>
-
-
-<h3 id="localizar-palavra_2">Localizar palavra</h3>
-<p>Para fazer uma busca no texto pressione Ctrl+F, digite a palavra e tecle Enter.</p>
-<h3 id="salvar-e-sair_2">Salvar e Sair</h3>
-<p>Para salvar e sair, pressione Ctrl+S ou clique em salvar para salvar e para sair Alt+F4.</p>
 <h1 id="visualizacao-de-arquivos-e-pastas-ocultos">Visualização de arquivos e pastas ocultos</h1>
 <p>O comando "ls" sozinho não exibe arquivos ocultos, que são arquivos e pastas que começam com ".". Durante as aulas de robotica teremos que editar um arquivo oculto chamado "<strong>.bashrc</strong>", no momento precisamos apenas saber que este arquivo se encontra na home do usuario <code>~</code> e que após editado precisamos executar o <code>source ~/.bashrc</code> ou <code>feche o terminal e abra um novo</code> para recarregar as atualizações do arquivo. digite:</p>
 <div class="codehilite"><pre><span></span><code><span class="nb">cd</span> ~
@@ -611,71 +523,166 @@ code .bashrc
 </code></pre></div>
 
 
-<p>O .bashrc carrega todas as variáveis globais do seu ambiente Linux, esse arquivo é muito importante, e muito utilizado. </p>
-<p>Para subir a tartaruga do ROS, precisamos configurar o nosso <em>.barshrc</em>, primeiro, abra o arquivo, usando o comando abaixo;</p>
-<div class="codehilite"><pre><span></span><code>code ~/.bashrc
+<h2 id="comando-mkdir">Comando "mkdir"</h2>
+<p>Para criar um novo diretório no ambiente em que você está, basta digitar o comando a seguir;</p>
+<div class="codehilite"><pre><span></span><code>mkdir nome_da_pasta
 </code></pre></div>
 
 
-<p>Depois, procure essas linhas, e comente, conforme imagem abaixo;</p>
-<p><img alt="bashrc" src="../img/bashrc.png" /></p>
-<h1 id="atualizacoes-de-sistema-e-instalacao-de-pacotes">Atualizações de Sistema e instalação de pacotes</h1>
-<h2 id="comando-apt-ou-apt-get">Comando "apt" ou "apt-get"</h2>
-<h3 id="atualizar-a-lista-de-pacotes">Atualizar a "lista de pacotes"</h3>
-<div class="codehilite"><pre><span></span><code>sudo apt-get update 
+<p>Para criar um novo diretório em um local especifico, basta especificar o caminho que o diretório deverá ser criado;</p>
+<blockquote>
+<p>Dica:. Você sempre pode usar a tecla <kbd>TAB</kbd> para dar auto-completar os comandos.</p>
+</blockquote>
+<div class="codehilite"><pre><span></span><code>mkdir /home/borg/Documents/nome_da_pasta 
 </code></pre></div>
 
 
-<h3 id="atualiza-pacotes-ja-instalados">Atualiza pacotes "já instalados"</h3>
-<div class="codehilite"><pre><span></span><code>sudo apt-get upgrade 
+<p>ou</p>
+<div class="codehilite"><pre><span></span><code>mkdir ~/Documents/nome_da_pasta 
 </code></pre></div>
 
 
-<h3 id="instalar-pacotes">Instalar pacotes</h3>
-<div class="codehilite"><pre><span></span><code>sudo apt-get install geogebra
+<h2 id="comando-touch">Comando "touch"</h2>
+<p>O comando  <strong>touch</strong> cria arquivos vazios, na extensão que você definir;</p>
+<div class="codehilite"><pre><span></span><code>touch teste.py
+</code></pre></div>
+
+
+<div class="codehilite"><pre><span></span><code>touch testando_outra_extensao.txt
+</code></pre></div>
+
+
+<p>O comando <strong>&gt;</strong> funciona exatamente como o <strong>touch</strong>:</p>
+<div class="codehilite"><pre><span></span><code>&gt; outro_teste.py
+</code></pre></div>
+
+
+<div class="codehilite"><pre><span></span><code>&gt; mais_um_teste.txt
+</code></pre></div>
+
+
+<p>Se você tentar abrir um arquivo que não existe, usando um editor de texto pelo terminal, o sistema cria o arquivo pra você, observe;</p>
+<div class="codehilite"><pre><span></span><code>nano usando_o_nano.py
+code usando_o_vscode.md
+gedit o_bloco_de_notas.txt
+</code></pre></div>
+
+
+<h2 id="comando-cp">Comando "cp"</h2>
+<p>Para copiar arquivos e diretorios, basta  digitar:</p>
+<div class="codehilite"><pre><span></span><code>&gt; meu_programa_python.py 
+cp -R meu_programa_python.py /home/borg/Documents/
+</code></pre></div>
+
+
+<p>No exemplo acima foi criado um arquivo chamado meu_programa_python.py uma copia do arquivo "nome1.py" dentro do diretório pasta1. </p>
+<h2 id="comando-mv">Comando "mv"</h2>
+<p>Para mover arquivos e diretorios, o famoso <kbd>Ctrl</kbd> + <kbd>X</kbd> / <kbd>Ctrl</kbd> + <kbd>V</kbd>, basta  digitar:</p>
+<div class="codehilite"><pre><span></span><code>mv o_bloco_de_notas.txt /home/borg/Documents/
+</code></pre></div>
+
+
+<p>No exemplo acima o arquivo "o_bloco_de_notas.txt" foi movido para dentro do diretório Documents (recortado e colado).</p>
+<h2 id="comando-mv_1">Comando "mv"</h2>
+<p>O comando <strong>mv</strong> tambem serve tanto para mover, com para renomear arquivos e diretorios:</p>
+<div class="codehilite"><pre><span></span><code>mkdir pastinha
+mv pastinha nova_pastinha
 </code></pre></div>
 
 
 <blockquote>
-<p>instalação do geogebra. Para iniciar, digite geogebra no terminal. </p>
+<p>Atenção!! Cuidado para não sobrescrever arquivos e pastas atuais na hora de executar estes comandos.</p>
 </blockquote>
-<h3 id="remover-pacotes">Remover pacotes</h3>
-<div class="codehilite"><pre><span></span><code>sudo apt-get remove geogebra
+<h2 id="comando-rm">Comando "rm"</h2>
+<p>Para excluir arquivos e diretórios, o famoso Shift+Del, basta digitar:</p>
+<div class="codehilite"><pre><span></span><code>rm -rf nova_pastinha
 </code></pre></div>
 
 
-<h1 id="informaces-do-sistema">informaçes do sistema</h1>
-<p>Comandos menos utilizados no dia a dia mas que sempre aparecem. </p>
-<h2 id="informacoes-dos-dispositivos-conectados-na-usb-e-na-pci">Informações dos dispositivos conectados na USB e na PCI</h2>
+<blockquote>
+<p>Atenção!! Cuidado!!!! Arquivos e pastas são apagados permanentemente, não vão para lixeira. No caso de diretórios, apaga o diretório e tudo que está dentro dele.</p>
+</blockquote>
+<h1 id="super-usuario">Super Usuário</h1>
+<h2 id="comando-sudo">Comando "sudo"</h2>
+<p>Por questões de seguraça, o Linux trabalha com permissões de usuários e para determinados arquivos ou comandos apenas o usuario administrador (root) pode executar. A titulo de curiosidade, "sudo" significa <strong>S</strong>uper <strong>U</strong>ser <strong>DO</strong>. Quando executar comandos com sudo, será necessário informar a senha.</p>
+<h2 id="comando-chmod">Comando "chmod"</h2>
+<p>As permissões servem para determinar se um usuario ou grupo terá permissões para ler, gravar, executar. Existem diversas configurações possiveis e a que mais utilizamos dá a permissão de execução a um codigo qualquer, como um python, por exemplo;</p>
+<div class="codehilite"><pre><span></span><code>touch teste.py
+chmod a+x teste.py
+</code></pre></div>
+
+
+<p>A concatenação de a+x significa que estamos permitindo para todos (a = all) usuarios e grupos executem (x = execution) o 
+<strong>teste.py</strong></p>
+<h1 id="editando-arquivos">Editando arquivos</h1>
+<p>Existem várias ferramentas para edição de texto, de um modo geral, podemos dizer que existem 2 tipos grupos principais,
+os que rodam direto no console (terminal) e os que possuem uma interface gráfica. </p>
+<h2 id="editor-nano">Editor nano</h2>
+<p>O nano é um editor do modo console, ou seja, abre no proprio terminal. </p>
+<p><img alt="nano logo" src="../img/main-nano-window.png" /></p>
+<h3 id="abrir">Abrir</h3>
+<p>Digite no terminal <strong>nano</strong> e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.</p>
+<div class="codehilite"><pre><span></span><code>nano nano.md
+nano nano.txt
+</code></pre></div>
+
+
+<h3 id="localizar-palavra">Localizar palavra</h3>
+<p>Para fazer uma busca no texto pressione <kbd>Ctrl</kbd> + <kbd>W</kbd>, digite a palavra e aperte <kbd>Enter</kbd>.</p>
+<h3 id="salvar-e-sair">Salvar e Sair</h3>
+<p>Para salvar, precione <kbd>Ctrl</kbd> + <kbd>S</kbd>.
+Para sair <kbd>Ctrl</kbd> + <kbd>X</kbd>.
+Para sair sem salvar alteraçes,  <kbd>Ctrl</kbd> + <kbd>X</kbd> e  <kbd>N</kbd>.</p>
+<h2 id="editor-gedit">Editor gedit</h2>
+<p>Muito parecido com o famoso bloco de notas do Windows.</p>
+<p><img alt="nano logo" src="../img/gedit3-screenshot.png" /></p>
+<h3 id="abrir_1">Abrir</h3>
+<p>Digite no terminal <strong>gedit</strong> e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.</p>
+<div class="codehilite"><pre><span></span><code>gedit roda_tartaruga.py
+gedit roda_tartaruga.md
+</code></pre></div>
+
+
+<h3 id="localizar-palavra_1">Localizar palavra</h3>
+<p>Para fazer uma busca no texto pressione  <kbd>Ctrl</kbd> + <kbd>F</kbd>, digite a palavra e tecle <kbd>Enter</kbd>.</p>
+<h3 id="salvar-e-sair_1">Salvar e Sair</h3>
+<p>Para salvar e sair, pressione  <kbd>Ctrl</kbd> + <kbd>S</kbd> ou clique em salvar para salvar e para sair  <kbd>Alt</kbd> + <kbd>F4</kbd></p>
+<h2 id="editor-vscode">Editor vscode</h2>
+<p>O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.</p>
+<p><img alt="vscode logo" src="../img/vscode-ui-in-container.png" /></p>
+<h3 id="abrir_2">Abrir</h3>
+<p>Digite no terminal <strong>code</strong> e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.</p>
+<div class="codehilite"><pre><span></span><code>code roda_tartaruga.py
+</code></pre></div>
+
+
+<h3 id="localizar-palavra_2">Localizar palavra</h3>
+<p>Para fazer uma busca no texto pressione <kbd>Ctrl</kbd> + <kbd>F</kbd>, digite a palavra e tecle <kbd>Enter</kbd>.</p>
+<h3 id="salvar-e-sair_2">Salvar e Sair</h3>
+<p>Para salvar e sair, pressione  <kbd>Ctrl</kbd> + <kbd>S</kbd> ou clique em salvar para salvar e para sair  <kbd>Alt</kbd> + <kbd>F4</kbd></p>
+<h1 id="bonus">BONUS</h1>
+<p>Comando úteis para verificar informações do sistema, encontrar bugs, e matar programas travados; </p>
+<h2 id="informacoes-dos-dispositivos-conectados-na-usb">Informações dos dispositivos conectados na USB</h2>
+<p>Se você não tem certeza se o dispositivo conectado a sua porta USB foi reconhecido, use este comando e verifique o log do sistema;</p>
 <div class="codehilite"><pre><span></span><code>lsusb
-lspci
 </code></pre></div>
 
 
-<h2 id="mensagens-do-inicializacao-e-do-sistema">Mensagens do inicialização e do sistema</h2>
-<div class="codehilite"><pre><span></span><code>ps 
-dmesg
-htop
-tree -L <span class="m">3</span>
-cat /etc/lsb-release 
-uname -a
+<h2 id="informacoes-dos-dispositivos-conectados-na-usb_1">Informações dos dispositivos conectados na USB</h2>
+<p>Se você não tem certeza se o dispositivo conectado a sua porta PCI foi reconhecido, use este comando e verifique o log do sistema;</p>
+<div class="codehilite"><pre><span></span><code>lspci
 </code></pre></div>
 
 
-<h2 id="como-destravar-o-sistema">Como destravar o sistema</h2>
+<h2 id="o-programa-travou-e-agora">O programa travou, e agora?</h2>
 <p>Para destravar uma tela, use "xkill" e clique na tela com o mouse.</p>
 <div class="codehilite"><pre><span></span><code>xkill
 </code></pre></div>
 
 
-<h1 id="modificando-as-permissoes-dos-arquivos-e-diretorios">Modificando as permissões dos arquivos e diretórios</h1>
-<h2 id="comando-chmod">Comando "chmod"</h2>
-<p>As permissões servem para determinar se um usuario ou grupo terá permissões para ler, gravar, executar. Existem diversas configurações possiveis e a que mais utilizamos dá a permissão de execução a um codigo qualquer, como um python, por exemplo;</p>
-<div class="codehilite"><pre><span></span><code>chmod a+x roda_tartaruga.py
+<p>Para matar um processo, digite o comando abaixo, e o nome do software que deseja assassinar;</p>
+<div class="codehilite"><pre><span></span><code>pkill terminal
 </code></pre></div>
-
-
-<p>A concatenação de a+x significa que estamos permitindo para todos (a = all) usuarios e grupos que executem (x = execution) o roda_tartaruga.py</p>
                 
               
               
