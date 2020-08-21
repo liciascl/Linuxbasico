@@ -41,7 +41,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>
  
 Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
-![ssd](img/terminal.png){width=400}
+![ssd](img/terminal.png){width=600}
 
 
 ## Comando "apt" 
@@ -90,24 +90,24 @@ sudo apt remove geogebra
 
 Podemos instalar pacotes via `Ubuntu Sftware`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Sftware` na janela de busca;
 
-1 - ![show_aplication](img/show_aplication.png){width=400}
+1 - ![show_aplication](img/show_aplication.png){width=600}
 
 
-2 - ![show_aplication](img/ubuntu_software.png){width=400}
+2 - ![show_aplication](img/ubuntu_software.png){width=600}
 
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
-![find_geogebra](img/find_geogebra.png){width=400}
+![find_geogebra](img/find_geogebra.png){width=600}
 
 
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-![install_geogebra](img/install_geogebra.png){width=400}
+![install_geogebra](img/install_geogebra.png){width=600}
 
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
-![launch_geogebra](img/launch_geogebra.png){width=400}
+![launch_geogebra](img/launch_geogebra.png){width=600}
 
 
 
@@ -144,7 +144,7 @@ De forma bem simplificada, podemos dizer que o sistema Linux possui 2 elementos 
 Sabendo disso é importante saber navegar entre os diretórios para encontrar os arquivos.
 
 
-![pasta logo](img/FilesAndFolders.png){width=400}
+![pasta logo](img/FilesAndFolders.png){width=350}
 
 [Fonte](https://commons.wikimedia.org/wiki/File:FilesAndFolders.png)
 
@@ -371,7 +371,7 @@ os que rodam direto no console (terminal) e os que possuem uma interface gráfic
 
 O nano é um editor do modo console, ou seja, abre no proprio terminal. 
 
-![nano logo](img/main-nano-window.png){width=400}
+![nano logo](img/main-nano-window.png){width=600}
 
 ### Abrir
 Digite no terminal **nano** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -394,7 +394,7 @@ Para sair sem salvar alteraçes,  <kbd>Ctrl</kbd> + <kbd>X</kbd> e  <kbd>N</kbd>
 ## Editor gedit
 Muito parecido com o famoso bloco de notas do Windows.
 
-![nano logo](img/gedit3-screenshot.png){width=400}
+![nano logo](img/gedit3-screenshot.png){width=600}
 
 ### Abrir
 Digite no terminal **gedit** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -415,7 +415,7 @@ Para salvar e sair, pressione  <kbd>Ctrl</kbd> + <kbd>S</kbd> ou clique em salva
 
 O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.
 
-![vscode logo](img/vscode-ui-in-container.png){width=400}
+![vscode logo](img/vscode-ui-in-container.png){width=600}
 
 ### Abrir
 
