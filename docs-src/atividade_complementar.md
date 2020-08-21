@@ -99,16 +99,17 @@ Podemos instalar pacotes via `Ubuntu Sftware`, basta clicar em Show Applications
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
-![img/find_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/find_geogebra.png)
+
+![](img/find_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/find_geogebra.png)
 
 
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-![img/install_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/install_geogebra.png)
+![](img/install_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/install_geogebra.png)
 
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
-![img/launch_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/launch_geogebra.png)
+![](img/launch_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/launch_geogebra.png)
 
 
 
