@@ -91,24 +91,24 @@ sudo apt remove geogebra
 Podemos instalar pacotes via `Ubuntu Sftware`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Sftware` na janela de busca;
 
 
-1 - ![show_aplication](img/show_aplication.png){width=700}
+![show_aplication](img/show_aplication.png){width=700}
 
 
-2 - ![show_aplication](img/ubuntu_software.png){width=700}
+![show_aplication](img/ubuntu_software.png){width=700}
 
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
-[![imagem](img/find_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/find_geogebra.png){width=700}]
+![img/find_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/find_geogebra.png)
 
 
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-[![imagem](img/install_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/install_geogebra.png){width=700}]
+![img/install_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/install_geogebra.png)
 
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
-[![imagem](img/launch_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/launch_geogebra.png){width=700}]
+![img/launch_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/launch_geogebra.png)
 
 
 
