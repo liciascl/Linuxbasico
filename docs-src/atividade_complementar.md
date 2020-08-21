@@ -25,10 +25,10 @@ A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Exi
 
 
 É fácil achar maiores informações online, deixamos alguns links aqui mas não se restrinja apenas a eles:
--[Linux Fundation](https://www.linuxfoundation.org/)
--[Distribuições Linux](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux#/media/Ficheiro:Linux_Distribution_Timeline.svg)
--[Manjaro](https://boilingsteam.com/arch-manjaro-still-going-strong/)
--[Ubuntu](https://ubuntu.com/community/mission)
+[Linux Fundation](https://www.linuxfoundation.org/),
+[Distribuições Linux](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux#/media/Ficheiro:Linux_Distribution_Timeline.svg),
+[Manjaro](https://boilingsteam.com/arch-manjaro-still-going-strong/),
+[Ubuntu](https://ubuntu.com/community/mission).
 
 ## Conhecendo e utilizando o Terminal 
 
@@ -90,7 +90,7 @@ sudo apt remove geogebra
 
 Podemos instalar pacotes via `Ubuntu Sftware`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Sftware` na janela de busca;
 
-[![](/imagem](link)
+
 1 - ![show_aplication](img/show_aplication.png){width=700}
 
 
@@ -99,16 +99,16 @@ Podemos instalar pacotes via `Ubuntu Sftware`, basta clicar em Show Applications
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
-![https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/find_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/find_geogebra.png){width=700}
+[![imagem](img/find_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/find_geogebra.png){width=700}]
 
 
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-![https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/install_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/install_geogebra.png){width=700}
+[![imagem](img/install_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/install_geogebra.png){width=700}]
 
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
-![https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/launch_geogebra.png](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/launch_geogebra.png){width=700}
+[![imagem](img/launch_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/launch_geogebra.png){width=700}]
 
 
 
