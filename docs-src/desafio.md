@@ -1,11 +1,24 @@
 # DESAFIO - Introdução ao Linux 
 
-Agora que conhecemos alguns comandos, e configuramos o nosso `.bashrc`, vamos brincar com a tartaruga do ROS!
+Agora que conhecemos alguns comandos, podemos configur o nosso `.bashrc`,  para brincar com a tartaruga do ROS!
 
-![referencia](img/turtlesim.png)
+![referencia](img/turtlesim.png){width=300}
 
 
-Abra um terminal novo, usando o atalho <kbd>Crtl</kbd> + <kbd>T</kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"
+O .bashrc carrega todas as variáveis globais do seu ambiente Linux, esse arquivo é muito importante, e muito utilizado. 
+Para subir a tartaruga do ROS, precisamos configurar o nosso *.barshrc*, primeiro, abra o arquivo, usando o comando abaixo;
+
+
+```bash
+code ~/.bashrc
+```
+
+Depois, procure essas linhas, e comente, conforme imagem abaixo;
+
+![bashrc](img/bashrc.png)
+
+
+Salve as alterações e abra um terminal novo, usando o atalho <kbd>Crtl</kbd> + <kbd>T</kbd>, neste terminal, execute o comando a seguir para criar uma "Rede ROS"
 
 ``` bash
 roscore
@@ -13,7 +26,7 @@ roscore
 
 Seu resultado deve ser algo parecido com isso:
 
-![referencia](img/roscore.png)
+![referencia](img/roscore.png){width=300}
 
 
 Em uma nova aba do terminal (<kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>), vamos chamar a tartaruga com o comando abaixo:
