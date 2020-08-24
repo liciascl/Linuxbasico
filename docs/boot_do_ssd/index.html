@@ -197,9 +197,63 @@
       
     
     
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Configurações de BIOS para Boot do SSD.
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
     <a href="./" title="Configurações de BIOS para Boot do SSD." class="md-nav__link md-nav__link--active">
       Configurações de BIOS para Boot do SSD.
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#desabilitando-o-bitlocker" class="md-nav__link">
+    Desabilitando o BitLocker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acessando-a-bios" class="md-nav__link">
+    Acessando a BIOS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configurando-a-bios" class="md-nav__link">
+    Configurando a BIOS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inicializando-o-ssd" class="md-nav__link">
+    Inicializando o SSD
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
     
   </li>
 
@@ -257,6 +311,44 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#desabilitando-o-bitlocker" class="md-nav__link">
+    Desabilitando o BitLocker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acessando-a-bios" class="md-nav__link">
+    Acessando a BIOS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configurando-a-bios" class="md-nav__link">
+    Configurando a BIOS
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inicializando-o-ssd" class="md-nav__link">
+    Inicializando o SSD
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -276,52 +368,54 @@
                 
                 
                 <h1 id="configuracoes-de-bios-para-boot-do-ssd">Configurações de BIOS para Boot do SSD.</h1>
-<p>Exemplo de configuração em um notebook Dell e numeração do SSD do tipo <strong>0xB...</strong>, que são SSD's com tabela de formação <em>GPT</em>.</p>
+<p><strong>ATENÇÃO!</strong> 
+Este guia de configuração é baseado em um notebook Dell, as teclas de atalho podem mudar no seu dispositivo, use este guia apenas como base, se tiver alguma dúvida, entre em contato com um dos técnicos de laboratório.</p>
+<p>Lícia Sales
+Email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#108;&#105;&#99;&#105;&#97;&#115;&#99;&#108;&#64;&#105;&#110;&#115;&#112;&#101;&#114;&#46;&#101;&#100;&#117;&#46;&#98;&#114;">&#108;&#105;&#99;&#105;&#97;&#115;&#99;&#108;&#64;&#105;&#110;&#115;&#112;&#101;&#114;&#46;&#101;&#100;&#117;&#46;&#98;&#114;</a>
+Teams: liciascl1</p>
+<p>Arnaldo Junior
+Email: <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#97;&#114;&#110;&#97;&#108;&#100;&#111;&#97;&#118;&#106;&#64;&#105;&#110;&#115;&#112;&#101;&#114;&#46;&#101;&#100;&#117;&#46;&#98;&#114;">&#97;&#114;&#110;&#97;&#108;&#100;&#111;&#97;&#118;&#106;&#64;&#105;&#110;&#115;&#112;&#101;&#114;&#46;&#101;&#100;&#117;&#46;&#98;&#114;</a>
+Teams: arnaldo.junior2</p>
 <blockquote>
 <p>De forma geral, este procedimento pode ser reproduzido em notebooks de outras marcas, sendo feitas as adaptações para cada BIOS.</p>
 </blockquote>
-<h1 id="etapa-1">ETAPA 1</h1>
 <h2 id="desabilitando-o-bitlocker">Desabilitando o BitLocker</h2>
 <p>Com o Windowns inicializado, pesquise por <strong>Bitlocker</strong> no menu iniciar. </p>
 <p><img alt="referencia" src="../img/bitlocker.png" /></p>
 <p>O Bitlocker deve estar desabilitado, como aparece na imagem abaixo. Se o BitLocker estiver ligado, <strong>Desligue</strong>.</p>
 <p><img alt="referencia" src="../img/bitlocker1.png" /></p>
-<p># ETAPA 2</p>
 <h2 id="acessando-a-bios">Acessando a BIOS</h2>
-<p>Para acessar a BIOS, é necessário:</p>
+<p>Para acessar a BIOS, é necessário que;</p>
 <ol>
-<li>Desligue o notebook;</li>
-<li>Concecte o SSD na USB;</li>
+<li>Desligue o notebook completamente;</li>
+<li>Concecte o SSD na porta USB (preferencialmente 3.0);</li>
 <li>Ligue o notebook;</li>
-<li>Assim que a logomarca da <strong>Dell</strong> aparecer, pressione tecla <strong>F2</strong>, varias vezes se necessário, caso tenha um notebook de outra marca pesquise qual tecla deve ser precionada.</li>
+<li>Assim que a logomarca do seu dispositivo aparecer, pressione varias vezes a tecla de acesso a bios, em notebooks dell é <kbd>F2</kbd>  </li>
 </ol>
 <p><img alt="referencia" src="../img/bootdell.png" /></p>
-<p>Quando pressionar a tecla <strong>F2</strong> irá aparecer uma mensagem no canto superior direto. </p>
+<p>Quando pressionar a tecla de acesso a bios <kbd>F2</kbd>  irá aparecer uma mensagem no canto superior direito. </p>
 <p><img alt="referencia" src="../img/bootdellf2.png" /></p>
-<p>Se tudo deu certo, deve aparecer uma tela parecida como da imagem abaixo.</p>
+<p>Logo depois, seremos direcionados a Bios do dispositivo. Cada fabricante tem uma interface diferente, use este guia apenas como base.</p>
 <p><img alt="referencia" src="../img/bios.png" /></p>
 <blockquote>
 <p>Para maquinas diferentes de Dell, é esperado que a interface da Bios seja diferente.</p>
 </blockquote>
-<h2 id="o-que-vamos-alterar">O que vamos alterar</h2>
-<blockquote>
-<p>Lembrete, estamos fazendo a configuração para boot apenas do SSD numeração <strong>0xB...</strong>.</p>
-</blockquote>
+<h2 id="configurando-a-bios">Configurando a BIOS</h2>
 <p>Vá em <em>Security</em> --&gt; <em>PPT Security</em>: Deixe a opção <em>PPT On</em> desmarcada.</p>
 <p><img alt="referencia" src="../img/bootdell-PPT.png" /></p>
 <p>Em <em>General</em> --&gt; <em>Boot Sequence</em>: Verifique se aparece marcada a opção <strong>UEFI: kingston ....... Partition 3</strong>, igual a imagem abaixo.  </p>
 <p><img alt="referencia" src="../img/bootdell-general.png" /></p>
-<p>Salves as alterações em <strong>Aplly</strong> e <strong>Exit</strong> para sair da BIOS e reiniciar o notebook. </p>
+<p>Salves as alterações em <strong>Aplly</strong> e <strong>Exit</strong> para sair da BIOS e reinicie o computador. </p>
 <h2 id="inicializando-o-ssd">Inicializando o SSD</h2>
 <p>Para inicialiar o boot pelo SSD, é necessário:</p>
 <ol>
-<li>Desligue o notebook;</li>
-<li>Concecte o SSD na USB;</li>
-<li>Ligue o notebook;</li>
-<li>Assim que a logomarca da <strong>Dell</strong> aparecer, pressione tecla <strong>F12</strong>, varias vezes se necessário, caso tenha um notebook de outra marca pesquise qual tecla deve ser precionada.</li>
+<li>Desligar o notebook completamente;</li>
+<li>Concectar o SSD na porta USB (preferencialmente 3.0);</li>
+<li>Ligar o notebook;</li>
+<li>Assim que a logomarca do seu dispositivo aparecer, pressione varias vezes a tecla de acesso ao boot menu, em notebooks dell é <kbd>F12</kbd>  </li>
 </ol>
 <p><img alt="referencia" src="../img/bootdell.png" /></p>
-<p>Quando pressionar a tecla <strong>F12</strong> irá aparecer uma mensagem no canto superior direto. </p>
+<p>Quando pressionar a tecla de acesso ao boot menu, (em notebooks dell <kbd>F12</kbd> ) irá aparecer uma mensagem no canto superior direito. </p>
 <p><img alt="referencia" src="../img/bootdellf12.png" /></p>
 <ol>
 <li>Nas opções de Boot escolha a opção <strong>UEFI: kingston ....... Partition 3</strong> e pressione ENTER. </li>
@@ -331,9 +425,9 @@
 <li>Irá carregar a tela de grub do linux. Não é preciso alterar nada, apenas pressione ENTER. </li>
 </ol>
 <p><img alt="referencia" src="../img/bootdell-grub.png" /></p>
-<p>Se tudo ocorrer bem, o Linux irá inicializar.</p>
+<p>Linux irá inicializar.</p>
 <p><img alt="referencia" src="../img/bootdell-ubuntu.png" /></p>
-<p>Agora podemos usar o linux para as aulas e atividades do semestre.</p>
+<p>Agora podemos usar o Linux para atividades do semestre.</p>
 <p>Bons estudos!!!</p>
                 
               

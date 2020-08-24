@@ -1,6 +1,6 @@
 # DESAFIO - Introdução ao Linux 
 
-Agora que conhecemos alguns comandos, podemos configur o nosso `.bashrc`,  para brincar com a tartaruga do ROS!
+Agora que conhecemos alguns comandos, podemos configurar o nosso `.bashrc`,  para brincar com a tartaruga do ROS!
 
 ![referencia](img/turtlesim.png){width=400}
 
@@ -170,6 +170,6 @@ Funcionou!???
 
 # Hora do desafio!
 
-Analise o código disponibilizado, altere os comandos e faça a nossa bela tartarugra desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
+Analise o código disponibilizado, altere os comandos e faça a nossa bela tartaruga desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
 
 ![roda_roda](img/roda_roda.gif)

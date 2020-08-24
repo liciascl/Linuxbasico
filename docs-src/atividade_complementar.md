@@ -21,10 +21,10 @@ Normalmente, o Linux é utilizado como plataforma de desenvolvimento em sistemas
 
 
 
-A distribuição linux ou Sistema Operacional que vamos usar será o Ubuntu. Existem diversas distribuições mas não será o nosso foco.
+Existem diversas distribuições disponiveis, a distribuição Linux ou Sistema Operacional que vamos usar será o Ubuntu. 
 
+Sobre as distribuições disponíveis, deixamos alguns links aqui, mas não se restrinja apenas a eles:
 
-É fácil achar maiores informações online, deixamos alguns links aqui mas não se restrinja apenas a eles:
 [Linux Fundation](https://www.linuxfoundation.org/),
 [Distribuições Linux](https://pt.wikipedia.org/wiki/Distribui%C3%A7%C3%A3o_Linux#/media/Ficheiro:Linux_Distribution_Timeline.svg),
 [Manjaro](https://boilingsteam.com/arch-manjaro-still-going-strong/),
@@ -41,6 +41,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>
  
 Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
+
 ![ssd](img/terminal.png){width=600}
 
 
@@ -55,7 +56,7 @@ Com o comando abaixo, usamos o `apt` para atualizar todos os programas instalado
 ```bash
 sudo apt update 
 ```
-### Atualiza pacotes "já instalados"
+### Atualizar pacotes "já instalados"
 
 Com o comando abaixo, é possível baixar e instalar a versão mais atual de todos os programas instalados anteriormente via `apt`;
 
@@ -84,11 +85,11 @@ Tambem é possivel desinstalar um programa que foi baixado via `apt`, basta usar
 sudo apt remove geogebra
 ```
 
-### Instalar pacotes via Ubuntu Sftware
+### Instalar pacotes via Ubuntu Software
 
 ![logo_ubuntu_software](img/logo_ubuntu_software.png){width=100}
 
-Podemos instalar pacotes via `Ubuntu Sftware`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Sftware` na janela de busca;
+Podemos instalar pacotes via `Ubuntu Software`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Software` na janela de busca;
 
 
 ![show_aplication](img/show_aplication.png){width=700}
@@ -113,24 +114,24 @@ Terminada a instalação, basta clicar no botão `Launch` para executar o progra
 
 
 
-## Um poquinho de GitHub
+## Um pouquinho de GitHub
 
-Antes começar a falar dos comandos do terminal, vamos configurar as nossas credenciais do GitHub, para isso copie os comandos abaixo e cole no terminal:
+Antes começar a falar dos comandos via terminal, vamos configurar as nossas credenciais do GitHub, para isso, copie os comandos abaixo e cole no terminal:
 
 ```bash
 git config --global user.name "Seu Nome"
 git config --global user.email "seunome@email.com"
 ```
 
-> Se você está tentou usar <kbd>Ctrl</kbd> + <kbd>C</kbd> no texto e <kbd>Ctrl</kbd> + <kbd>V</kbd> no terminal, talvez não tenha dado muito certo.
+> Se você tentou usar <kbd>Ctrl</kbd> + <kbd>C</kbd> no texto e <kbd>Ctrl</kbd> + <kbd>V</kbd> no terminal, certamente não deu certo.
 
 > Para copiar e colar no terminal use:
 
 > <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>C</kbd> (Copiar) e <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>V</kbd> (Colar). 
 
-Sabendo disso, faça a configuração das suas credenciais no git copiando e colando o comando no terminal.
+Sabendo disso, faça a configuração das suas credenciais do GitHub copiando e colando o comando no terminal.
 
-Para verificar se foi funcionou, digite:
+Para verificar se funcionou, digite:
 
 ```bash
 git config user.name
@@ -142,8 +143,8 @@ git config user.email
 
 # Navegando entre diretorios e arquivos
 
-De forma bem simplificada, podemos dizer que o sistema Linux possui 2 elementos principais: pastas e arquivos. Os arquivos armazenam dados (txt, py...) e as pastas tambem chamadas de diretórios, armazenam e organizam os arquivos. 
-Sabendo disso é importante saber navegar entre os diretórios para encontrar os arquivos.
+De forma simplificada, podemos dizer que o Sistema Linux possui 2 elementos principais: pastas e arquivos. Os arquivos armazenam dados (txt, py...) e as pastas, que tambem são chamadas de diretórios, armazenam e organizam os arquivos. 
+É importante saber navegar entre os diretórios para encontrar os arquivos.
 
 
 ![pasta logo](img/FilesAndFolders.png){width=350}
@@ -155,7 +156,7 @@ Sabendo disso é importante saber navegar entre os diretórios para encontrar os
 
 ## Comando "cd"
 
-O comando **cd** é um dos comandos mais utilizados no terminal do Linux isso porque ele permite que acessemos um diretório especifico. Vamos acessar o nosso  repositorio de Elementos de Sistemas, e atualizar ele via git. 
+O comando **cd** é um dos comandos mais utilizados no terminal do Linux isso porque ele permite que acessemos um diretório especifico. Vamos acessar o nosso  repositorio de Elementos de Sistemas, e atualizar ele via comandos git. 
 
 
 ```bash
@@ -166,7 +167,7 @@ cd Z01.1
 git pull
 ```
 
-É uma boa prática manter os seus repositórios Git sempre atualizados, antes de começar a trabalhar, não esqueça de dar um `git pull`, para ter certeza de que está trabalhando com a ultima versão dos arquivos no seu repositório!
+É uma boa prática manter os seus repositórios do GitHub sempre atualizados, antes de começar a trabalhar, não esqueça de dar um `git pull`, para ter certeza de que está trabalhando com a ultima versão dos arquivos no seu repositório!
 
 Feita a atualização, vamos instalar uma ferramenta que permite visualizar toda a estrutaras de árvore da pasta, 
 
@@ -179,7 +180,7 @@ Agora digite o comando para visualizar a árvore do repositório de Elementos de
 tree -d -L 4
 ```
 
-Esta ferramenta é útil para te ajudar a navegar de forma mais eficiente dentro do sistema, se você não sabe aonde determinado repositório está exatamente, é possivel consultar a árvore para localizar visualmente.
+Esta ferramenta é útil para navegar de forma mais eficiente dentro do sistema, se não sabemos aonde determinado repositório está, é possivel consultar a árvore para localizar o seu caminho visualmente.
 
 
 > os paramentros -d -L 2 indica que que queremos listar (-L )até o quarto (4) nível na hierarquia de pastas, apenas as pastas (-d)
@@ -199,7 +200,7 @@ ou par ir direto para este diretorio digite:
 ```bash
 cd Projetos/B-LogicaCombinacional/src/rtl
 ```
-> Dica:. Se estiver com preguiça de digitar o caminho completo, digite apenas o começo do comando e use a tecla <kbd>TAB</kbd> para auto-completar.
+> Dica:. Podemos apenas digitar o começo do comando e usar a tecla <kbd>TAB</kbd> para auto-completar.
 
 Para acessar o diretório anterior podemos digitar:
 
@@ -208,7 +209,7 @@ cd ..
 ```
 ## Comando "pwd"
 
-Podemos verificar o diretório que estamos digitanto:
+Podemos verificar o caminho do diretório que estamos digitanto:
 
 ```bash
 pwd
@@ -219,6 +220,7 @@ Para acessar o diretório home, basta digitar;
 ```bash
 cd
 ```
+
 > Toda vez que abrimos um novo terminal, ele é inicializado na home do usuário. 
 
 ## Comando "ls"
@@ -229,7 +231,7 @@ ls
 ```
 # Visualização de arquivos e pastas ocultos
 
-O comando "ls" sozinho não exibe arquivos ocultos, que são arquivos e pastas que começam com ".". Durante as aulas de robotica teremos que editar um arquivo oculto chamado "**.bashrc**", no momento precisamos apenas saber que este arquivo se encontra na home do usuario `~` e que após editado precisamos executar o `source ~/.bashrc` ou `feche o terminal e abra um novo` para recarregar as atualizações do arquivo. digite:
+O comando "ls" sozinho não exibe arquivos ocultos, que são arquivos e pastas que começam com ".". Durante as aulas de Robótica Computacional teremos que editar um arquivo oculto chamado "**.bashrc**", no momento precisamos apenas saber que este arquivo se encontra na home do usuario `~` e que após editado precisamos executar o `source ~/.bashrc` ou `feche o terminal e abra um novo` para recarregar as atualizações do arquivo. 
 
 ```bash
 cd ~
@@ -261,7 +263,7 @@ mkdir nome_da_pasta
 
 Para criar um novo diretório em um local especifico, basta especificar o caminho que o diretório deverá ser criado;
 
-> Dica:. Você sempre pode usar a tecla <kbd>TAB</kbd> para dar auto-completar os comandos.
+> Dica:. Você sempre pode usar a tecla <kbd>TAB</kbd> para auto-completar os comandos.
 
 ```bash
 mkdir /home/borg/Documents/nome_da_pasta 
@@ -317,7 +319,7 @@ Para copiar arquivos e diretorios, basta  digitar:
 > meu_programa_python.py 
 cp -R meu_programa_python.py /home/borg/Documents/
 ```
-No exemplo acima foi criado um arquivo chamado meu_programa_python.py uma copia do arquivo "nome1.py" dentro do diretório pasta1. 
+No exemplo acima foi criado um arquivo chamado meu_programa_python.py e uma copia do arquivo "meu_programa_python.py" dentro do diretório Documents. 
 
 ## Comando "mv"
 
@@ -340,17 +342,18 @@ mv pastinha nova_pastinha
 
 ## Comando "rm"
 
-Para excluir arquivos e diretórios, o famoso Shift+Del, basta digitar:
+Para excluir arquivos e diretórios, o famoso  <kbd>Shift</kbd> + <kbd>Del</kbd> basta digitar:
 
 ```bash
 rm -rf nova_pastinha
 ```
-> Atenção!! Cuidado!!!! Arquivos e pastas são apagados permanentemente, não vão para lixeira. No caso de diretórios, apaga o diretório e tudo que está dentro dele.
+> Atenção!!! Arquivos e pastas são apagados permanentemente, não vão para lixeira. No caso de diretórios, apaga o diretório e tudo que está dentro dele.
 
 # Super Usuário
 
 ## Comando "sudo"
-Por questões de seguraça, o Linux trabalha com permissões de usuários e para determinados arquivos ou comandos apenas o usuario administrador (root) pode executar. A titulo de curiosidade, "sudo" significa **S**uper **U**ser **DO**. Quando executar comandos com sudo, será necessário informar a senha.
+Por questões de seguraça, o Linux trabalha com permissões de usuários e para determinados arquivos ou comandos apenas o usuario administrador (root) pode executar. 
+A titulo de curiosidade, "sudo" significa **S**uper **U**ser **DO**. Quando executar comandos com sudo, será necessário informar a senha.
 
 
 ## Comando "chmod"
@@ -366,7 +369,7 @@ A concatenação de a+x significa que estamos permitindo para todos (a = all) us
 
 # Editando arquivos
 
-Existem várias ferramentas para edição de texto, de um modo geral, podemos dizer que existem 2 tipos grupos principais,
+Existem várias ferramentas para edição de texto, de um modo geral, podemos dizer que existem 2 grupos principais,
 os que rodam direto no console (terminal) e os que possuem uma interface gráfica. 
 
 ## Editor nano 
@@ -441,7 +444,7 @@ Para salvar e sair, pressione  <kbd>Ctrl</kbd> + <kbd>S</kbd> ou clique em salva
 
 # BONUS
 
-Comando úteis para verificar informações do sistema, encontrar bugs, e matar programas travados; 
+Comandos úteis para verificar informações do sistema, encontrar bugs, e matar programas travados; 
 
 ## Informações dos dispositivos conectados na USB
 
