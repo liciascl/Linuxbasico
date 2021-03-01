@@ -1,10 +1,17 @@
 # Guia Linux básico 
 
-<img src="img/linuxs.png" width="100" height="100">       Este não é um curso regular de Linux, neste curso queremos ensinar conceitos básicos do Linux como navegar pelo sistema de arquivos e mostrar alguns exemplos básicos, mas com foco nas matérias de Robótica Computacional e Elementos de Sistemas para auxilia-los com os primeiros passos.    
+<img src="https://github.com/liciascl/Linuxbasico/tree/master/docs/img/linuxs.png" width="100" height="100">  
+
+### Nesta Atividade Complementar será apresentado o Sistema Operacional Linux - distribuição Ubuntu versão 20.04 LTS.
+
+Durante o 3 Semestre de Engenharia da Computação no Insper, As atividades realizadas nas Disciplinas de Robótica Computacional e Elementos de Sistema são em ambiente Linux, afim de preparar vocês para trabalhar nesse ambiente, dividimos a atividade em três etapas;
+
 
 | Tópico        | Sobre          |
 | ------------- |---------------|
-|  [Guia de como configurar o seu computador para subir o SSD](https://liciascl.github.io/Linuxbasico/boot_do_ssd/)    | Passo a passo de como configurar o seu computador para subir o Sistema Operacional gravado no SSD externo disponibilizado pelos técnicos do laboratório |  
-| [Introdução ao Linux](https://liciascl.github.io/Linuxbasico/atividade_complementar/) | Parte teórica da *Atividade complementar - introdução ao Linux* |
-|  [DESAFIO - Introdução ao Linux](https://liciascl.github.io/Linuxbasico/desafio/)  | Após aprender os comandos básico, temos um desafio pra você |
-| [Comandos mais utilizados pra você consultar](https://liciascl.github.io/Linuxbasico/colinha/) | |
+|  [Guia de como configurar o seu computador para subir o SSD](https://liciascl.github.io/Linuxbasico/boot_do_ssd/)    | Passo a passo para configurar o seu computador para subir o Sistema Operacional gravado no SSD externo disponibilizado pelos técnicos do laboratório |  
+| [Introdução ao Linux](https://liciascl.github.io/Linuxbasico/atividade_complementar/) | Parte teórica da Atividade complementar - introdução ao Linux |
+|  [DESAFIO - Introdução ao Linux](https://liciascl.github.io/Linuxbasico/desafio/) | Após aprender os comandos básicos, temos um desafio pra você |
+| [Colinha com os principais comandos](https://liciascl.github.io/Linuxbasico/colinha/) | Seleção com os comandos mais utilizados para facilitar a sua vida|
+
+
