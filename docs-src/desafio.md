@@ -12,7 +12,7 @@ Para acessar o bashrc, use o comando abaixo
 ```bash
 code ~/.bashrc
 ```
-Perceba que temos la no final, temos algo como
+Perceba que la no final do arquivo, temos algo como;
 
 ```bash
 ##########################
