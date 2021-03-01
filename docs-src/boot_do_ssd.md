@@ -24,7 +24,7 @@ Com o Windowns inicializado, pesquise por **Bitlocker** no menu iniciar.
 
 O Bitlocker deve estar desabilitado, como aparece na imagem abaixo. Se o BitLocker estiver ligado, **Desligue**.
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bitlocker1.png)
+![](img/bitlocker1.png)
     
 
 ## Acessando a BIOS
@@ -36,16 +36,16 @@ Para acessar a BIOS, é necessário que;
 3. Ligue o notebook;
 4. Assim que a logomarca do seu dispositivo aparecer, pressione varias vezes a tecla de acesso a bios, em notebooks dell é <kbd>F2</kbd>  
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdell.png)
+![](img/bootdell.png)
 
 Quando pressionar a tecla de acesso a bios <kbd>F2</kbd>  irá aparecer uma mensagem no canto superior direito. 
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdellf2.png)
+![](img/bootdellf2.png)
 
 
 Logo depois, seremos direcionados a Bios do dispositivo. Cada fabricante tem uma interface diferente, use este guia apenas como base.
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bios.png)
+![](img/bios.png)
 
 > Para maquinas diferentes de Dell, é esperado que a interface da Bios seja diferente.
 
@@ -54,11 +54,11 @@ Logo depois, seremos direcionados a Bios do dispositivo. Cada fabricante tem uma
 
 Vá em *Security* --> *PPT Security*: Deixe a opção *PPT On* desmarcada.
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdell-PPT.png)
+![](img/bootdell-PPT.png)
 
 Em *General* --> *Boot Sequence*: Verifique se aparece marcada a opção **UEFI: kingston ....... Partition 3**, igual a imagem abaixo.  
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdell-general.png)
+![](img/bootdell-general.png)
 
 Salves as alterações em **Aplly** e **Exit** para sair da BIOS e reinicie o computador. 
 
@@ -73,23 +73,23 @@ Para inicialiar o boot pelo SSD, é necessário:
 4. Assim que a logomarca do seu dispositivo aparecer, pressione varias vezes a tecla de acesso ao boot menu, em notebooks dell é <kbd>F12</kbd>  
 
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdell.png)
+![](img/bootdell.png)
 
 Quando pressionar a tecla de acesso ao boot menu, (em notebooks dell <kbd>F12</kbd> ) irá aparecer uma mensagem no canto superior direito. 
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdellf12.png)
+![](img/bootdellf12.png)
 
 5. Nas opções de Boot escolha a opção **UEFI: kingston ....... Partition 3** e pressione ENTER. 
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdellf12-particion3.png)
+![](img/bootdellf12-particion3.png)
 
 6. Irá carregar a tela de grub do linux. Não é preciso alterar nada, apenas pressione ENTER. 
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdell-grub.png)
+![](img/bootdell-grub.png)
 
 Linux irá inicializar.
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bootdell-ubuntu.png)
+![](img/bootdell-ubuntu.png)
 
 
 Agora podemos usar o Linux para atividades do semestre.
