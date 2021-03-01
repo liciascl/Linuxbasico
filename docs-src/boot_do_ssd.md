@@ -20,7 +20,7 @@ Teams: arnaldo.junior2
 
 Com o Windowns inicializado, pesquise por **Bitlocker** no menu iniciar. 
 
-![](https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/bitlocker.png)
+![](img/bitlocker.png)
 
 O Bitlocker deve estar desabilitado, como aparece na imagem abaixo. Se o BitLocker estiver ligado, **Desligue**.
 
