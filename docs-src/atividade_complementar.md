@@ -41,7 +41,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
  
 Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
 
-<img src="img/terminal.png" width="700" height="600">  
+<img src="img/terminal.png" width="800" height="700"> 
 
 ## Comando "apt" 
 
@@ -92,16 +92,20 @@ Podemos instalar pacotes via `Ubuntu Software`, basta clicar em Show Application
 
 <img src="img/show_aplication.png" width="800" height="700">  
 
+
 <img src="img/ubuntu_software.png" width="800" height="700">  
+
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
 
 <img src="img/find_geogebra.png" wwidth="800" height="700"> 
 
+
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-<img src="img/install_geogebra.png" width="800" height="700">  
+<img src="img/install_geogebra.png" width="800" height="700"> 
+
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
 <img src="img/launch_geogebra.png" width="800" height="700"> 
@@ -140,7 +144,7 @@ De forma simplificada, podemos dizer que o Sistema Linux possui 2 elementos prin
 É importante saber navegar entre os diretórios para encontrar os arquivos.
 
 
-<img src="img/FilesAndFolders.png" width="500" height="400">  
+<img src="img/FilesAndFolders.png" width="800" height="700"> 
 [Fonte](https://commons.wikimedia.org/wiki/File:FilesAndFolders.png)
 
 
@@ -369,7 +373,7 @@ os que rodam direto no console (terminal) e os que possuem uma interface gráfic
 O nano é um editor do modo console, ou seja, abre no proprio terminal. 
 
 
-<img src="img/main-nano-window.png" width="600" height="750">  
+<img src="img/main-nano-window.png" width="800" height="700"> 
 ### Abrir
 Digite no terminal **nano** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
 
@@ -392,7 +396,7 @@ Para sair sem salvar alteraçes,  <kbd>Ctrl</kbd> + <kbd>X</kbd> e  <kbd>N</kbd>
 Muito parecido com o famoso bloco de notas do Windows.
 
 
-<img src="img/gedit3-screenshot.png" width="700" height="600">  
+<img src="img/gedit3-screenshot.png" width="800" height="700">  
 ### Abrir
 Digite no terminal **gedit** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
 
@@ -413,7 +417,7 @@ Para salvar e sair, pressione  <kbd>Ctrl</kbd> + <kbd>S</kbd> ou clique em salva
 O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.
 
 
-<img src="img/vscode-ui-in-container.png" width="700" height="600">  
+<img src="img/vscode-ui-in-container.png" width="800" height="700"> 
 ### Abrir
 
 Digite no terminal **code** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
