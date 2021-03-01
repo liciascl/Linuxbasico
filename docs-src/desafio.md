@@ -7,16 +7,36 @@ Agora que conhecemos alguns comandos, podemos configurar o nosso `.bashrc`,  par
 ## Configurando o ´.bashrc´
 
 O .bashrc carrega todas as variáveis globais do seu ambiente Linux, esse arquivo é muito importante, e muito utilizado. 
-Para subir a tartaruga do ROS, precisamos configurar o nosso *.barshrc*, primeiro, abra o arquivo, usando o comando abaixo;
-
+Para acessar o bashrc, use o comando abaixo
 
 ```bash
 code ~/.bashrc
+```
+Perceba que temos la no final, temos algo como
+
+```bash
+##########################
+# 3s
+##########################
+
+source ~/elementos.sh
+source ~/robotica.sh
+```
+
+Isso é porque estamos ativando esses arquivos que estão localizados na home, eles sobem configurações especificas para o ambiente, tanto da matéria de Robótica, como da matéria de Elementos de Sistemas, deixamos separado desta forma pra facilitar a manutenção e pra deixar mais organizado.
+
+Para subir a tartaruga do ROS, precisamos configurar o nosso `robotica.sh`, primeiro, abra o arquivo `robotica.sh`, usando o comando abaixo;
+
+
+```bash
+code ~/robotica.sh
 ```
 
 Depois, procure essas linhas, e comente, conforme imagem abaixo;
 
 ![bashrc](img/bashrc.png){width=500}
+
+
 
 
 ## Inicializando o ROS
