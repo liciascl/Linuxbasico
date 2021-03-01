@@ -2,7 +2,7 @@
 
 Agora que conhecemos alguns comandos, podemos configurar o nosso `.bashrc`,  para brincar com a tartaruga do ROS!
 
-![referencia](img/turtlesim.png){width=400}
+![referencia](img/turtlesim.png){width=1000}
 
 ## Configurando o ´.bashrc´
 
@@ -131,7 +131,7 @@ Seu resultado deve ser algo parecido com isso;
 
 
 
-![teleop](img/teleop.gif)
+![teleop](img/teleop.gif){width=1000}
 
 
 
@@ -153,7 +153,7 @@ Durante a disciplina de Robótica, esses comandos serão vistos em maiores detal
 A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valores publicados, perceba como ele altera o comportamento da tartaruga
 
 
-![cmd_vel](img/cmd_vel.gif)
+![cmd_vel](img/cmd_vel.gif){width=1000}
 
 
 ## Vamos programar!
@@ -251,4 +251,4 @@ Funcionou!???
 Analise o código disponibilizado, altere os comandos e faça a nossa bela tartaruga desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
 
 
-![roda_roda](img/roda_roda.gif)
+![roda_roda](img/roda_roda.gif){width=1000}
