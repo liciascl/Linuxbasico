@@ -169,7 +169,7 @@ Cole o codigo abaixo dentro do seu arquivo:
 
 
 ``` bash
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import rospy
 from geometry_msgs.msg import Twist
@@ -200,6 +200,13 @@ if __name__ == '__main__':
 
      while not rospy.is_shutdown():
         move_turtle(6.5,6.5,1.0)
+```
+
+Salve o arquivo, depois de permissão para que ele seja executável com o comando abaixo;
+
+
+``` bash
+chmod a+x roda_tartaruga.py
 ```
 
 
@@ -237,7 +244,7 @@ ou
 
 
 ``` bash
-python roda_tartaruga.py
+python3 roda_tartaruga.py
 ```
 
 
