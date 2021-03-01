@@ -2,7 +2,7 @@
 
 Agora que conhecemos alguns comandos, podemos configurar o nosso `.bashrc`,  para brincar com a tartaruga do ROS!
 
-![referencia](img/turtlesim.png){width=600}
+![referencia](img/turtlesim.png){width=300}
 
 ## Configurando o ´.bashrc´
 
