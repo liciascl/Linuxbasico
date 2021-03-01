@@ -9,13 +9,14 @@
 
 ## Linux 
 
-<img src="img/ilovelinux.png" width="600" height="400">  
+![](img/ilovelinux.png){width=300}
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
 Normalmente, o Linux é utilizado como plataforma de desenvolvimento em sistemas embarcados
 
-<img src="img/Kernel_basic.png" width="350" height="350">  
+
+![](img/Kernel_basic.png){width=350}
 [Fonte](https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/)
 
 
@@ -41,7 +42,8 @@ A forma mais facil de abrir o terminal é atraves do atalho:
  
 Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
 
-<img src="img/terminal.png" width="800" height="700"> 
+![](img/terminal.png){width=600}
+
 
 ## Comando "apt" 
 
@@ -85,30 +87,31 @@ sudo apt remove geogebra
 
 ### Instalar pacotes via Ubuntu Software
 
-
-<img src="img/logo_ubuntu_software.png" width="200" height="200">  
+![](img/logo_ubuntu_software.png){width=100}
 
 Podemos instalar pacotes via `Ubuntu Software`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Software` na janela de busca;
 
-<img src="img/show_aplication.png" width="800" height="700">  
+
+![](show_aplication.png){width=700}
 
 
-<img src="img/ubuntu_software.png" width="800" height="700">  
+![](img/ubuntu_software.png){width=700}
 
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
 
-<img src="img/find_geogebra.png" wwidth="800" height="700"> 
+![](img/find_geogebra.png)(/img/find_geogebra.png)
 
 
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-<img src="img/install_geogebra.png" width="800" height="700"> 
+![](img/install_geogebra.png)(/img/install_geogebra.png)
 
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
-<img src="img/launch_geogebra.png" width="800" height="700"> 
+![](img/launch_geogebra.png)(/img/launch_geogebra.png)
+
 
 
 ## Um pouquinho de GitHub
@@ -144,7 +147,8 @@ De forma simplificada, podemos dizer que o Sistema Linux possui 2 elementos prin
 É importante saber navegar entre os diretórios para encontrar os arquivos.
 
 
-<img src="img/FilesAndFolders.png" width="800" height="700"> 
+![](img/FilesAndFolders.png){width=350}
+
 [Fonte](https://commons.wikimedia.org/wiki/File:FilesAndFolders.png)
 
 
@@ -372,8 +376,8 @@ os que rodam direto no console (terminal) e os que possuem uma interface gráfic
 
 O nano é um editor do modo console, ou seja, abre no proprio terminal. 
 
+![](img/main-nano-window.png){width=600}
 
-<img src="img/main-nano-window.png" width="800" height="700"> 
 ### Abrir
 Digite no terminal **nano** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
 
@@ -395,8 +399,8 @@ Para sair sem salvar alteraçes,  <kbd>Ctrl</kbd> + <kbd>X</kbd> e  <kbd>N</kbd>
 ## Editor gedit
 Muito parecido com o famoso bloco de notas do Windows.
 
+![](img/gedit3-screenshot.png){width=600}
 
-<img src="img/gedit3-screenshot.png" width="800" height="700">  
 ### Abrir
 Digite no terminal **gedit** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
 
@@ -416,8 +420,8 @@ Para salvar e sair, pressione  <kbd>Ctrl</kbd> + <kbd>S</kbd> ou clique em salva
 
 O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.
 
+![](img/vscode-ui-in-container.png){width=600}
 
-<img src="img/vscode-ui-in-container.png" width="800" height="700"> 
 ### Abrir
 
 Digite no terminal **code** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -475,7 +479,7 @@ pkill terminal
 
 Preparamos um desafio para você, navega até a proxima página e divirta-se com a tartaruga do ROS
 
+![](img/roda_roda.gif)
 
-<img src="img/roda_roda.gif" width="360" height="360">  
 
 
