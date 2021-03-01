@@ -2,8 +2,7 @@
 
 Listamos aqui os comandos mais utilizados pra você consultar 
 
-
-<img src="img/atalhos.png" width="200" height="200">  
+![referencia](https://github.com/liciascl/Linuxbasico/blob/mkdocs/docs-src/img/atalhos.png){width=200}
 
 
 
