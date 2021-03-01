@@ -34,7 +34,7 @@ code ~/robotica.sh
 
 Depois, procure essas linhas, e comente, conforme imagem abaixo;
 
-![bashrc](img/bashrc.png){width=500}
+![bashrc](img/bashrc.png){width=1000}
 
 
 
