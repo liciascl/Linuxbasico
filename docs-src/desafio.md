@@ -2,7 +2,7 @@
 
 Agora que conhecemos alguns comandos, podemos configurar o nosso `.bashrc`,  para brincar com a tartaruga do ROS!
 
-![referencia](img/turtlesim.png){width=1000}
+![referencia](img/turtlesim.png){width=600}
 
 ## Configurando o ´.bashrc´
 
@@ -251,4 +251,4 @@ Funcionou!???
 Analise o código disponibilizado, altere os comandos e faça a nossa bela tartaruga desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
 
 
-![roda_roda](img/roda_roda.gif){width=1000}
+![roda_roda](img/roda_roda.gif){width=600}
