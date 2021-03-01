@@ -7,6 +7,7 @@ repo_url: 'https://github.com/liciascl/Linuxbasico'
 docs_dir: docs-src
 site_dir: docs
 
+
 # Copyright
 copyright: 'Copyright &copy @ Insper'
 
@@ -24,3 +25,4 @@ markdown_extensions:
   - markdown.extensions.codehilite
   - pymdownx.magiclink
   - pymdownx.details
+  - markdown.extensions.attr_list
