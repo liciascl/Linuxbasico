@@ -49,7 +49,7 @@ roscore
 
 Seu resultado deve ser algo parecido com isso:
 
-![referencia](img/roscore.png){width=500}
+![referencia](img/roscore.png){width=1000}
 
 
 ## Subindo o TurtleSim
@@ -62,7 +62,7 @@ rosrun turtlesim turtlesim_node
 
 Seu resultado deve ser algo parecido com isso;
 
-![turtlesim_2](img/turtlesim_2.png){width=500}
+![turtlesim_2](img/turtlesim_2.png){width=1000}
 
 ## Listando os topicos disponíveis
 
@@ -72,7 +72,7 @@ Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de
 rostopic list
 ```
 
-![turtlesim_2](img/rostopic_list.png){width=500}
+![turtlesim_2](img/rostopic_list.png){width=1000}
 
 
 
