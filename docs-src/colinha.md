@@ -3,7 +3,7 @@
 Listamos aqui os comandos mais utilizados pra você consultar 
 
 
-![referencia](img/atalhos.png){width=200}
+![referencia](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/atalhos.png){width=200}
 
 
 
