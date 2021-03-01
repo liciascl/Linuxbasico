@@ -2,7 +2,7 @@
 
 Agora que conhecemos alguns comandos, podemos configurar o nosso `.bashrc`,  para brincar com a tartaruga do ROS!
 
-![referencia](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/turtlesim.png){width=400}
+![referencia](img/turtlesim.png){width=400}
 
 ## Configurando o ´.bashrc´
 
@@ -16,7 +16,7 @@ code ~/.bashrc
 
 Depois, procure essas linhas, e comente, conforme imagem abaixo;
 
-![bashrc](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/bashrc.png){width=500}
+![bashrc](img/bashrc.png){width=500}
 
 
 ## Inicializando o ROS
@@ -29,7 +29,7 @@ roscore
 
 Seu resultado deve ser algo parecido com isso:
 
-![referencia](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/roscore.png){width=500}
+![referencia](img/roscore.png){width=500}
 
 
 ## Subindo o TurtleSim
@@ -42,7 +42,7 @@ rosrun turtlesim turtlesim_node
 
 Seu resultado deve ser algo parecido com isso;
 
-![turtlesim_2](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/turtlesim_2.png){width=500}
+![turtlesim_2](img/turtlesim_2.png){width=500}
 
 ## Listando os topicos disponíveis
 
@@ -52,7 +52,7 @@ Nós veremos com maior profundidade as funcionalidades do ROS durante o curso de
 rostopic list
 ```
 
-![turtlesim_2](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/rostopic_list.png){width=500}
+![turtlesim_2](img/rostopic_list.png){width=500}
 
 
 
@@ -80,7 +80,7 @@ rosrun turtlesim turtle_teleop_key
 
 Seu resultado deve ser algo parecido com isso;
 
-![teleop](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/teleop.gif)
+![teleop](img/teleop.gif)
 
 Com o comando abaixo, podemos publicar valores de velocidade angular e linear na nossa tartaruga, só tome cuidado pra não bater ela na parede, ela reclama!
 
@@ -97,7 +97,7 @@ Durante a disciplina de Robótica, esses comandos serão vistos em maiores detal
 
 A tartaruga aceita valores do tipo Float, positivios e negativos, altere os valores publicados, perceba como ele altera o comportamento da tartaruga
 
-![cmd_vel](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/cmd_vel.gif)
+![cmd_vel](img/cmd_vel.gif)
 
 ## Vamos programar!
 
@@ -172,4 +172,4 @@ Funcionou!???
 
 Analise o código disponibilizado, altere os comandos e faça a nossa bela tartaruga desenhar um 8 na tela, use a sua criatividade e os seus conhecimentos em python, divirta-se!
 
-![roda_roda](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/roda_roda.gif)
+![roda_roda](img/roda_roda.gif)
