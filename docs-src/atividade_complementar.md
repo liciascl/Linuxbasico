@@ -9,14 +9,14 @@
 
 ## Linux 
 
-![referencia](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/ilovelinux.png){width=300}
+![](img/ilovelinux.png){width=300}
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
 Normalmente, o Linux é utilizado como plataforma de desenvolvimento em sistemas embarcados
 
 
-![Kernel logo](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/Kernel_basic.png){width=350}
+![](img/Kernel_basic.png){width=350}
 [Fonte](https://manjarobrasil.wordpress.com/2015/08/02/o-que-e-kernel/)
 
 
@@ -42,7 +42,7 @@ A forma mais facil de abrir o terminal é atraves do atalho:
  
 Neste momento nos deparamos com a janela do terminal aberta no ambiente do usuário (home ou ~) pronta para receber os primeiros comandos.
 
-![ssd](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/terminal.png){width=600}
+![](img/terminal.png){width=600}
 
 
 ## Comando "apt" 
@@ -87,30 +87,30 @@ sudo apt remove geogebra
 
 ### Instalar pacotes via Ubuntu Software
 
-![logo_ubuntu_software](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/logo_ubuntu_software.png){width=100}
+![](img/logo_ubuntu_software.png){width=100}
 
 Podemos instalar pacotes via `Ubuntu Software`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Software` na janela de busca;
 
 
-![show_aplication](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/show_aplication.png){width=700}
+![](show_aplication.png){width=700}
 
 
-![show_aplication](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/ubuntu_software.png){width=700}
+![](img/ubuntu_software.png){width=700}
 
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
 
-![](img/find_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/find_geogebra.png)
+![](img/find_geogebra.png)
 
 
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-![](img/install_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/install_geogebra.png)
+![](img/install_geogebra.png)
 
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
-![](img/launch_geogebra.png)(https://github.com/liciascl/Linuxbasico/blob/master/docs-src/img/launch_geogebra.png)
+![](img/launch_geogebra.png)
 
 
 
@@ -147,7 +147,7 @@ De forma simplificada, podemos dizer que o Sistema Linux possui 2 elementos prin
 É importante saber navegar entre os diretórios para encontrar os arquivos.
 
 
-![pasta logo](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/FilesAndFolders.png){width=350}
+![](img/FilesAndFolders.png){width=350}
 
 [Fonte](https://commons.wikimedia.org/wiki/File:FilesAndFolders.png)
 
@@ -376,7 +376,7 @@ os que rodam direto no console (terminal) e os que possuem uma interface gráfic
 
 O nano é um editor do modo console, ou seja, abre no proprio terminal. 
 
-![nano logo](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/main-nano-window.png){width=600}
+![](img/main-nano-window.png){width=600}
 
 ### Abrir
 Digite no terminal **nano** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -399,7 +399,7 @@ Para sair sem salvar alteraçes,  <kbd>Ctrl</kbd> + <kbd>X</kbd> e  <kbd>N</kbd>
 ## Editor gedit
 Muito parecido com o famoso bloco de notas do Windows.
 
-![nano logo](img/gedit3-screenshot.png){width=600}
+![](img/gedit3-screenshot.png){width=600}
 
 ### Abrir
 Digite no terminal **gedit** e o nome do arquivo com a extensão, caso não exista um arquivo com esse nome um novo arquivo será criado.
@@ -420,7 +420,7 @@ Para salvar e sair, pressione  <kbd>Ctrl</kbd> + <kbd>S</kbd> ou clique em salva
 
 O editor vscode é uma ferramenta que possui mais recursos que auxiliam no desenvimento de codigo.
 
-![vscode logo](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/vscode-ui-in-container.png){width=600}
+![](img/vscode-ui-in-container.png){width=600}
 
 ### Abrir
 
@@ -479,7 +479,7 @@ pkill terminal
 
 Preparamos um desafio para você, navega até a proxima página e divirta-se com a tartaruga do ROS
 
-![roda_roda](https://github.com/liciascl/Linuxbasico/tree/master/docs/img/roda_roda.gif)
+![](img/roda_roda.gif)
 
 
 
