@@ -14,9 +14,11 @@ copyright: 'Copyright &copy @ Insper'
 nav:
 - Home: index.md
 - boot_do_ssd.md
+- boot_ssd_MacOs.md
 - atividade_complementar.md
 - desafio.md
 - colinha.md
+
 
 #####################################################################
 
