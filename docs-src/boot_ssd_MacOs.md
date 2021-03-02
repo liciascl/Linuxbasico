@@ -17,20 +17,20 @@ Ao ligar o seu dispositivo, pressione e segure as teclas <kbd>Command(⌘)</kbd>
 
 Vá em **Janela**, depois procure a opção **Utilitário de Segurança da Inicialização**
 
-![](img/util.png)
+![img/util.png](img/util.png)
 
 Selecione a opção **Permitir inicialização a partir de mídia externa ou removível**
 
-![](img/permitindo.png)
+![img/permitindo.png](img/permitindo.png){width=800}
 
 
 Clique em **Ativar Senha de Firmware** Você vai precisar configurar uma senha, ela será usada toda vez que você precisar subir o Linux no seu MacOs
 
-![](img/senha.png)
+![img/senha.png](img/senha.png){width=800}
 
 Clique em **Encerrar o Utilitário de Segurança da inicialização** 
 
-![](img/encerrar.png)
+![img/encerrar.png](img/encerrar.png){width=800}
 
 ### Entrando no Gerenciador de inicialização
 
@@ -39,7 +39,7 @@ Ao entrar na tela que permite selecionar outros volumes ou discos de inicializa�
 Se o Mac estiver usando uma senha de firmware, você precisará inserir a senha.
 
 
-![](img/disco.png)
+![img/disco.png](img/disco.png){width=800}
 
 
 
