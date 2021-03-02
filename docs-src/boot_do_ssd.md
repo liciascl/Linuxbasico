@@ -3,7 +3,7 @@
 **ATENÇÃO!** 
 Este guia de configuração é baseado em um notebook Dell, as teclas de atalho podem mudar no seu dispositivo, use este guia apenas como base, se tiver alguma dúvida, entre em contato com um dos técnicos de laboratório.
 
-**Caso esteja usando um MacOS, utilize este [guia](https://github.com/liciascl/Linuxbasico/blob/mkdocs/docs-src/boot_ssd_MacOs.md)**
+**Caso esteja usando um MacOS, utilize este [guia](https://liciascl.github.io/Linuxbasico/boot_ssd_MacOs)**
 
 Lícia Sales
 Email: liciascl@insper.edu.br
