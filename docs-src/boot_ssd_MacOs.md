@@ -1,17 +1,19 @@
 # Configurações no MacOs para Boot do SSD 
 
-### Você vai precisar de:
+### O que vamos precisar:
 
 - Hub usb
 - teclado externo
 - mouse externo
 - Adaptador Wifi usb
 
+**ATENÇÃO**
+A etapa **Habilitando uso de midia externa para inicialização** só é necessaria para Macbook Pro 2019 +
+caso vc tenha alguma outra versão de Macbook, pule direto para a **Entrando no Gerenciador de inicialização**
+
+
 
 ### Habilitando uso de midia externa para inicialização
-
-**ATENÇÃO**
-Esta etapa só é necessaria para Macbook Pro 2019 +
 
 Ao ligar o seu dispositivo, pressione e segure as teclas <kbd>Command(⌘)</kbd> + <kbd>R</kbd>
 
