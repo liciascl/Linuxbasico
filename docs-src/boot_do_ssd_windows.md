@@ -1,4 +1,4 @@
-# Configurações de BIOS para Boot do SSD.
+# Configurações de BIOS para Boot do SSD no Windows.
 
 **ATENÇÃO!** 
 Este guia de configuração é baseado em um notebook Dell, as teclas de atalho podem mudar no seu dispositivo, use este guia apenas como base, se tiver alguma dúvida, entre em contato com um dos técnicos de laboratório.
