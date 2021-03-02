@@ -42,7 +42,18 @@ Se o Mac estiver usando uma senha de firmware, você precisará inserir a senha.
 ![img/disco.png](img/disco.png){width=800}
 
 
+Quando aparecer esta tela, apenas aperte <kbd>Enter</kbd>
 
+
+![img/grub.png](img/grub.png){width=800}
+
+Aguarde esta tela aparecer, a senha de login está do folder que acompanha o SSD, bons estudos!
+
+
+![img/login.png](img/login.png){width=800}
+
+
+Caso tenha alguma dúvida ou precise de ajuda, entre em contato conosco via Teams ou Email:
 
 Lícia Sales
 Email: liciascl@insper.edu.br
