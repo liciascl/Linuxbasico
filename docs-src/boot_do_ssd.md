@@ -62,7 +62,7 @@ Em *General* --> *Boot Sequence*: Verifique se aparece marcada a opção **UEFI:
 
 ![](img/bootdell-general.png)
 
-Salves as alterações em **Aplly** e **Exit** para sair da BIOS e reinicie o computador. 
+Salve as alterações em **Aplly** e **Exit** para sair da BIOS e reinicie o computador. 
 
 
 ## Inicializando o SSD
