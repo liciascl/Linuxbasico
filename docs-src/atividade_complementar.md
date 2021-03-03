@@ -9,7 +9,7 @@
 
 ## Linux 
 
-![](img/ilovelinux.png){width=300}
+![](img/ilovelinux.png){width=600}
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
@@ -92,25 +92,25 @@ sudo apt remove geogebra
 Podemos instalar pacotes via `Ubuntu Software`, basta clicar em Show Applications, no canto inferior direito da tela, e digitar `Ubuntu Software` na janela de busca;
 
 
-![](show_aplication.png){width=700}
+![](show_aplication.png){width=800}
 
 
-![](img/ubuntu_software.png){width=700}
+![](img/ubuntu_software.png){width=780}
 
 
 Agora clique na lupinha e digite o programa que deseja instalar;
 
 
-![](img/find_geogebra.png)
+![](img/find_geogebra.png){width=780}
 
 
 Clique no software escolhido, e depois, clique no botão Instalar;
 
-![](img/install_geogebra.png)
+![](img/install_geogebra.png){width=780}
 
 Terminada a instalação, basta clicar no botão `Launch` para executar o programa, ou `Remove` para desinstalar;
 
-![](img/launch_geogebra.png)
+![](img/launch_geogebra.png){width=780}
 
 
 
@@ -143,11 +143,14 @@ git config user.email
 
 # Navegando entre diretorios e arquivos
 
-De forma simplificada, podemos dizer que o Sistema Linux possui 2 elementos principais: pastas e arquivos. Os arquivos armazenam dados (txt, py...) e as pastas, que tambem são chamadas de diretórios, armazenam e organizam os arquivos. 
-É importante saber navegar entre os diretórios para encontrar os arquivos.
+
+O Sistema Linux trabalha com dois elementos principais: Diretórios(pastas) e Arquivos.
+
+- Os arquivos armazenam dados(txt,md,doc...), executam ações (py,jar,bin...)
+- Diretórios agrupam os arquivos e organizam o sistema
 
 
-![](img/FilesAndFolders.png){width=350}
+![](img/so.png){width=800}
 
 [Fonte](https://commons.wikimedia.org/wiki/File:FilesAndFolders.png)
 
