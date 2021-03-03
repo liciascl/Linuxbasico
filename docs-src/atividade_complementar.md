@@ -9,7 +9,7 @@
 
 ## Linux 
 
-![](img/ilovelinux.png){width=300}
+![](img/ilovelinux.png){width=800}
 
 O desenvolvimento do Linux é um dos exemplos mais proeminentes de colaboração de software livre e de código aberto. O código fonte pode ser usado, modificado e distribuído, com fins comercias ou não, por toda a comunidade, respeitando as licenças.
 
