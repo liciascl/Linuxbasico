@@ -10,7 +10,7 @@ As atividades realizadas nas Disciplinas de Robótica Computacional e Elementos 
 | Tópico        | Sobre          |
 | ------------- |---------------|
 |  [Guia de como configurar o seu Windows para subir o SSD ](https://liciascl.github.io/Linuxbasico/boot_do_ssd/)    | Guia para configurar boot no Windows  |
-|  [Guia de como configurar o seu MacOS para subir o SSD ](https://liciascl.github.io/Linuxbasico/boot_ssd_MacOs/)    | PGuia para configurar boot no MacOs  |  
+|  [Guia de como configurar o seu MacOS para subir o SSD ](https://liciascl.github.io/Linuxbasico/boot_ssd_MacOs/)    | Guia para configurar boot no MacOs  |  
 | [Introdução ao Linux](https://liciascl.github.io/Linuxbasico/atividade_complementar/) | Parte teórica da Atividade complementar - introdução ao Linux |
 |  [DESAFIO - Introdução ao Linux](https://liciascl.github.io/Linuxbasico/desafio/) | Após aprender os comandos básicos, temos um desafio pra você |
 | [Colinha com os principais comandos](https://liciascl.github.io/Linuxbasico/colinha/) | Seleção com os comandos mais utilizados para facilitar a sua vida|
