@@ -2,7 +2,7 @@
 
 
 
-### <img src="img/linuxs.png" width="100" height="100">  Sistema Operacional Linux - distribuição Ubuntu versão 20.04 LTS.
+### <img src="docs/img/linuxs.png" width="100" height="100">  Sistema Operacional Linux - distribuição Ubuntu versão 20.04 LTS.
 
 As atividades realizadas nas Disciplinas de Robótica Computacional e Elementos de Sistema são em ambiente Linux, afim de preparar vocês para trabalhar nesse ambiente, dividimos a atividade em três etapas;
 
