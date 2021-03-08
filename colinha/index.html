@@ -1,0 +1,802 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.5">
+    
+    
+      
+        <title>Colinha com os comandos da Atividade Complementar - Linux Básico</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.77f3fd56.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#colinha-com-os-comandos-da-atividade-complementar" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Linux Básico" class="md-header__button md-logo" aria-label="Linux Básico">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Linux Básico
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Colinha com os comandos da Atividade Complementar
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/liciascl/Linuxbasico/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    liciascl/Linuxbasico
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Linux Básico" class="md-nav__button md-logo" aria-label="Linux Básico">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Linux Básico
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/liciascl/Linuxbasico/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    liciascl/Linuxbasico
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boot_do_ssd/" class="md-nav__link">
+        Configurações de BIOS para Boot do SSD no Windows.
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../boot_ssd_MacOs/" class="md-nav__link">
+        Configurações no MacOs para Boot do SSD
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../atividade_complementar/" class="md-nav__link">
+        Atividade Complementar - Introdução ao Linux
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../desafio/" class="md-nav__link">
+        DESAFIO - Introdução ao Linux
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Colinha com os comandos da Atividade Complementar
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Colinha com os comandos da Atividade Complementar
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entrar-numa-pasta" class="md-nav__link">
+    Entrar numa pasta
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-ate-o-diretorio-home" class="md-nav__link">
+    Ir até o diretório Home
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizar-o-caminho-de-onde-voce-esta" class="md-nav__link">
+    Visualizar o caminho de onde você está
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voltar-uma-pasta" class="md-nav__link">
+    Voltar uma pasta
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voltar-duas-pastas" class="md-nav__link">
+    Voltar duas pastas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listar-o-conteudo-do-diretorio" class="md-nav__link">
+    Listar o conteúdo do diretório
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saber-o-conteudo-do-diretorio-de-forma-mais-detalhada" class="md-nav__link">
+    Saber o conteúdo do diretório de forma mais detalhada
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remover-arquivos-permanetemente" class="md-nav__link">
+    Remover arquivos permanetemente
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mover-o-arquivo-de-diretorio" class="md-nav__link">
+    Mover o arquivo de diretório:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apenas-renomear-o-arquivo" class="md-nav__link">
+    Apenas renomear o arquivo :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#renomear-o-arquivo-ou-mover-de-diretorio" class="md-nav__link">
+    Renomear o arquivo ou mover de diretório:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criar-ou-abrir-arquivos-com-o-seu-editor-de-texto-favorito" class="md-nav__link">
+    Criar ou abrir arquivos com o seu editor de texto favorito
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recarregar-o-bashrc" class="md-nav__link">
+    Recarregar o  .bashrc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalar-pacotes-disponiveis-via-apt" class="md-nav__link">
+    Instalar pacotes disponíveis via apt
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desinstalar-pacotes-disponiveis-via-apt" class="md-nav__link">
+    Desinstalar pacotes disponíveis via apt
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informacoes-dos-dispositivos-conectados-na-usb" class="md-nav__link">
+    Informações dos dispositivos conectados na USB
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#destravar-um-programa" class="md-nav__link">
+    Destravar um programa
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alterar-as-permissoes-dos-arquivos-e-diretorios" class="md-nav__link">
+    Alterar as permissões dos arquivos e diretórios
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gravacoes/" class="md-nav__link">
+        Gravação da aulas
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entrar-numa-pasta" class="md-nav__link">
+    Entrar numa pasta
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-ate-o-diretorio-home" class="md-nav__link">
+    Ir até o diretório Home
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#visualizar-o-caminho-de-onde-voce-esta" class="md-nav__link">
+    Visualizar o caminho de onde você está
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voltar-uma-pasta" class="md-nav__link">
+    Voltar uma pasta
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#voltar-duas-pastas" class="md-nav__link">
+    Voltar duas pastas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#listar-o-conteudo-do-diretorio" class="md-nav__link">
+    Listar o conteúdo do diretório
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#saber-o-conteudo-do-diretorio-de-forma-mais-detalhada" class="md-nav__link">
+    Saber o conteúdo do diretório de forma mais detalhada
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remover-arquivos-permanetemente" class="md-nav__link">
+    Remover arquivos permanetemente
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mover-o-arquivo-de-diretorio" class="md-nav__link">
+    Mover o arquivo de diretório:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apenas-renomear-o-arquivo" class="md-nav__link">
+    Apenas renomear o arquivo :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#renomear-o-arquivo-ou-mover-de-diretorio" class="md-nav__link">
+    Renomear o arquivo ou mover de diretório:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criar-ou-abrir-arquivos-com-o-seu-editor-de-texto-favorito" class="md-nav__link">
+    Criar ou abrir arquivos com o seu editor de texto favorito
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recarregar-o-bashrc" class="md-nav__link">
+    Recarregar o  .bashrc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalar-pacotes-disponiveis-via-apt" class="md-nav__link">
+    Instalar pacotes disponíveis via apt
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desinstalar-pacotes-disponiveis-via-apt" class="md-nav__link">
+    Desinstalar pacotes disponíveis via apt
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#informacoes-dos-dispositivos-conectados-na-usb" class="md-nav__link">
+    Informações dos dispositivos conectados na USB
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#destravar-um-programa" class="md-nav__link">
+    Destravar um programa
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alterar-as-permissoes-dos-arquivos-e-diretorios" class="md-nav__link">
+    Alterar as permissões dos arquivos e diretórios
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/liciascl/Linuxbasico/edit/master/docs/colinha.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="colinha-com-os-comandos-da-atividade-complementar">Colinha com os comandos da Atividade Complementar</h1>
+<p>Listamos aqui os comandos mais utilizados pra você consultar </p>
+<p><img alt="referencia" src="../img/atalhos.png" width="200" /></p>
+<p>Abra um terminal novo, usando o atalho <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd></p>
+<p>Abra uma aba no terminal que ja existe, <kbd>Ctrl</kbd> + <kbd>Shift </kbd> + <kbd>T</kbd></p>
+<h2 id="entrar-numa-pasta">Entrar numa pasta</h2>
+<div class="codehilite"><pre><span></span><code><span class="nb">cd</span> nome_da_pasta_mãe
+
+ou
+
+<span class="nb">cd</span> nome_da_pasta_mãe/nome_da_pasta_filha/nome_da_pasta_infinitamente
+</code></pre></div>
+
+<h2 id="ir-ate-o-diretorio-home">Ir até o diretório Home</h2>
+<div class="codehilite"><pre><span></span><code><span class="nb">cd</span> ~
+
+ou
+
+<span class="nb">cd</span> /home/
+</code></pre></div>
+
+<h2 id="visualizar-o-caminho-de-onde-voce-esta">Visualizar o caminho de onde você está</h2>
+<div class="codehilite"><pre><span></span><code><span class="nb">pwd</span>
+</code></pre></div>
+
+<h2 id="voltar-uma-pasta">Voltar uma pasta</h2>
+<div class="codehilite"><pre><span></span><code><span class="nb">cd</span> ..
+</code></pre></div>
+
+<h2 id="voltar-duas-pastas">Voltar duas pastas</h2>
+<div class="codehilite"><pre><span></span><code><span class="nb">cd</span> ../..
+</code></pre></div>
+
+<h2 id="listar-o-conteudo-do-diretorio">Listar o conteúdo do diretório</h2>
+<div class="codehilite"><pre><span></span><code>ls
+</code></pre></div>
+
+<h2 id="saber-o-conteudo-do-diretorio-de-forma-mais-detalhada">Saber o conteúdo do diretório de forma mais detalhada</h2>
+<div class="codehilite"><pre><span></span><code>ls -a
+
+ou
+
+ls -la
+
+ou ainda
+
+ll
+</code></pre></div>
+
+<h2 id="remover-arquivos-permanetemente">Remover arquivos permanetemente</h2>
+<div class="codehilite"><pre><span></span><code>rm -rf
+</code></pre></div>
+
+<h2 id="mover-o-arquivo-de-diretorio">Mover o arquivo de diretório:</h2>
+<div class="codehilite"><pre><span></span><code>mv ~/local_do_arquivo/nome.py ~/novo_local/nome.py
+</code></pre></div>
+
+<h2 id="apenas-renomear-o-arquivo">Apenas renomear o arquivo :</h2>
+<div class="codehilite"><pre><span></span><code>mv ~/local_do_arquivo/nome.py ~/local_do_arquivo/nome_novo.py
+</code></pre></div>
+
+<h2 id="renomear-o-arquivo-ou-mover-de-diretorio">Renomear o arquivo ou mover de diretório:</h2>
+<div class="codehilite"><pre><span></span><code>mv ~/local_do_arquivo/nome.py ~/novo_local/nome_novo.py
+</code></pre></div>
+
+<h2 id="criar-ou-abrir-arquivos-com-o-seu-editor-de-texto-favorito">Criar ou abrir arquivos com o seu editor de texto favorito</h2>
+<div class="codehilite"><pre><span></span><code>nano mais_um_teste.py
+code esta_acabando_a_criatividade.py
+gedit socorro.py
+</code></pre></div>
+
+<h2 id="recarregar-o-bashrc">Recarregar o  <code>.bashrc</code></h2>
+<div class="codehilite"><pre><span></span><code><span class="nb">source</span> ~/.bashrc
+</code></pre></div>
+
+<h2 id="instalar-pacotes-disponiveis-via-apt">Instalar pacotes disponíveis via apt</h2>
+<div class="codehilite"><pre><span></span><code>sudo apt-get install nome_do_pacote
+</code></pre></div>
+
+<h2 id="desinstalar-pacotes-disponiveis-via-apt">Desinstalar pacotes disponíveis via apt</h2>
+<div class="codehilite"><pre><span></span><code>sudo apt-get remove nome_do_pacote
+</code></pre></div>
+
+<h2 id="informacoes-dos-dispositivos-conectados-na-usb">Informações dos dispositivos conectados na USB</h2>
+<div class="codehilite"><pre><span></span><code>lsusb
+</code></pre></div>
+
+<p>Informações dos dispositivos conectados na PCI</p>
+<div class="codehilite"><pre><span></span><code>lspci
+</code></pre></div>
+
+<h2 id="destravar-um-programa">Destravar um programa</h2>
+<p>Use "xkill" e clique no programa travado com o mouse.</p>
+<div class="codehilite"><pre><span></span><code>xkill
+</code></pre></div>
+
+<h2 id="alterar-as-permissoes-dos-arquivos-e-diretorios">Alterar as permissões dos arquivos e diretórios</h2>
+<div class="codehilite"><pre><span></span><code>chmod a+x roda_tartaruga.py
+</code></pre></div>
+
+<p><em>este comando libera a permissão para o arquivo se tornar executável, para outras opções de permissão, consulte o <a href="https://guialinux.uniriotec.br/chmod/">guialinux</a></em></p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../desafio/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              DESAFIO - Introdução ao Linux
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../gravacoes/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Gravação da aulas
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy @ Insper
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fb4a9340.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.5cf3e710.min.js"></script>
+      
+    
+  </body>
+</html>
